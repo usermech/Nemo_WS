@@ -1,0 +1,120 @@
+[0.000000] (-) TimerEvent: {}
+[0.001176] (-) JobUnselected: {'identifier': 'camera_calibration_parsers'}
+[0.001450] (-) JobUnselected: {'identifier': 'camera_info_manager'}
+[0.002099] (-) JobUnselected: {'identifier': 'compressed_depth_image_transport'}
+[0.002668] (-) JobUnselected: {'identifier': 'compressed_image_transport'}
+[0.003649] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.003847] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.003942] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.004059] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.004140] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.004216] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.004288] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.004357] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.004424] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.004491] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.004558] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.004627] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.004700] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.004810] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.006307] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.007779] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.007943] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.008064] (-) JobUnselected: {'identifier': 'image_common'}
+[0.008179] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.008292] (-) JobUnselected: {'identifier': 'image_transport'}
+[0.008403] (-) JobUnselected: {'identifier': 'image_transport_plugins'}
+[0.008513] (-) JobUnselected: {'identifier': 'img_basics'}
+[0.008626] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.008738] (-) JobUnselected: {'identifier': 'ros2_aruco_interfaces'}
+[0.008848] (-) JobUnselected: {'identifier': 'theora_image_transport'}
+[0.008959] (-) JobUnselected: {'identifier': 'v4l2_camera'}
+[0.009069] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.009192] (ros2_aruco) JobQueued: {'identifier': 'ros2_aruco', 'dependencies': OrderedDict()}
+[0.009315] (ros2_aruco) JobStarted: {'identifier': 'ros2_aruco'}
+[0.099133] (-) TimerEvent: {}
+[0.200046] (-) TimerEvent: {}
+[0.300647] (-) TimerEvent: {}
+[0.401217] (-) TimerEvent: {}
+[0.501990] (-) TimerEvent: {}
+[0.602761] (-) TimerEvent: {}
+[0.703317] (-) TimerEvent: {}
+[0.803943] (-) TimerEvent: {}
+[0.904527] (-) TimerEvent: {}
+[1.005760] (-) TimerEvent: {}
+[1.107443] (-) TimerEvent: {}
+[1.208256] (-) TimerEvent: {}
+[1.308926] (-) TimerEvent: {}
+[1.409538] (-) TimerEvent: {}
+[1.510119] (-) TimerEvent: {}
+[1.610738] (-) TimerEvent: {}
+[1.711314] (-) TimerEvent: {}
+[1.811918] (-) TimerEvent: {}
+[1.912500] (-) TimerEvent: {}
+[2.013119] (-) TimerEvent: {}
+[2.113784] (-) TimerEvent: {}
+[2.214446] (-) TimerEvent: {}
+[2.315049] (-) TimerEvent: {}
+[2.415692] (-) TimerEvent: {}
+[2.516275] (-) TimerEvent: {}
+[2.616955] (-) TimerEvent: {}
+[2.697496] (ros2_aruco) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/ros2_aruco', 'build', '--build-base', '/home/ubuntu/nemo_ws/src/build/ros2_aruco/build', 'install', '--prefix', '/home/ubuntu/nemo_ws/src/install/ros2_aruco', '--record', '/home/ubuntu/nemo_ws/src/build/ros2_aruco/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/nemo_ws/src/ros2_aruco/ros2_aruco', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.1.72 60600 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/nemo_ws/install/v4l2_camera/lib:/home/ubuntu/nemo_ws/install/theora_image_transport/lib:/home/ubuntu/nemo_ws/install/compressed_image_transport/lib:/home/ubuntu/nemo_ws/install/compressed_depth_image_transport/lib:/home/ubuntu/nemo_ws/install/image_transport/lib:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition/lib:/home/ubuntu/nemo_ws/install/cv_bridge/lib:/home/ubuntu/nemo_ws/install/camera_info_manager/lib:/home/ubuntu/nemo_ws/install/camera_calibration_parsers/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/nemo_ws', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_colcon_cd_root': '/opt/ros/foxy/', 'COLCON_PREFIX_PATH': '/home/ubuntu/nemo_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.local/bin:/home/ubuntu/nemo_ws/install/theora_image_transport/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ubuntu/nemo_ws/install/v4l2_camera:/home/ubuntu/nemo_ws/install/image_transport_plugins:/home/ubuntu/nemo_ws/install/theora_image_transport:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/compressed_image_transport:/home/ubuntu/nemo_ws/install/compressed_depth_image_transport:/home/ubuntu/nemo_ws/install/image_transport:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/home/ubuntu/nemo_ws/install/examples_rclcpp_multithreaded_executor:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_client:/home/ubuntu/nemo_ws/install/cv_bridge:/home/ubuntu/nemo_ws/install/camera_info_manager:/home/ubuntu/nemo_ws/install/camera_calibration_parsers:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/nemo_ws/src/build/ros2_aruco', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.72 60600 192.168.1.234 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/nemo_ws/src/install/ros2_aruco/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/theora_image_transport/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/img_basics/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/cv_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/nemo_ws/install/v4l2_camera:/home/ubuntu/nemo_ws/install/image_transport_plugins:/home/ubuntu/nemo_ws/install/theora_image_transport:/home/ubuntu/nemo_ws/install/compressed_image_transport:/home/ubuntu/nemo_ws/install/compressed_depth_image_transport:/home/ubuntu/nemo_ws/install/image_transport:/home/ubuntu/nemo_ws/install/examples_rclcpp_multithreaded_executor:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_client:/home/ubuntu/nemo_ws/install/cv_bridge:/home/ubuntu/nemo_ws/install/camera_info_manager:/home/ubuntu/nemo_ws/install/camera_calibration_parsers'}, 'shell': False}
+[2.717284] (-) TimerEvent: {}
+[2.819362] (-) TimerEvent: {}
+[2.920104] (-) TimerEvent: {}
+[3.020820] (-) TimerEvent: {}
+[3.121399] (-) TimerEvent: {}
+[3.221969] (-) TimerEvent: {}
+[3.322572] (-) TimerEvent: {}
+[3.423189] (-) TimerEvent: {}
+[3.523829] (-) TimerEvent: {}
+[3.589057] (ros2_aruco) StdoutLine: {'line': b'running egg_info\n'}
+[3.590897] (ros2_aruco) StdoutLine: {'line': b'creating ../../build/ros2_aruco/ros2_aruco.egg-info\n'}
+[3.591465] (ros2_aruco) StdoutLine: {'line': b'writing ../../build/ros2_aruco/ros2_aruco.egg-info/PKG-INFO\n'}
+[3.592562] (ros2_aruco) StdoutLine: {'line': b'writing dependency_links to ../../build/ros2_aruco/ros2_aruco.egg-info/dependency_links.txt\n'}
+[3.593100] (ros2_aruco) StdoutLine: {'line': b'writing entry points to ../../build/ros2_aruco/ros2_aruco.egg-info/entry_points.txt\n'}
+[3.593609] (ros2_aruco) StdoutLine: {'line': b'writing requirements to ../../build/ros2_aruco/ros2_aruco.egg-info/requires.txt\n'}
+[3.594068] (ros2_aruco) StdoutLine: {'line': b'writing top-level names to ../../build/ros2_aruco/ros2_aruco.egg-info/top_level.txt\n'}
+[3.606929] (ros2_aruco) StdoutLine: {'line': b"writing manifest file '../../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'\n"}
+[3.623958] (-) TimerEvent: {}
+[3.724643] (-) TimerEvent: {}
+[3.727571] (ros2_aruco) StdoutLine: {'line': b"reading manifest file '../../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'\n"}
+[3.730446] (ros2_aruco) StdoutLine: {'line': b"writing manifest file '../../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'\n"}
+[3.731004] (ros2_aruco) StdoutLine: {'line': b'running build\n'}
+[3.731428] (ros2_aruco) StdoutLine: {'line': b'running build_py\n'}
+[3.732006] (ros2_aruco) StdoutLine: {'line': b'creating /home/ubuntu/nemo_ws/src/build/ros2_aruco/build\n'}
+[3.732497] (ros2_aruco) StdoutLine: {'line': b'creating /home/ubuntu/nemo_ws/src/build/ros2_aruco/build/lib\n'}
+[3.732881] (ros2_aruco) StdoutLine: {'line': b'creating /home/ubuntu/nemo_ws/src/build/ros2_aruco/build/lib/ros2_aruco\n'}
+[3.733337] (ros2_aruco) StdoutLine: {'line': b'copying ros2_aruco/__init__.py -> /home/ubuntu/nemo_ws/src/build/ros2_aruco/build/lib/ros2_aruco\n'}
+[3.733722] (ros2_aruco) StdoutLine: {'line': b'copying ros2_aruco/transformations.py -> /home/ubuntu/nemo_ws/src/build/ros2_aruco/build/lib/ros2_aruco\n'}
+[3.734178] (ros2_aruco) StdoutLine: {'line': b'copying ros2_aruco/aruco_generate_marker.py -> /home/ubuntu/nemo_ws/src/build/ros2_aruco/build/lib/ros2_aruco\n'}
+[3.734750] (ros2_aruco) StdoutLine: {'line': b'copying ros2_aruco/aruco_node.py -> /home/ubuntu/nemo_ws/src/build/ros2_aruco/build/lib/ros2_aruco\n'}
+[3.735698] (ros2_aruco) StdoutLine: {'line': b'running install\n'}
+[3.738894] (ros2_aruco) StdoutLine: {'line': b'running install_lib\n'}
+[3.742333] (ros2_aruco) StdoutLine: {'line': b'creating /home/ubuntu/nemo_ws/src/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco\n'}
+[3.742882] (ros2_aruco) StdoutLine: {'line': b'copying /home/ubuntu/nemo_ws/src/build/ros2_aruco/build/lib/ros2_aruco/__init__.py -> /home/ubuntu/nemo_ws/src/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco\n'}
+[3.743352] (ros2_aruco) StdoutLine: {'line': b'copying /home/ubuntu/nemo_ws/src/build/ros2_aruco/build/lib/ros2_aruco/transformations.py -> /home/ubuntu/nemo_ws/src/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco\n'}
+[3.744310] (ros2_aruco) StdoutLine: {'line': b'copying /home/ubuntu/nemo_ws/src/build/ros2_aruco/build/lib/ros2_aruco/aruco_generate_marker.py -> /home/ubuntu/nemo_ws/src/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco\n'}
+[3.744908] (ros2_aruco) StdoutLine: {'line': b'copying /home/ubuntu/nemo_ws/src/build/ros2_aruco/build/lib/ros2_aruco/aruco_node.py -> /home/ubuntu/nemo_ws/src/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco\n'}
+[3.747383] (ros2_aruco) StdoutLine: {'line': b'byte-compiling /home/ubuntu/nemo_ws/src/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco/__init__.py to __init__.cpython-38.pyc\n'}
+[3.751886] (ros2_aruco) StdoutLine: {'line': b'byte-compiling /home/ubuntu/nemo_ws/src/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco/transformations.py to transformations.cpython-38.pyc\n'}
+[3.777547] (ros2_aruco) StdoutLine: {'line': b'byte-compiling /home/ubuntu/nemo_ws/src/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco/aruco_generate_marker.py to aruco_generate_marker.cpython-38.pyc\n'}
+[3.779487] (ros2_aruco) StdoutLine: {'line': b'byte-compiling /home/ubuntu/nemo_ws/src/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco/aruco_node.py to aruco_node.cpython-38.pyc\n'}
+[3.782590] (ros2_aruco) StdoutLine: {'line': b'running install_data\n'}
+[3.784577] (ros2_aruco) StdoutLine: {'line': b'creating /home/ubuntu/nemo_ws/src/install/ros2_aruco/share/ament_index\n'}
+[3.785145] (ros2_aruco) StdoutLine: {'line': b'creating /home/ubuntu/nemo_ws/src/install/ros2_aruco/share/ament_index/resource_index\n'}
+[3.785563] (ros2_aruco) StdoutLine: {'line': b'creating /home/ubuntu/nemo_ws/src/install/ros2_aruco/share/ament_index/resource_index/packages\n'}
+[3.785959] (ros2_aruco) StdoutLine: {'line': b'copying resource/ros2_aruco -> /home/ubuntu/nemo_ws/src/install/ros2_aruco/share/ament_index/resource_index/packages\n'}
+[3.786365] (ros2_aruco) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/nemo_ws/src/install/ros2_aruco/share/ros2_aruco\n'}
+[3.786683] (ros2_aruco) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.791750] (ros2_aruco) StdoutLine: {'line': b'Copying ../../build/ros2_aruco/ros2_aruco.egg-info to /home/ubuntu/nemo_ws/src/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco-0.1.0-py3.8.egg-info\n'}
+[3.795904] (ros2_aruco) StdoutLine: {'line': b'running install_scripts\n'}
+[3.824893] (-) TimerEvent: {}
+[3.858073] (ros2_aruco) StdoutLine: {'line': b'Installing aruco_generate_marker script to /home/ubuntu/nemo_ws/src/install/ros2_aruco/lib/ros2_aruco\n'}
+[3.858700] (ros2_aruco) StdoutLine: {'line': b'Installing aruco_node script to /home/ubuntu/nemo_ws/src/install/ros2_aruco/lib/ros2_aruco\n'}
+[3.860044] (ros2_aruco) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/nemo_ws/src/build/ros2_aruco/install.log'\n"}
+[3.925204] (-) TimerEvent: {}
+[3.951561] (ros2_aruco) CommandEnded: {'returncode': 0}
+[4.022910] (ros2_aruco) JobEnded: {'identifier': 'ros2_aruco', 'rc': 0}
+[4.025170] (-) TimerEvent: {}
+[4.025460] (-) EventReactorShutdown: {}

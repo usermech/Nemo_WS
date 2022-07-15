@@ -1,0 +1,33 @@
+[35m[1mScanning dependencies of target subscriber_member_function[0m
+[35m[1mScanning dependencies of target subscriber_lambda[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/subscriber_not_composable.dir/not_composable.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/subscriber_lambda.dir/lambda.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/subscriber_member_function.dir/member_function.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable subscriber_lambda[0m
+[ 83%] [32m[1mLinking CXX executable subscriber_member_function[0m
+[100%] [32m[1mLinking CXX executable subscriber_not_composable[0m
+[100%] Built target subscriber_lambda
+[100%] Built target subscriber_member_function
+[100%] Built target subscriber_not_composable
+-- Install configuration: ""
+-- Installing: /home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda
+-- Set runtime path of "/home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda" to ""
+-- Installing: /home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function
+-- Set runtime path of "/home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function" to ""
+-- Installing: /home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable
+-- Set runtime path of "/home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable" to ""
+-- Installing: /home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_subscriber
+-- Installing: /home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_subscriber
+-- Installing: /home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.sh
+-- Installing: /home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.dsv
+-- Installing: /home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.sh
+-- Installing: /home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.dsv
+-- Installing: /home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.bash
+-- Installing: /home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.sh
+-- Installing: /home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.zsh
+-- Installing: /home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.dsv
+-- Installing: /home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.dsv
+-- Installing: /home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/packages/examples_rclcpp_minimal_subscriber
+-- Installing: /home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig.cmake
+-- Installing: /home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig-version.cmake
+-- Installing: /home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.xml

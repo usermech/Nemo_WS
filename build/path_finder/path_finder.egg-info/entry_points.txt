@@ -1,0 +1,6 @@
+[console_scripts]
+image_publisher = path_finder.image_publisher:main
+image_subscriber = path_finder.image_subscriber:main
+path_publisher = path_finder.path_publisher:main
+path_subscriber = path_finder.path_subscriber:main
+

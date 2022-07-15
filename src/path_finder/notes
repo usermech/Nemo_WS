@@ -1,0 +1,21 @@
+1-) Utils 
+-> Calib -> Select floor points, at least two different clicks for each plate
+-> Target -> Save target coordinates, last click before exit is saved
+----Change paths of temp workspace here----
+
+2-)Image Publisher
+-Currently reads image and publish, should be changed to camera stream
+
+3-)Image Subscriber
+-Change path to save image "/home/ayberk/nemo_ws/src/path_finder/"->change this part
+
+4-)Path Publisher
+-Change paths ("/home/ayberk/nemo_ws/src/path_finder/")
+
+5-)Create a new node to plan necessary movements between coordinates
+
+6-)opencv-contrib-python should be installed
+
+at nemo_ws directory:
+colcon build
+. install/setup.bash

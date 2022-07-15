@@ -1,0 +1,26 @@
+[5.346s] Invoking command in '/home/ubuntu/nemo_ws/src/examples/rclpy/executors': PYTHONPATH=/home/ubuntu/nemo_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/ubuntu/nemo_ws/build/examples_rclpy_executors/build install --prefix /home/ubuntu/nemo_ws/install/examples_rclpy_executors --record /home/ubuntu/nemo_ws/build/examples_rclpy_executors/install.log --single-version-externally-managed
+[7.809s] running egg_info
+[7.825s] writing ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/PKG-INFO
+[7.829s] writing dependency_links to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/dependency_links.txt
+[7.830s] writing entry points to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/entry_points.txt
+[7.832s] writing requirements to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/requires.txt
+[7.845s] writing top-level names to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/top_level.txt
+[8.202s] reading manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[8.210s] writing manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[8.210s] running build
+[8.211s] running build_py
+[8.226s] running install
+[8.231s] running install_lib
+[8.262s] running install_data
+[8.265s] running install_egg_info
+[8.284s] removing '/home/ubuntu/nemo_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors-0.9.4-py3.8.egg-info' (and everything under it)
+[8.299s] Copying ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info to /home/ubuntu/nemo_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors-0.9.4-py3.8.egg-info
+[8.318s] running install_scripts
+[8.515s] Installing callback_group script to /home/ubuntu/nemo_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[8.517s] Installing composed script to /home/ubuntu/nemo_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[8.523s] Installing custom_callback_group script to /home/ubuntu/nemo_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[8.527s] Installing custom_executor script to /home/ubuntu/nemo_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[8.528s] Installing listener script to /home/ubuntu/nemo_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[8.533s] Installing talker script to /home/ubuntu/nemo_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[8.534s] writing list of installed files to '/home/ubuntu/nemo_ws/build/examples_rclpy_executors/install.log'
+[8.691s] Invoked command in '/home/ubuntu/nemo_ws/src/examples/rclpy/executors' returned '0': PYTHONPATH=/home/ubuntu/nemo_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/ubuntu/nemo_ws/build/examples_rclpy_executors/build install --prefix /home/ubuntu/nemo_ws/install/examples_rclpy_executors --record /home/ubuntu/nemo_ws/build/examples_rclpy_executors/install.log --single-version-externally-managed

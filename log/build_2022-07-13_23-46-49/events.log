@@ -1,0 +1,343 @@
+[0.000000] (-) TimerEvent: {}
+[0.001161] (-) JobUnselected: {'identifier': 'camera_calibration_parsers'}
+[0.001524] (-) JobUnselected: {'identifier': 'camera_info_manager'}
+[0.002565] (-) JobUnselected: {'identifier': 'compressed_depth_image_transport'}
+[0.003273] (-) JobUnselected: {'identifier': 'compressed_image_transport'}
+[0.004678] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.004928] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.005068] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.005203] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.005336] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.005459] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.005615] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.008047] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.010151] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.010388] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.010579] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.010765] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.010951] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.011134] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.011318] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.011504] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.011703] (-) JobUnselected: {'identifier': 'image_common'}
+[0.011917] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.012109] (-) JobUnselected: {'identifier': 'image_transport_plugins'}
+[0.012290] (-) JobUnselected: {'identifier': 'img_basics'}
+[0.012473] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.012654] (-) JobUnselected: {'identifier': 'theora_image_transport'}
+[0.012836] (-) JobUnselected: {'identifier': 'v4l2_camera'}
+[0.013017] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.013211] (cv_bridge) JobQueued: {'identifier': 'cv_bridge', 'dependencies': OrderedDict()}
+[0.013386] (image_transport) JobQueued: {'identifier': 'image_transport', 'dependencies': OrderedDict()}
+[0.013567] (apriltag_ros) JobQueued: {'identifier': 'apriltag_ros', 'dependencies': OrderedDict([('cv_bridge', '/home/ubuntu/nemo_ws/install/cv_bridge'), ('image_transport', '/home/ubuntu/nemo_ws/install/image_transport')])}
+[0.013752] (cv_bridge) JobStarted: {'identifier': 'cv_bridge'}
+[0.085124] (image_transport) JobStarted: {'identifier': 'image_transport'}
+[0.098478] (-) TimerEvent: {}
+[0.135539] (cv_bridge) JobProgress: {'identifier': 'cv_bridge', 'progress': 'cmake'}
+[0.140260] (cv_bridge) JobProgress: {'identifier': 'cv_bridge', 'progress': 'build'}
+[0.142614] (cv_bridge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/nemo_ws/build/cv_bridge', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/nemo_ws/build/cv_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.1.72 60600 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/nemo_ws/install/v4l2_camera/lib:/home/ubuntu/nemo_ws/install/theora_image_transport/lib:/home/ubuntu/nemo_ws/install/compressed_image_transport/lib:/home/ubuntu/nemo_ws/install/compressed_depth_image_transport/lib:/home/ubuntu/nemo_ws/install/image_transport/lib:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition/lib:/home/ubuntu/nemo_ws/install/cv_bridge/lib:/home/ubuntu/nemo_ws/install/camera_info_manager/lib:/home/ubuntu/nemo_ws/install/camera_calibration_parsers/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/nemo_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('COLCON_PREFIX_PATH', '/home/ubuntu/nemo_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/home/ubuntu/nemo_ws/install/theora_image_transport/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/nemo_ws/install/v4l2_camera:/home/ubuntu/nemo_ws/install/image_transport_plugins:/home/ubuntu/nemo_ws/install/theora_image_transport:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/compressed_image_transport:/home/ubuntu/nemo_ws/install/compressed_depth_image_transport:/home/ubuntu/nemo_ws/install/image_transport:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/home/ubuntu/nemo_ws/install/examples_rclcpp_multithreaded_executor:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_client:/home/ubuntu/nemo_ws/install/cv_bridge:/home/ubuntu/nemo_ws/install/camera_info_manager:/home/ubuntu/nemo_ws/install/camera_calibration_parsers:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/nemo_ws/build/cv_bridge'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.72 60600 192.168.1.234 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/nemo_ws/install/theora_image_transport/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/img_basics/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/cv_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/nemo_ws/install/v4l2_camera:/home/ubuntu/nemo_ws/install/image_transport_plugins:/home/ubuntu/nemo_ws/install/theora_image_transport:/home/ubuntu/nemo_ws/install/compressed_image_transport:/home/ubuntu/nemo_ws/install/compressed_depth_image_transport:/home/ubuntu/nemo_ws/install/image_transport:/home/ubuntu/nemo_ws/install/examples_rclcpp_multithreaded_executor:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_client:/home/ubuntu/nemo_ws/install/cv_bridge:/home/ubuntu/nemo_ws/install/camera_info_manager:/home/ubuntu/nemo_ws/install/camera_calibration_parsers:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy')]), 'shell': False}
+[0.168250] (image_transport) JobProgress: {'identifier': 'image_transport', 'progress': 'cmake'}
+[0.172890] (image_transport) JobProgress: {'identifier': 'image_transport', 'progress': 'build'}
+[0.173947] (image_transport) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/nemo_ws/build/image_transport', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/nemo_ws/build/image_transport', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.1.72 60600 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/nemo_ws/install/v4l2_camera/lib:/home/ubuntu/nemo_ws/install/theora_image_transport/lib:/home/ubuntu/nemo_ws/install/compressed_image_transport/lib:/home/ubuntu/nemo_ws/install/compressed_depth_image_transport/lib:/home/ubuntu/nemo_ws/install/image_transport/lib:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition/lib:/home/ubuntu/nemo_ws/install/cv_bridge/lib:/home/ubuntu/nemo_ws/install/camera_info_manager/lib:/home/ubuntu/nemo_ws/install/camera_calibration_parsers/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/nemo_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('COLCON_PREFIX_PATH', '/home/ubuntu/nemo_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/home/ubuntu/nemo_ws/install/theora_image_transport/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/nemo_ws/install/v4l2_camera:/home/ubuntu/nemo_ws/install/image_transport_plugins:/home/ubuntu/nemo_ws/install/theora_image_transport:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/compressed_image_transport:/home/ubuntu/nemo_ws/install/compressed_depth_image_transport:/home/ubuntu/nemo_ws/install/image_transport:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/home/ubuntu/nemo_ws/install/examples_rclcpp_multithreaded_executor:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_client:/home/ubuntu/nemo_ws/install/cv_bridge:/home/ubuntu/nemo_ws/install/camera_info_manager:/home/ubuntu/nemo_ws/install/camera_calibration_parsers:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/nemo_ws/build/image_transport'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.72 60600 192.168.1.234 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/nemo_ws/install/theora_image_transport/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/img_basics/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/cv_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/nemo_ws/install/v4l2_camera:/home/ubuntu/nemo_ws/install/image_transport_plugins:/home/ubuntu/nemo_ws/install/theora_image_transport:/home/ubuntu/nemo_ws/install/compressed_image_transport:/home/ubuntu/nemo_ws/install/compressed_depth_image_transport:/home/ubuntu/nemo_ws/install/image_transport:/home/ubuntu/nemo_ws/install/examples_rclcpp_multithreaded_executor:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_client:/home/ubuntu/nemo_ws/install/cv_bridge:/home/ubuntu/nemo_ws/install/camera_info_manager:/home/ubuntu/nemo_ws/install/camera_calibration_parsers:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy')]), 'shell': False}
+[0.198710] (-) TimerEvent: {}
+[0.299631] (-) TimerEvent: {}
+[0.400616] (-) TimerEvent: {}
+[0.497450] (cv_bridge) StdoutLine: {'line': b'[ 12%] Built target gtest\n'}
+[0.500814] (-) TimerEvent: {}
+[0.504612] (cv_bridge) StdoutLine: {'line': b'[ 25%] Built target gtest_main\n'}
+[0.528235] (image_transport) StdoutLine: {'line': b'[  6%] Built target gtest_main\n'}
+[0.545283] (image_transport) StdoutLine: {'line': b'[ 13%] Built target gtest\n'}
+[0.549715] (cv_bridge) StdoutLine: {'line': b'[ 43%] Built target cv_bridge\n'}
+[0.601111] (-) TimerEvent: {}
+[0.652095] (image_transport) StdoutLine: {'line': b'[ 40%] Built target image_transport\n'}
+[0.701336] (-) TimerEvent: {}
+[0.779510] (cv_bridge) StdoutLine: {'line': b'[ 62%] Built target cv_bridge_boost\n'}
+[0.790063] (cv_bridge) StdoutLine: {'line': b'[100%] Built target cv_bridge-utest\n'}
+[0.801527] (-) TimerEvent: {}
+[0.883554] (cv_bridge) CommandEnded: {'returncode': 0}
+[0.901788] (-) TimerEvent: {}
+[0.923384] (image_transport) StdoutLine: {'line': b'[ 46%] Built target republish\n'}
+[0.926375] (image_transport) StdoutLine: {'line': b'[ 53%] Built target image_transport_plugins\n'}
+[0.928245] (image_transport) StdoutLine: {'line': b'[ 60%] Built target list_transports\n'}
+[0.949980] (image_transport) StdoutLine: {'line': b'[ 66%] Built target image_transport-remapping\n'}
+[1.002005] (-) TimerEvent: {}
+[1.101438] (cv_bridge) JobProgress: {'identifier': 'cv_bridge', 'progress': 'install'}
+[1.105203] (-) TimerEvent: {}
+[1.147444] (image_transport) StdoutLine: {'line': b'[ 73%] Built target image_transport-camera_common\n'}
+[1.166144] (cv_bridge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/nemo_ws/build/cv_bridge'], 'cwd': '/home/ubuntu/nemo_ws/build/cv_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.1.72 60600 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/nemo_ws/install/v4l2_camera/lib:/home/ubuntu/nemo_ws/install/theora_image_transport/lib:/home/ubuntu/nemo_ws/install/compressed_image_transport/lib:/home/ubuntu/nemo_ws/install/compressed_depth_image_transport/lib:/home/ubuntu/nemo_ws/install/image_transport/lib:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition/lib:/home/ubuntu/nemo_ws/install/cv_bridge/lib:/home/ubuntu/nemo_ws/install/camera_info_manager/lib:/home/ubuntu/nemo_ws/install/camera_calibration_parsers/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/nemo_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('COLCON_PREFIX_PATH', '/home/ubuntu/nemo_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/home/ubuntu/nemo_ws/install/theora_image_transport/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/nemo_ws/install/v4l2_camera:/home/ubuntu/nemo_ws/install/image_transport_plugins:/home/ubuntu/nemo_ws/install/theora_image_transport:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/compressed_image_transport:/home/ubuntu/nemo_ws/install/compressed_depth_image_transport:/home/ubuntu/nemo_ws/install/image_transport:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/home/ubuntu/nemo_ws/install/examples_rclcpp_multithreaded_executor:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_client:/home/ubuntu/nemo_ws/install/cv_bridge:/home/ubuntu/nemo_ws/install/camera_info_manager:/home/ubuntu/nemo_ws/install/camera_calibration_parsers:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/nemo_ws/build/cv_bridge'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.72 60600 192.168.1.234 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/nemo_ws/install/theora_image_transport/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/img_basics/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/cv_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/nemo_ws/install/v4l2_camera:/home/ubuntu/nemo_ws/install/image_transport_plugins:/home/ubuntu/nemo_ws/install/theora_image_transport:/home/ubuntu/nemo_ws/install/compressed_image_transport:/home/ubuntu/nemo_ws/install/compressed_depth_image_transport:/home/ubuntu/nemo_ws/install/image_transport:/home/ubuntu/nemo_ws/install/examples_rclcpp_multithreaded_executor:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_client:/home/ubuntu/nemo_ws/install/cv_bridge:/home/ubuntu/nemo_ws/install/camera_info_manager:/home/ubuntu/nemo_ws/install/camera_calibration_parsers:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy')]), 'shell': False}
+[1.193033] (image_transport) StdoutLine: {'line': b'[ 80%] Built target image_transport-subscriber\n'}
+[1.199764] (image_transport) StdoutLine: {'line': b'[ 86%] Built target image_transport-publisher\n'}
+[1.205208] (-) TimerEvent: {}
+[1.208484] (image_transport) StdoutLine: {'line': b'[ 93%] Built target image_transport-message_passing\n'}
+[1.235131] (cv_bridge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.237235] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/environment/pythonpath.sh\n'}
+[1.237937] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/environment/pythonpath.dsv\n'}
+[1.238550] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/lib/python3.8/site-packages/cv_bridge\n'}
+[1.239151] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/core.py\n'}
+[1.239716] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/__init__.py\n'}
+[1.305361] (-) TimerEvent: {}
+[1.374254] (image_transport) StdoutLine: {'line': b'[100%] Built target image_transport-single_subscriber_publisher\n'}
+[1.396379] (cv_bridge) StdoutLine: {'line': b"Listing '/home/ubuntu/nemo_ws/install/cv_bridge/lib/python3.8/site-packages/cv_bridge'...\n"}
+[1.397706] (cv_bridge) StdoutLine: {'line': b"Listing '/home/ubuntu/nemo_ws/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/boost'...\n"}
+[1.405679] (-) TimerEvent: {}
+[1.424412] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/lib/libcv_bridge.so\n'}
+[1.426444] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge_export.h\n'}
+[1.429770] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/boost/cv_bridge_boost.so\n'}
+[1.433547] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/include/cv_bridge\n'}
+[1.435017] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/include/cv_bridge/cv_bridge\n'}
+[1.436347] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.h\n'}
+[1.437003] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/include/cv_bridge/cv_bridge/rgb_colors.h\n'}
+[1.438353] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/lib/libcv_bridge.so\n'}
+[1.444281] (image_transport) CommandEnded: {'returncode': 0}
+[1.446603] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/ament_index/resource_index/package_run_dependencies/cv_bridge\n'}
+[1.447087] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/ament_index/resource_index/parent_prefix_path/cv_bridge\n'}
+[1.447558] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.sh\n'}
+[1.460225] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.dsv\n'}
+[1.461208] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/environment/path.sh\n'}
+[1.461755] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/environment/path.dsv\n'}
+[1.462196] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/local_setup.bash\n'}
+[1.462686] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/local_setup.sh\n'}
+[1.463173] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/local_setup.zsh\n'}
+[1.463664] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/local_setup.dsv\n'}
+[1.464291] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/package.dsv\n'}
+[1.465024] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/ament_index/resource_index/packages/cv_bridge\n'}
+[1.465613] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport.cmake\n'}
+[1.466430] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport-noconfig.cmake\n'}
+[1.467295] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridge-extras.cmake\n'}
+[1.468656] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.471531] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.475733] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig.cmake\n'}
+[1.476390] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake\n'}
+[1.477125] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/package.xml\n'}
+[1.477903] (cv_bridge) CommandEnded: {'returncode': 0}
+[1.509466] (-) TimerEvent: {}
+[1.610632] (-) TimerEvent: {}
+[1.711625] (-) TimerEvent: {}
+[1.792101] (cv_bridge) JobEnded: {'identifier': 'cv_bridge', 'rc': 0}
+[1.811773] (-) TimerEvent: {}
+[1.860847] (image_transport) JobProgress: {'identifier': 'image_transport', 'progress': 'install'}
+[1.861835] (image_transport) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/nemo_ws/build/image_transport'], 'cwd': '/home/ubuntu/nemo_ws/build/image_transport', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.1.72 60600 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/nemo_ws/install/v4l2_camera/lib:/home/ubuntu/nemo_ws/install/theora_image_transport/lib:/home/ubuntu/nemo_ws/install/compressed_image_transport/lib:/home/ubuntu/nemo_ws/install/compressed_depth_image_transport/lib:/home/ubuntu/nemo_ws/install/image_transport/lib:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition/lib:/home/ubuntu/nemo_ws/install/cv_bridge/lib:/home/ubuntu/nemo_ws/install/camera_info_manager/lib:/home/ubuntu/nemo_ws/install/camera_calibration_parsers/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/nemo_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('COLCON_PREFIX_PATH', '/home/ubuntu/nemo_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/home/ubuntu/nemo_ws/install/theora_image_transport/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/nemo_ws/install/v4l2_camera:/home/ubuntu/nemo_ws/install/image_transport_plugins:/home/ubuntu/nemo_ws/install/theora_image_transport:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/compressed_image_transport:/home/ubuntu/nemo_ws/install/compressed_depth_image_transport:/home/ubuntu/nemo_ws/install/image_transport:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/home/ubuntu/nemo_ws/install/examples_rclcpp_multithreaded_executor:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_client:/home/ubuntu/nemo_ws/install/cv_bridge:/home/ubuntu/nemo_ws/install/camera_info_manager:/home/ubuntu/nemo_ws/install/camera_calibration_parsers:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/nemo_ws/build/image_transport'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.72 60600 192.168.1.234 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/nemo_ws/install/theora_image_transport/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/img_basics/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/cv_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/nemo_ws/install/v4l2_camera:/home/ubuntu/nemo_ws/install/image_transport_plugins:/home/ubuntu/nemo_ws/install/theora_image_transport:/home/ubuntu/nemo_ws/install/compressed_image_transport:/home/ubuntu/nemo_ws/install/compressed_depth_image_transport:/home/ubuntu/nemo_ws/install/image_transport:/home/ubuntu/nemo_ws/install/examples_rclcpp_multithreaded_executor:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_client:/home/ubuntu/nemo_ws/install/cv_bridge:/home/ubuntu/nemo_ws/install/camera_info_manager:/home/ubuntu/nemo_ws/install/camera_calibration_parsers:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy')]), 'shell': False}
+[1.910097] (image_transport) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.910855] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/share/image_transport/default_plugins.xml\n'}
+[1.911862] (-) TimerEvent: {}
+[1.914180] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/lib/libimage_transport.so\n'}
+[1.917913] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/lib/libimage_transport_plugins.so\n'}
+[1.921885] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/lib/image_transport/list_transports\n'}
+[1.925341] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/lib/image_transport/republish\n'}
+[1.926348] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/include\n'}
+[1.926765] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/include/image_transport\n'}
+[1.927687] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/include/image_transport/exception.hpp\n'}
+[1.928190] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/include/image_transport/image_transport.h\n'}
+[1.928591] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/include/image_transport/subscriber_filter.h\n'}
+[1.929002] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/include/image_transport/image_transport.hpp\n'}
+[1.929387] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/include/image_transport/publisher_plugin.h\n'}
+[1.929810] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/include/image_transport/simple_subscriber_plugin.hpp\n'}
+[1.930201] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/include/image_transport/simple_publisher_plugin.hpp\n'}
+[1.930630] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/include/image_transport/subscriber_plugin.hpp\n'}
+[1.931010] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/include/image_transport/transport_hints.h\n'}
+[1.931348] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/include/image_transport/camera_common.h\n'}
+[1.931713] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/include/image_transport/raw_publisher.hpp\n'}
+[1.932105] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/include/image_transport/single_subscriber_publisher.hpp\n'}
+[1.932484] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/include/image_transport/single_subscriber_publisher.h\n'}
+[1.932848] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/include/image_transport/camera_subscriber.h\n'}
+[1.933207] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/include/image_transport/publisher_plugin.hpp\n'}
+[1.933536] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/include/image_transport/raw_subscriber.h\n'}
+[1.933924] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/include/image_transport/raw_subscriber.hpp\n'}
+[1.934294] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/include/image_transport/subscriber.hpp\n'}
+[1.934736] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/include/image_transport/camera_publisher.hpp\n'}
+[1.935044] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/include/image_transport/camera_publisher.h\n'}
+[1.935425] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/include/image_transport/exception.h\n'}
+[1.935789] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/include/image_transport/loader_fwds.hpp\n'}
+[1.936201] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/include/image_transport/visibility_control.hpp\n'}
+[1.936518] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/include/image_transport/subscriber.h\n'}
+[1.936791] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/include/image_transport/transport_hints.hpp\n'}
+[1.937173] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/include/image_transport/camera_subscriber.hpp\n'}
+[1.937547] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/include/image_transport/subscriber_filter.hpp\n'}
+[1.937855] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/include/image_transport/simple_subscriber_plugin.h\n'}
+[1.938227] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/include/image_transport/simple_publisher_plugin.h\n'}
+[1.938689] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/include/image_transport/subscriber_plugin.h\n'}
+[1.939051] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/include/image_transport/camera_common.hpp\n'}
+[1.939407] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/include/image_transport/publisher.hpp\n'}
+[1.939810] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/include/image_transport/raw_publisher.h\n'}
+[1.940240] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/include/image_transport/publisher.h\n'}
+[1.940607] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/include/image_transport/loader_fwds.h\n'}
+[1.940908] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/share/image_transport/environment/library_path.sh\n'}
+[1.941205] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/share/image_transport/environment/library_path.dsv\n'}
+[1.941493] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/share/ament_index/resource_index/package_run_dependencies/image_transport\n'}
+[1.941793] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/share/ament_index/resource_index/parent_prefix_path/image_transport\n'}
+[1.942071] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/share/image_transport/environment/ament_prefix_path.sh\n'}
+[1.942483] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/share/image_transport/environment/ament_prefix_path.dsv\n'}
+[1.942780] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/share/image_transport/environment/path.sh\n'}
+[1.943058] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/share/image_transport/environment/path.dsv\n'}
+[1.943470] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/share/image_transport/local_setup.bash\n'}
+[1.943774] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/share/image_transport/local_setup.sh\n'}
+[1.944218] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/share/image_transport/local_setup.zsh\n'}
+[1.944594] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/share/image_transport/local_setup.dsv\n'}
+[1.944968] (image_transport) StdoutLine: {'line': b'-- Installing: /home/ubuntu/nemo_ws/install/image_transport/share/image_transport/package.dsv\n'}
+[1.945336] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/share/ament_index/resource_index/packages/image_transport\n'}
+[1.945738] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/share/ament_index/resource_index/image_transport__pluginlib__plugin/image_transport\n'}
+[1.946136] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/share/image_transport/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.946466] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/share/image_transport/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.946751] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/share/image_transport/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.947052] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/share/image_transport/cmake/image_transportConfig.cmake\n'}
+[1.947364] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/share/image_transport/cmake/image_transportConfig-version.cmake\n'}
+[1.947700] (image_transport) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/nemo_ws/install/image_transport/share/image_transport/package.xml\n'}
+[1.952222] (image_transport) CommandEnded: {'returncode': 0}
+[2.012254] (-) TimerEvent: {}
+[2.113308] (-) TimerEvent: {}
+[2.213944] (-) TimerEvent: {}
+[2.314595] (-) TimerEvent: {}
+[2.416117] (-) TimerEvent: {}
+[2.468364] (image_transport) JobEnded: {'identifier': 'image_transport', 'rc': 0}
+[2.478713] (apriltag_ros) JobStarted: {'identifier': 'apriltag_ros'}
+[2.516374] (-) TimerEvent: {}
+[2.538074] (apriltag_ros) JobProgress: {'identifier': 'apriltag_ros', 'progress': 'cmake'}
+[2.538819] (apriltag_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/nemo_ws/src/apriltag_ros', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/nemo_ws/install/apriltag_ros'], 'cwd': '/home/ubuntu/nemo_ws/build/apriltag_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.1.72 60600 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/nemo_ws/install/image_transport/lib:/home/ubuntu/nemo_ws/install/cv_bridge/lib:/home/ubuntu/nemo_ws/install/v4l2_camera/lib:/home/ubuntu/nemo_ws/install/theora_image_transport/lib:/home/ubuntu/nemo_ws/install/compressed_image_transport/lib:/home/ubuntu/nemo_ws/install/compressed_depth_image_transport/lib:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition/lib:/home/ubuntu/nemo_ws/install/camera_info_manager/lib:/home/ubuntu/nemo_ws/install/camera_calibration_parsers/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/nemo_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('COLCON_PREFIX_PATH', '/home/ubuntu/nemo_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/home/ubuntu/nemo_ws/install/theora_image_transport/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/nemo_ws/install/v4l2_camera:/home/ubuntu/nemo_ws/install/image_transport_plugins:/home/ubuntu/nemo_ws/install/theora_image_transport:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/compressed_image_transport:/home/ubuntu/nemo_ws/install/compressed_depth_image_transport:/home/ubuntu/nemo_ws/install/image_transport:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/home/ubuntu/nemo_ws/install/examples_rclcpp_multithreaded_executor:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_client:/home/ubuntu/nemo_ws/install/cv_bridge:/home/ubuntu/nemo_ws/install/camera_info_manager:/home/ubuntu/nemo_ws/install/camera_calibration_parsers:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/nemo_ws/build/apriltag_ros'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.72 60600 192.168.1.234 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/nemo_ws/install/cv_bridge/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/theora_image_transport/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/img_basics/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/nemo_ws/install/image_transport:/home/ubuntu/nemo_ws/install/cv_bridge:/home/ubuntu/nemo_ws/install/v4l2_camera:/home/ubuntu/nemo_ws/install/image_transport_plugins:/home/ubuntu/nemo_ws/install/theora_image_transport:/home/ubuntu/nemo_ws/install/compressed_image_transport:/home/ubuntu/nemo_ws/install/compressed_depth_image_transport:/home/ubuntu/nemo_ws/install/examples_rclcpp_multithreaded_executor:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_client:/home/ubuntu/nemo_ws/install/camera_info_manager:/home/ubuntu/nemo_ws/install/camera_calibration_parsers:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy')]), 'shell': False}
+[2.616558] (-) TimerEvent: {}
+[2.717327] (-) TimerEvent: {}
+[2.795297] (apriltag_ros) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[2.817471] (-) TimerEvent: {}
+[2.918350] (-) TimerEvent: {}
+[3.019578] (-) TimerEvent: {}
+[3.032467] (apriltag_ros) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[3.054824] (apriltag_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[3.119771] (-) TimerEvent: {}
+[3.220596] (-) TimerEvent: {}
+[3.321346] (-) TimerEvent: {}
+[3.366785] (apriltag_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[3.369447] (apriltag_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.421519] (-) TimerEvent: {}
+[3.522220] (-) TimerEvent: {}
+[3.622934] (-) TimerEvent: {}
+[3.683562] (apriltag_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.716985] (apriltag_ros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.717991] (apriltag_ros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.723020] (-) TimerEvent: {}
+[3.726503] (apriltag_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[3.823258] (-) TimerEvent: {}
+[3.924110] (-) TimerEvent: {}
+[4.024820] (-) TimerEvent: {}
+[4.069282] (apriltag_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[4.072462] (apriltag_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.124988] (-) TimerEvent: {}
+[4.225724] (-) TimerEvent: {}
+[4.326444] (-) TimerEvent: {}
+[4.419338] (apriltag_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.426607] (-) TimerEvent: {}
+[4.454318] (apriltag_ros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.455957] (apriltag_ros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.490982] (apriltag_ros) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[4.526770] (-) TimerEvent: {}
+[4.626599] (apriltag_ros) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[4.627199] (-) TimerEvent: {}
+[4.627579] (apriltag_ros) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.727366] (-) TimerEvent: {}
+[4.828014] (-) TimerEvent: {}
+[4.928597] (-) TimerEvent: {}
+[5.029169] (-) TimerEvent: {}
+[5.129733] (-) TimerEvent: {}
+[5.230409] (-) TimerEvent: {}
+[5.330954] (-) TimerEvent: {}
+[5.431532] (-) TimerEvent: {}
+[5.532162] (-) TimerEvent: {}
+[5.632773] (-) TimerEvent: {}
+[5.733376] (-) TimerEvent: {}
+[5.833974] (-) TimerEvent: {}
+[5.934572] (-) TimerEvent: {}
+[6.035185] (-) TimerEvent: {}
+[6.135870] (-) TimerEvent: {}
+[6.236511] (-) TimerEvent: {}
+[6.337113] (-) TimerEvent: {}
+[6.377474] (apriltag_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.437256] (-) TimerEvent: {}
+[6.484090] (apriltag_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[6.537406] (-) TimerEvent: {}
+[6.638023] (-) TimerEvent: {}
+[6.738633] (-) TimerEvent: {}
+[6.839275] (-) TimerEvent: {}
+[6.939976] (-) TimerEvent: {}
+[7.040687] (-) TimerEvent: {}
+[7.141399] (-) TimerEvent: {}
+[7.199311] (apriltag_ros) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[7.241543] (-) TimerEvent: {}
+[7.342185] (-) TimerEvent: {}
+[7.442861] (-) TimerEvent: {}
+[7.472492] (apriltag_ros) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[7.543011] (-) TimerEvent: {}
+[7.643643] (-) TimerEvent: {}
+[7.744356] (-) TimerEvent: {}
+[7.845130] (-) TimerEvent: {}
+[7.945794] (-) TimerEvent: {}
+[8.046617] (-) TimerEvent: {}
+[8.147257] (-) TimerEvent: {}
+[8.163964] (apriltag_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.247408] (-) TimerEvent: {}
+[8.348089] (-) TimerEvent: {}
+[8.448745] (-) TimerEvent: {}
+[8.549375] (-) TimerEvent: {}
+[8.550415] (apriltag_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[8.560139] (apriltag_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.563331] (apriltag_ros) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.649548] (-) TimerEvent: {}
+[8.750237] (-) TimerEvent: {}
+[8.851115] (-) TimerEvent: {}
+[8.891968] (apriltag_ros) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[8.892879] (apriltag_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.951248] (-) TimerEvent: {}
+[9.052320] (-) TimerEvent: {}
+[9.153489] (-) TimerEvent: {}
+[9.219727] (apriltag_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[9.220465] (apriltag_ros) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[9.253703] (-) TimerEvent: {}
+[9.354594] (-) TimerEvent: {}
+[9.455738] (-) TimerEvent: {}
+[9.492340] (apriltag_ros) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[9.492964] (apriltag_ros) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[9.555935] (-) TimerEvent: {}
+[9.656627] (-) TimerEvent: {}
+[9.757326] (-) TimerEvent: {}
+[9.814501] (apriltag_ros) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[9.817802] (apriltag_ros) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.857479] (-) TimerEvent: {}
+[9.958112] (-) TimerEvent: {}
+[10.058730] (-) TimerEvent: {}
+[10.159390] (-) TimerEvent: {}
+[10.260041] (-) TimerEvent: {}
+[10.360684] (-) TimerEvent: {}
+[10.461389] (-) TimerEvent: {}
+[10.562013] (-) TimerEvent: {}
+[10.567296] (apriltag_ros) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.1 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[10.662170] (-) TimerEvent: {}
+[10.762797] (-) TimerEvent: {}
+[10.863431] (-) TimerEvent: {}
+[10.909410] (apriltag_ros) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[10.963588] (-) TimerEvent: {}
+[11.064275] (-) TimerEvent: {}
+[11.164920] (-) TimerEvent: {}
+[11.265557] (-) TimerEvent: {}
+[11.366173] (-) TimerEvent: {}
+[11.466804] (-) TimerEvent: {}
+[11.504552] (apriltag_ros) StderrLine: {'line': b'CMake Error at CMakeLists.txt:10 (find_package):\n'}
+[11.510308] (apriltag_ros) StderrLine: {'line': b'  By not providing "Findapriltag_msgs.cmake" in CMAKE_MODULE_PATH this\n'}
+[11.510646] (apriltag_ros) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[11.510927] (apriltag_ros) StderrLine: {'line': b'  "apriltag_msgs", but CMake did not find one.\n'}
+[11.511231] (apriltag_ros) StderrLine: {'line': b'\n'}
+[11.511483] (apriltag_ros) StderrLine: {'line': b'  Could not find a package configuration file provided by "apriltag_msgs"\n'}
+[11.511733] (apriltag_ros) StderrLine: {'line': b'  with any of the following names:\n'}
+[11.512036] (apriltag_ros) StderrLine: {'line': b'\n'}
+[11.512301] (apriltag_ros) StderrLine: {'line': b'    apriltag_msgsConfig.cmake\n'}
+[11.512544] (apriltag_ros) StderrLine: {'line': b'    apriltag_msgs-config.cmake\n'}
+[11.512788] (apriltag_ros) StderrLine: {'line': b'\n'}
+[11.513027] (apriltag_ros) StderrLine: {'line': b'  Add the installation prefix of "apriltag_msgs" to CMAKE_PREFIX_PATH or set\n'}
+[11.513268] (apriltag_ros) StderrLine: {'line': b'  "apriltag_msgs_DIR" to a directory containing one of the above files.  If\n'}
+[11.513507] (apriltag_ros) StderrLine: {'line': b'  "apriltag_msgs" provides a separate development package or SDK, be sure it\n'}
+[11.513745] (apriltag_ros) StderrLine: {'line': b'  has been installed.\n'}
+[11.513982] (apriltag_ros) StderrLine: {'line': b'\n'}
+[11.514218] (apriltag_ros) StderrLine: {'line': b'\n'}
+[11.520294] (apriltag_ros) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[11.520836] (apriltag_ros) StdoutLine: {'line': b'See also "/home/ubuntu/nemo_ws/build/apriltag_ros/CMakeFiles/CMakeOutput.log".\n'}
+[11.521164] (apriltag_ros) StdoutLine: {'line': b'See also "/home/ubuntu/nemo_ws/build/apriltag_ros/CMakeFiles/CMakeError.log".\n'}
+[11.550378] (apriltag_ros) CommandEnded: {'returncode': 1}
+[11.567009] (-) TimerEvent: {}
+[11.635387] (apriltag_ros) JobEnded: {'identifier': 'apriltag_ros', 'rc': 1}
+[11.646872] (-) EventReactorShutdown: {}

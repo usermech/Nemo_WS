@@ -1,0 +1,5 @@
+  File "/home/ubuntu/nemo_ws/src/install/img_basics/lib/python3.8/site-packages/img_basics/cam_sub.py", line 60
+    def main(args=None):
+    ^
+SyntaxError: invalid syntax
+

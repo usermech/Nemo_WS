@@ -1,0 +1,186 @@
+[0.000000] (-) TimerEvent: {}
+[0.000861] (-) JobUnselected: {'identifier': 'camera_calibration_parsers'}
+[0.001130] (-) JobUnselected: {'identifier': 'camera_info_manager'}
+[0.001768] (-) JobUnselected: {'identifier': 'compressed_depth_image_transport'}
+[0.002306] (-) JobUnselected: {'identifier': 'compressed_image_transport'}
+[0.003262] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.003433] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.003528] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.003642] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.003719] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.003819] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.005578] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.007003] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.007168] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.007290] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.007407] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.007526] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.007640] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.007754] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.007867] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.007984] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.008095] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.008207] (-) JobUnselected: {'identifier': 'image_common'}
+[0.008318] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.008431] (-) JobUnselected: {'identifier': 'image_transport'}
+[0.008543] (-) JobUnselected: {'identifier': 'image_transport_plugins'}
+[0.008656] (-) JobUnselected: {'identifier': 'img_basics'}
+[0.008769] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.008881] (-) JobUnselected: {'identifier': 'theora_image_transport'}
+[0.008978] (-) JobUnselected: {'identifier': 'v4l2_camera'}
+[0.009089] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.009194] (apriltag_ros) JobQueued: {'identifier': 'apriltag_ros', 'dependencies': OrderedDict([('cv_bridge', '/home/ubuntu/nemo_ws/src/install/cv_bridge'), ('image_transport', '/home/ubuntu/nemo_ws/src/install/image_transport')])}
+[0.009322] (apriltag_ros) JobStarted: {'identifier': 'apriltag_ros'}
+[0.083755] (apriltag_ros) JobProgress: {'identifier': 'apriltag_ros', 'progress': 'cmake'}
+[0.084599] (apriltag_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/nemo_ws/src/apriltag_ros', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/nemo_ws/src/install/apriltag_ros'], 'cwd': '/home/ubuntu/nemo_ws/src/build/apriltag_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.1.72 60600 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/nemo_ws/src/install/image_transport/lib:/home/ubuntu/nemo_ws/src/install/cv_bridge/lib:/home/ubuntu/nemo_ws/install/v4l2_camera/lib:/home/ubuntu/nemo_ws/install/theora_image_transport/lib:/home/ubuntu/nemo_ws/install/compressed_image_transport/lib:/home/ubuntu/nemo_ws/install/compressed_depth_image_transport/lib:/home/ubuntu/nemo_ws/install/image_transport/lib:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition/lib:/home/ubuntu/nemo_ws/install/cv_bridge/lib:/home/ubuntu/nemo_ws/install/camera_info_manager/lib:/home/ubuntu/nemo_ws/install/camera_calibration_parsers/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/nemo_ws/src/ros2_aruco'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('COLCON_PREFIX_PATH', '/home/ubuntu/nemo_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/home/ubuntu/nemo_ws/install/theora_image_transport/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/nemo_ws/src/install/image_transport:/home/ubuntu/nemo_ws/src/install/cv_bridge:/home/ubuntu/nemo_ws/install/v4l2_camera:/home/ubuntu/nemo_ws/install/image_transport_plugins:/home/ubuntu/nemo_ws/install/theora_image_transport:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/compressed_image_transport:/home/ubuntu/nemo_ws/install/compressed_depth_image_transport:/home/ubuntu/nemo_ws/install/image_transport:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/home/ubuntu/nemo_ws/install/examples_rclcpp_multithreaded_executor:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_client:/home/ubuntu/nemo_ws/install/cv_bridge:/home/ubuntu/nemo_ws/install/camera_info_manager:/home/ubuntu/nemo_ws/install/camera_calibration_parsers:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/nemo_ws/src/build/apriltag_ros'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.72 60600 192.168.1.234 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/nemo_ws/src/install/cv_bridge/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/theora_image_transport/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/img_basics/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/cv_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/nemo_ws/src/install/image_transport:/home/ubuntu/nemo_ws/src/install/cv_bridge:/home/ubuntu/nemo_ws/install/v4l2_camera:/home/ubuntu/nemo_ws/install/image_transport_plugins:/home/ubuntu/nemo_ws/install/theora_image_transport:/home/ubuntu/nemo_ws/install/compressed_image_transport:/home/ubuntu/nemo_ws/install/compressed_depth_image_transport:/home/ubuntu/nemo_ws/install/image_transport:/home/ubuntu/nemo_ws/install/examples_rclcpp_multithreaded_executor:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_client:/home/ubuntu/nemo_ws/install/cv_bridge:/home/ubuntu/nemo_ws/install/camera_info_manager:/home/ubuntu/nemo_ws/install/camera_calibration_parsers:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy')]), 'shell': False}
+[0.099194] (-) TimerEvent: {}
+[0.200318] (-) TimerEvent: {}
+[0.301122] (-) TimerEvent: {}
+[0.352932] (apriltag_ros) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.401272] (-) TimerEvent: {}
+[0.501973] (-) TimerEvent: {}
+[0.594760] (apriltag_ros) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.602148] (-) TimerEvent: {}
+[0.617784] (apriltag_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.702285] (-) TimerEvent: {}
+[0.802927] (-) TimerEvent: {}
+[0.903682] (-) TimerEvent: {}
+[0.941115] (apriltag_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.943781] (apriltag_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.003858] (-) TimerEvent: {}
+[1.104550] (-) TimerEvent: {}
+[1.205219] (-) TimerEvent: {}
+[1.268208] (apriltag_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.301088] (apriltag_ros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.302188] (apriltag_ros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.305342] (-) TimerEvent: {}
+[1.310594] (apriltag_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.405560] (-) TimerEvent: {}
+[1.506350] (-) TimerEvent: {}
+[1.607100] (-) TimerEvent: {}
+[1.664497] (apriltag_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.667727] (apriltag_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.707278] (-) TimerEvent: {}
+[1.808184] (-) TimerEvent: {}
+[1.909319] (-) TimerEvent: {}
+[2.010076] (-) TimerEvent: {}
+[2.023310] (apriltag_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.057403] (apriltag_ros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.059030] (apriltag_ros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.095570] (apriltag_ros) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[2.110186] (-) TimerEvent: {}
+[2.210739] (-) TimerEvent: {}
+[2.234282] (apriltag_ros) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.234889] (apriltag_ros) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.310877] (-) TimerEvent: {}
+[2.411535] (-) TimerEvent: {}
+[2.512175] (-) TimerEvent: {}
+[2.612903] (-) TimerEvent: {}
+[2.713496] (-) TimerEvent: {}
+[2.814111] (-) TimerEvent: {}
+[2.914692] (-) TimerEvent: {}
+[3.015317] (-) TimerEvent: {}
+[3.115954] (-) TimerEvent: {}
+[3.216570] (-) TimerEvent: {}
+[3.317177] (-) TimerEvent: {}
+[3.417835] (-) TimerEvent: {}
+[3.518495] (-) TimerEvent: {}
+[3.619140] (-) TimerEvent: {}
+[3.719771] (-) TimerEvent: {}
+[3.820431] (-) TimerEvent: {}
+[3.921168] (-) TimerEvent: {}
+[3.998420] (apriltag_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.021284] (-) TimerEvent: {}
+[4.109537] (apriltag_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[4.121446] (-) TimerEvent: {}
+[4.222056] (-) TimerEvent: {}
+[4.322796] (-) TimerEvent: {}
+[4.423477] (-) TimerEvent: {}
+[4.524139] (-) TimerEvent: {}
+[4.624814] (-) TimerEvent: {}
+[4.725548] (-) TimerEvent: {}
+[4.826231] (-) TimerEvent: {}
+[4.844464] (apriltag_ros) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[4.926407] (-) TimerEvent: {}
+[5.027073] (-) TimerEvent: {}
+[5.120272] (apriltag_ros) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[5.127191] (-) TimerEvent: {}
+[5.227784] (-) TimerEvent: {}
+[5.328404] (-) TimerEvent: {}
+[5.429091] (-) TimerEvent: {}
+[5.529714] (-) TimerEvent: {}
+[5.630402] (-) TimerEvent: {}
+[5.731017] (-) TimerEvent: {}
+[5.821334] (apriltag_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.831113] (-) TimerEvent: {}
+[5.931650] (-) TimerEvent: {}
+[6.032318] (-) TimerEvent: {}
+[6.132961] (-) TimerEvent: {}
+[6.215280] (apriltag_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[6.225058] (apriltag_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.228357] (apriltag_ros) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.233098] (-) TimerEvent: {}
+[6.333817] (-) TimerEvent: {}
+[6.434680] (-) TimerEvent: {}
+[6.535398] (-) TimerEvent: {}
+[6.569119] (apriltag_ros) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.569993] (apriltag_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.635567] (-) TimerEvent: {}
+[6.736490] (-) TimerEvent: {}
+[6.837624] (-) TimerEvent: {}
+[6.908222] (apriltag_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[6.908898] (apriltag_ros) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[6.937803] (-) TimerEvent: {}
+[7.038505] (-) TimerEvent: {}
+[7.139276] (-) TimerEvent: {}
+[7.191559] (apriltag_ros) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[7.192205] (apriltag_ros) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[7.239466] (-) TimerEvent: {}
+[7.340337] (-) TimerEvent: {}
+[7.441590] (-) TimerEvent: {}
+[7.526590] (apriltag_ros) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[7.529826] (apriltag_ros) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.541733] (-) TimerEvent: {}
+[7.642445] (-) TimerEvent: {}
+[7.743066] (-) TimerEvent: {}
+[7.843696] (-) TimerEvent: {}
+[7.944387] (-) TimerEvent: {}
+[8.045026] (-) TimerEvent: {}
+[8.145692] (-) TimerEvent: {}
+[8.246384] (-) TimerEvent: {}
+[8.286071] (apriltag_ros) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.1 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[8.346546] (-) TimerEvent: {}
+[8.447181] (-) TimerEvent: {}
+[8.547823] (-) TimerEvent: {}
+[8.633959] (apriltag_ros) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[8.647972] (-) TimerEvent: {}
+[8.748582] (-) TimerEvent: {}
+[8.849216] (-) TimerEvent: {}
+[8.949882] (-) TimerEvent: {}
+[9.050606] (-) TimerEvent: {}
+[9.151234] (-) TimerEvent: {}
+[9.227436] (apriltag_ros) StderrLine: {'line': b'CMake Error at CMakeLists.txt:10 (find_package):\n'}
+[9.228139] (apriltag_ros) StderrLine: {'line': b'  By not providing "Findapriltag_msgs.cmake" in CMAKE_MODULE_PATH this\n'}
+[9.228423] (apriltag_ros) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[9.228718] (apriltag_ros) StderrLine: {'line': b'  "apriltag_msgs", but CMake did not find one.\n'}
+[9.228968] (apriltag_ros) StderrLine: {'line': b'\n'}
+[9.229214] (apriltag_ros) StderrLine: {'line': b'  Could not find a package configuration file provided by "apriltag_msgs"\n'}
+[9.229461] (apriltag_ros) StderrLine: {'line': b'  with any of the following names:\n'}
+[9.229705] (apriltag_ros) StderrLine: {'line': b'\n'}
+[9.229949] (apriltag_ros) StderrLine: {'line': b'    apriltag_msgsConfig.cmake\n'}
+[9.230285] (apriltag_ros) StderrLine: {'line': b'    apriltag_msgs-config.cmake\n'}
+[9.230549] (apriltag_ros) StderrLine: {'line': b'\n'}
+[9.230794] (apriltag_ros) StderrLine: {'line': b'  Add the installation prefix of "apriltag_msgs" to CMAKE_PREFIX_PATH or set\n'}
+[9.231038] (apriltag_ros) StderrLine: {'line': b'  "apriltag_msgs_DIR" to a directory containing one of the above files.  If\n'}
+[9.231278] (apriltag_ros) StderrLine: {'line': b'  "apriltag_msgs" provides a separate development package or SDK, be sure it\n'}
+[9.231519] (apriltag_ros) StderrLine: {'line': b'  has been installed.\n'}
+[9.231758] (apriltag_ros) StderrLine: {'line': b'\n'}
+[9.231994] (apriltag_ros) StderrLine: {'line': b'\n'}
+[9.243216] (apriltag_ros) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[9.243765] (apriltag_ros) StdoutLine: {'line': b'See also "/home/ubuntu/nemo_ws/src/build/apriltag_ros/CMakeFiles/CMakeOutput.log".\n'}
+[9.244078] (apriltag_ros) StdoutLine: {'line': b'See also "/home/ubuntu/nemo_ws/src/build/apriltag_ros/CMakeFiles/CMakeError.log".\n'}
+[9.251430] (-) TimerEvent: {}
+[9.273822] (apriltag_ros) CommandEnded: {'returncode': 1}
+[9.352643] (-) TimerEvent: {}
+[9.377538] (apriltag_ros) JobEnded: {'identifier': 'apriltag_ros', 'rc': 1}
+[9.388853] (-) EventReactorShutdown: {}

@@ -1,0 +1,21 @@
+[3.393s] Invoking command in '/home/ubuntu/nemo_ws/src/img_basics': AMENT_PREFIX_PATH=/home/ubuntu/nemo_ws/src/install/image_transport:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/nemo_ws/src/install/image_transport:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ubuntu/nemo_ws/src/install/image_transport/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/nemo_ws/src/install/img_basics/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/img_basics build --build-base /home/ubuntu/nemo_ws/src/build/img_basics/build install --prefix /home/ubuntu/nemo_ws/src/install/img_basics --record /home/ubuntu/nemo_ws/src/build/img_basics/install.log --single-version-externally-managed
+[4.471s] running egg_info
+[4.477s] writing ../build/img_basics/img_basics.egg-info/PKG-INFO
+[4.479s] writing dependency_links to ../build/img_basics/img_basics.egg-info/dependency_links.txt
+[4.481s] writing entry points to ../build/img_basics/img_basics.egg-info/entry_points.txt
+[4.482s] writing requirements to ../build/img_basics/img_basics.egg-info/requires.txt
+[4.482s] writing top-level names to ../build/img_basics/img_basics.egg-info/top_level.txt
+[4.625s] reading manifest file '../build/img_basics/img_basics.egg-info/SOURCES.txt'
+[4.629s] writing manifest file '../build/img_basics/img_basics.egg-info/SOURCES.txt'
+[4.630s] running build
+[4.630s] running build_py
+[4.634s] running install
+[4.637s] running install_lib
+[4.644s] running install_data
+[4.648s] running install_egg_info
+[4.655s] removing '/home/ubuntu/nemo_ws/src/install/img_basics/lib/python3.8/site-packages/img_basics-0.0.0-py3.8.egg-info' (and everything under it)
+[4.657s] Copying ../build/img_basics/img_basics.egg-info to /home/ubuntu/nemo_ws/src/install/img_basics/lib/python3.8/site-packages/img_basics-0.0.0-py3.8.egg-info
+[4.661s] running install_scripts
+[4.745s] Installing img_subscriber script to /home/ubuntu/nemo_ws/src/install/img_basics/lib/img_basics
+[4.747s] writing list of installed files to '/home/ubuntu/nemo_ws/src/build/img_basics/install.log'
+[4.855s] Invoked command in '/home/ubuntu/nemo_ws/src/img_basics' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/nemo_ws/src/install/image_transport:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/nemo_ws/src/install/image_transport:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ubuntu/nemo_ws/src/install/image_transport/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/nemo_ws/src/install/img_basics/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/img_basics build --build-base /home/ubuntu/nemo_ws/src/build/img_basics/build install --prefix /home/ubuntu/nemo_ws/src/install/img_basics --record /home/ubuntu/nemo_ws/src/build/img_basics/install.log --single-version-externally-managed

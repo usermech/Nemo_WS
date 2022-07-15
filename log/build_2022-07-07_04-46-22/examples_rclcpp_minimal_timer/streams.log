@@ -1,0 +1,82 @@
+[0.059s] Invoking command in '/home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/nemo_ws/src/examples/rclcpp/timers/minimal_timer -DCMAKE_INSTALL_PREFIX=/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer
+[0.381s] -- The C compiler identification is GNU 9.4.0
+[0.695s] -- The CXX compiler identification is GNU 9.4.0
+[0.728s] -- Check for working C compiler: /usr/bin/cc
+[1.155s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.159s] -- Detecting C compiler ABI info
+[1.538s] -- Detecting C compiler ABI info - done
+[1.583s] -- Detecting C compile features
+[1.586s] -- Detecting C compile features - done
+[1.599s] -- Check for working CXX compiler: /usr/bin/c++
+[2.008s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.014s] -- Detecting CXX compiler ABI info
+[2.416s] -- Detecting CXX compiler ABI info - done
+[2.468s] -- Detecting CXX compile features
+[2.472s] -- Detecting CXX compile features - done
+[2.498s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.681s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.683s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.394s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[4.798s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.860s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.475s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.740s] -- Found FastRTPS: /opt/ros/foxy/include  
+[6.393s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.758s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.767s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.774s] -- Looking for pthread.h
+[7.162s] -- Looking for pthread.h - found
+[7.163s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.548s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[7.549s] -- Looking for pthread_create in pthreads
+[7.851s] -- Looking for pthread_create in pthreads - not found
+[7.853s] -- Looking for pthread_create in pthread
+[8.234s] -- Looking for pthread_create in pthread - found
+[8.239s] -- Found Threads: TRUE  
+[9.085s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[9.634s] -- Added test 'copyright' to check source files copyright and LICENSE
+[9.642s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.643s] -- Configured cppcheck include dirs: 
+[9.644s] -- Configured cppcheck exclude dirs and/or files: 
+[9.650s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[9.651s] -- Configured cpplint exclude dirs and/or files: 
+[9.656s] -- Added test 'lint_cmake' to check CMake code style
+[9.664s] -- Added test 'uncrustify' to check C / C++ code style
+[9.665s] -- Configured uncrustify additional arguments: 
+[9.668s] -- Added test 'xmllint' to check XML markup files
+[9.694s] -- Configuring done
+[9.751s] -- Generating done
+[9.762s] -- Build files have been written to: /home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_timer
+[9.801s] Invoked command in '/home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/nemo_ws/src/examples/rclcpp/timers/minimal_timer -DCMAKE_INSTALL_PREFIX=/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer
+[9.806s] Invoking command in '/home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_timer -- -j4 -l4
+[10.030s] [35m[1mScanning dependencies of target timer_member_function[0m
+[10.277s] [ 25%] [32mBuilding CXX object CMakeFiles/timer_member_function.dir/member_function.cpp.o[0m
+[22.228s] [ 50%] [32m[1mLinking CXX executable timer_member_function[0m
+[23.078s] [ 50%] Built target timer_member_function
+[23.137s] [35m[1mScanning dependencies of target timer_lambda[0m
+[23.394s] [ 75%] [32mBuilding CXX object CMakeFiles/timer_lambda.dir/lambda.cpp.o[0m
+[34.530s] [100%] [32m[1mLinking CXX executable timer_lambda[0m
+[35.223s] [100%] Built target timer_lambda
+[35.286s] Invoked command in '/home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_timer -- -j4 -l4
+[35.453s] Invoking command in '/home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_timer
+[35.513s] -- Install configuration: ""
+[35.516s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_lambda
+[35.522s] -- Set runtime path of "/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_lambda" to ""
+[35.524s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_member_function
+[35.530s] -- Set runtime path of "/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_member_function" to ""
+[35.533s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_timer
+[35.536s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_timer
+[35.540s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.sh
+[35.544s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.dsv
+[35.547s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.sh
+[35.550s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.dsv
+[35.553s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.bash
+[35.558s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.sh
+[35.561s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.zsh
+[35.564s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.dsv
+[35.567s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.dsv
+[35.570s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/packages/examples_rclcpp_minimal_timer
+[35.574s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig.cmake
+[35.576s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig-version.cmake
+[35.579s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.xml
+[35.605s] Invoked command in '/home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_timer

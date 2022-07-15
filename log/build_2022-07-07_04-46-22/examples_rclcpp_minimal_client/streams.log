@@ -1,0 +1,77 @@
+[0.106s] Invoking command in '/home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/nemo_ws/src/examples/rclcpp/services/minimal_client -DCMAKE_INSTALL_PREFIX=/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client
+[1.379s] -- The C compiler identification is GNU 9.4.0
+[2.338s] -- The CXX compiler identification is GNU 9.4.0
+[2.369s] -- Check for working C compiler: /usr/bin/cc
+[2.802s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.810s] -- Detecting C compiler ABI info
+[3.213s] -- Detecting C compiler ABI info - done
+[3.295s] -- Detecting C compile features
+[3.527s] -- Detecting C compile features - done
+[4.191s] -- Check for working CXX compiler: /usr/bin/c++
+[4.726s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.740s] -- Detecting CXX compiler ABI info
+[5.187s] -- Detecting CXX compiler ABI info - done
+[5.227s] -- Detecting CXX compile features
+[5.229s] -- Detecting CXX compile features - done
+[5.256s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[5.447s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.447s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.824s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[7.086s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.145s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[7.769s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[8.016s] -- Found FastRTPS: /opt/ros/foxy/include  
+[8.628s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.261s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[9.507s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[9.514s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.520s] -- Looking for pthread.h
+[9.953s] -- Looking for pthread.h - found
+[9.958s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.357s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[10.358s] -- Looking for pthread_create in pthreads
+[10.664s] -- Looking for pthread_create in pthreads - not found
+[10.665s] -- Looking for pthread_create in pthread
+[11.045s] -- Looking for pthread_create in pthread - found
+[11.050s] -- Found Threads: TRUE  
+[11.697s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[12.238s] -- Added test 'copyright' to check source files copyright and LICENSE
+[12.245s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[12.247s] -- Configured cppcheck include dirs: 
+[12.248s] -- Configured cppcheck exclude dirs and/or files: 
+[12.256s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[12.257s] -- Configured cpplint exclude dirs and/or files: 
+[12.263s] -- Added test 'lint_cmake' to check CMake code style
+[12.269s] -- Added test 'uncrustify' to check C / C++ code style
+[12.270s] -- Configured uncrustify additional arguments: 
+[12.272s] -- Added test 'xmllint' to check XML markup files
+[12.298s] -- Configuring done
+[12.331s] -- Generating done
+[12.338s] -- Build files have been written to: /home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_client
+[12.387s] Invoked command in '/home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/nemo_ws/src/examples/rclcpp/services/minimal_client -DCMAKE_INSTALL_PREFIX=/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client
+[12.390s] Invoking command in '/home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_client -- -j4 -l4
+[12.670s] [35m[1mScanning dependencies of target client_main[0m
+[13.301s] [ 50%] [32mBuilding CXX object CMakeFiles/client_main.dir/main.cpp.o[0m
+[43.918s] [100%] [32m[1mLinking CXX executable client_main[0m
+[46.082s] [100%] Built target client_main
+[46.271s] Invoked command in '/home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_client -- -j4 -l4
+[47.063s] Invoking command in '/home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_client
+[47.219s] -- Install configuration: ""
+[47.220s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client/lib/examples_rclcpp_minimal_client/client_main
+[47.242s] -- Set runtime path of "/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client/lib/examples_rclcpp_minimal_client/client_main" to ""
+[47.244s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_client
+[47.246s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_client
+[47.248s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/ament_prefix_path.sh
+[47.250s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/ament_prefix_path.dsv
+[47.251s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/path.sh
+[47.253s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/path.dsv
+[47.278s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.bash
+[47.280s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.sh
+[47.282s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.zsh
+[47.290s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.dsv
+[47.293s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.dsv
+[47.295s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_client
+[47.297s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig.cmake
+[47.298s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig-version.cmake
+[47.300s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.xml
+[47.342s] Invoked command in '/home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_client

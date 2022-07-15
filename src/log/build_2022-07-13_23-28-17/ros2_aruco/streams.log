@@ -1,0 +1,36 @@
+[2.518s] Invoking command in '/home/ubuntu/nemo_ws/src/ros2_aruco/ros2_aruco': PYTHONPATH=/home/ubuntu/nemo_ws/src/install/ros2_aruco/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_aruco build --build-base /home/ubuntu/nemo_ws/src/build/ros2_aruco/build install --prefix /home/ubuntu/nemo_ws/src/install/ros2_aruco --record /home/ubuntu/nemo_ws/src/build/ros2_aruco/install.log --single-version-externally-managed
+[3.419s] running egg_info
+[3.421s] writing ../../build/ros2_aruco/ros2_aruco.egg-info/PKG-INFO
+[3.422s] writing dependency_links to ../../build/ros2_aruco/ros2_aruco.egg-info/dependency_links.txt
+[3.423s] writing entry points to ../../build/ros2_aruco/ros2_aruco.egg-info/entry_points.txt
+[3.424s] writing requirements to ../../build/ros2_aruco/ros2_aruco.egg-info/requires.txt
+[3.424s] writing top-level names to ../../build/ros2_aruco/ros2_aruco.egg-info/top_level.txt
+[3.551s] reading manifest file '../../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'
+[3.554s] writing manifest file '../../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'
+[3.555s] running build
+[3.555s] running build_py
+[3.556s] copying ros2_aruco/__init__.py -> /home/ubuntu/nemo_ws/src/build/ros2_aruco/build/lib/ros2_aruco
+[3.556s] copying ros2_aruco/transformations.py -> /home/ubuntu/nemo_ws/src/build/ros2_aruco/build/lib/ros2_aruco
+[3.557s] copying ros2_aruco/aruco_generate_marker.py -> /home/ubuntu/nemo_ws/src/build/ros2_aruco/build/lib/ros2_aruco
+[3.558s] copying ros2_aruco/aruco_node.py -> /home/ubuntu/nemo_ws/src/build/ros2_aruco/build/lib/ros2_aruco
+[3.559s] running install
+[3.563s] running install_lib
+[3.566s] copying /home/ubuntu/nemo_ws/src/build/ros2_aruco/build/lib/ros2_aruco/__init__.py -> /home/ubuntu/nemo_ws/src/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco
+[3.567s] copying /home/ubuntu/nemo_ws/src/build/ros2_aruco/build/lib/ros2_aruco/transformations.py -> /home/ubuntu/nemo_ws/src/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco
+[3.568s] copying /home/ubuntu/nemo_ws/src/build/ros2_aruco/build/lib/ros2_aruco/aruco_generate_marker.py -> /home/ubuntu/nemo_ws/src/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco
+[3.569s] copying /home/ubuntu/nemo_ws/src/build/ros2_aruco/build/lib/ros2_aruco/aruco_node.py -> /home/ubuntu/nemo_ws/src/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco
+[3.571s] byte-compiling /home/ubuntu/nemo_ws/src/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco/__init__.py to __init__.cpython-38.pyc
+[3.576s] byte-compiling /home/ubuntu/nemo_ws/src/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco/transformations.py to transformations.cpython-38.pyc
+[3.602s] byte-compiling /home/ubuntu/nemo_ws/src/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco/aruco_generate_marker.py to aruco_generate_marker.cpython-38.pyc
+[3.605s] byte-compiling /home/ubuntu/nemo_ws/src/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco/aruco_node.py to aruco_node.cpython-38.pyc
+[3.608s] running install_data
+[3.610s] copying resource/ros2_aruco -> /home/ubuntu/nemo_ws/src/install/ros2_aruco/share/ament_index/resource_index/packages
+[3.611s] copying package.xml -> /home/ubuntu/nemo_ws/src/install/ros2_aruco/share/ros2_aruco
+[3.611s] running install_egg_info
+[3.617s] removing '/home/ubuntu/nemo_ws/src/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco-0.1.0-py3.8.egg-info' (and everything under it)
+[3.618s] Copying ../../build/ros2_aruco/ros2_aruco.egg-info to /home/ubuntu/nemo_ws/src/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco-0.1.0-py3.8.egg-info
+[3.622s] running install_scripts
+[3.684s] Installing aruco_generate_marker script to /home/ubuntu/nemo_ws/src/install/ros2_aruco/lib/ros2_aruco
+[3.684s] Installing aruco_node script to /home/ubuntu/nemo_ws/src/install/ros2_aruco/lib/ros2_aruco
+[3.686s] writing list of installed files to '/home/ubuntu/nemo_ws/src/build/ros2_aruco/install.log'
+[3.779s] Invoked command in '/home/ubuntu/nemo_ws/src/ros2_aruco/ros2_aruco' returned '0': PYTHONPATH=/home/ubuntu/nemo_ws/src/install/ros2_aruco/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_aruco build --build-base /home/ubuntu/nemo_ws/src/build/ros2_aruco/build install --prefix /home/ubuntu/nemo_ws/src/install/ros2_aruco --record /home/ubuntu/nemo_ws/src/build/ros2_aruco/install.log --single-version-externally-managed

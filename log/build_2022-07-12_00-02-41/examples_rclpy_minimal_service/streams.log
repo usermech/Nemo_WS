@@ -1,0 +1,22 @@
+[5.634s] Invoking command in '/home/ubuntu/nemo_ws/src/examples/rclpy/services/minimal_service': PYTHONPATH=/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_service build --build-base /home/ubuntu/nemo_ws/build/examples_rclpy_minimal_service/build install --prefix /home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service --record /home/ubuntu/nemo_ws/build/examples_rclpy_minimal_service/install.log --single-version-externally-managed
+[6.972s] running egg_info
+[6.976s] writing ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/PKG-INFO
+[6.979s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/dependency_links.txt
+[6.981s] writing entry points to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/entry_points.txt
+[6.985s] writing requirements to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/requires.txt
+[6.988s] writing top-level names to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/top_level.txt
+[7.185s] reading manifest file '../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[7.196s] writing manifest file '../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[7.198s] running build
+[7.200s] running build_py
+[7.211s] running install
+[7.220s] running install_lib
+[7.239s] running install_data
+[7.244s] running install_egg_info
+[7.259s] removing '/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages/examples_rclpy_minimal_service-0.9.4-py3.8.egg-info' (and everything under it)
+[7.264s] Copying ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info to /home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages/examples_rclpy_minimal_service-0.9.4-py3.8.egg-info
+[7.278s] running install_scripts
+[7.436s] Installing service script to /home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[7.438s] Installing service_member_function script to /home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[7.441s] writing list of installed files to '/home/ubuntu/nemo_ws/build/examples_rclpy_minimal_service/install.log'
+[7.627s] Invoked command in '/home/ubuntu/nemo_ws/src/examples/rclpy/services/minimal_service' returned '0': PYTHONPATH=/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_service build --build-base /home/ubuntu/nemo_ws/build/examples_rclpy_minimal_service/build install --prefix /home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service --record /home/ubuntu/nemo_ws/build/examples_rclpy_minimal_service/install.log --single-version-externally-managed

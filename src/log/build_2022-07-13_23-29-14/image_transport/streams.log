@@ -1,0 +1,89 @@
+[0.198s] Invoking command in '/home/ubuntu/nemo_ws/src/build/image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/nemo_ws/src/build/image_transport -- -j4 -l4
+[0.997s] [  6%] Built target gtest_main
+[1.060s] [ 13%] Built target gtest
+[1.173s] [ 40%] Built target image_transport
+[1.363s] [35m[1mScanning dependencies of target list_transports[0m
+[1.587s] [ 43%] [32mBuilding CXX object CMakeFiles/image_transport_plugins.dir/src/manifest.cpp.o[0m
+[1.627s] [ 50%] Built target image_transport-remapping
+[1.747s] [ 56%] Built target republish
+[1.899s] [ 60%] [32mBuilding CXX object CMakeFiles/list_transports.dir/src/list_transports.cpp.o[0m
+[1.921s] [ 66%] Built target image_transport-camera_common
+[2.042s] [ 73%] Built target image_transport-subscriber
+[2.170s] [ 80%] Built target image_transport-message_passing
+[2.341s] [ 86%] Built target image_transport-publisher
+[2.513s] [ 93%] Built target image_transport-single_subscriber_publisher
+[42.155s] [ 96%] [32m[1mLinking CXX executable list_transports[0m
+[45.938s] [ 96%] Built target list_transports
+[47.585s] [100%] [32m[1mLinking CXX shared library libimage_transport_plugins.so[0m
+[50.563s] [100%] Built target image_transport_plugins
+[50.719s] Invoked command in '/home/ubuntu/nemo_ws/src/build/image_transport' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/nemo_ws/src/build/image_transport -- -j4 -l4
+[55.438s] Invoking command in '/home/ubuntu/nemo_ws/src/build/image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/nemo_ws/src/build/image_transport
+[55.562s] -- Install configuration: ""
+[55.562s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/share/image_transport/default_plugins.xml
+[55.575s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/lib/libimage_transport.so
+[55.699s] -- Set runtime path of "/home/ubuntu/nemo_ws/src/install/image_transport/lib/libimage_transport.so" to ""
+[55.699s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/lib/libimage_transport_plugins.so
+[55.738s] -- Set runtime path of "/home/ubuntu/nemo_ws/src/install/image_transport/lib/libimage_transport_plugins.so" to ""
+[55.747s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/lib/image_transport/list_transports
+[55.772s] -- Set runtime path of "/home/ubuntu/nemo_ws/src/install/image_transport/lib/image_transport/list_transports" to ""
+[55.772s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/lib/image_transport/republish
+[55.812s] -- Set runtime path of "/home/ubuntu/nemo_ws/src/install/image_transport/lib/image_transport/republish" to ""
+[55.813s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/include
+[55.814s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/include/image_transport
+[55.814s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/include/image_transport/exception.hpp
+[55.816s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/include/image_transport/image_transport.h
+[55.818s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/include/image_transport/subscriber_filter.h
+[55.826s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/include/image_transport/image_transport.hpp
+[55.829s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/include/image_transport/publisher_plugin.h
+[55.831s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/include/image_transport/simple_subscriber_plugin.hpp
+[55.832s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/include/image_transport/simple_publisher_plugin.hpp
+[55.834s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/include/image_transport/subscriber_plugin.hpp
+[55.836s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/include/image_transport/transport_hints.h
+[55.843s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/include/image_transport/camera_common.h
+[55.845s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/include/image_transport/raw_publisher.hpp
+[55.846s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/include/image_transport/single_subscriber_publisher.hpp
+[55.848s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/include/image_transport/single_subscriber_publisher.h
+[55.859s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/include/image_transport/camera_subscriber.h
+[55.860s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/include/image_transport/publisher_plugin.hpp
+[55.862s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/include/image_transport/raw_subscriber.h
+[55.863s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/include/image_transport/raw_subscriber.hpp
+[55.864s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/include/image_transport/subscriber.hpp
+[55.867s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/include/image_transport/camera_publisher.hpp
+[55.869s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/include/image_transport/camera_publisher.h
+[55.879s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/include/image_transport/exception.h
+[55.880s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/include/image_transport/loader_fwds.hpp
+[55.882s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/include/image_transport/visibility_control.hpp
+[55.883s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/include/image_transport/subscriber.h
+[55.885s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/include/image_transport/transport_hints.hpp
+[55.887s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/include/image_transport/camera_subscriber.hpp
+[55.888s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/include/image_transport/subscriber_filter.hpp
+[55.890s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/include/image_transport/simple_subscriber_plugin.h
+[55.903s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/include/image_transport/simple_publisher_plugin.h
+[55.904s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/include/image_transport/subscriber_plugin.h
+[55.906s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/include/image_transport/camera_common.hpp
+[55.907s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/include/image_transport/publisher.hpp
+[55.909s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/include/image_transport/raw_publisher.h
+[55.910s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/include/image_transport/publisher.h
+[55.912s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/include/image_transport/loader_fwds.h
+[55.914s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/share/image_transport/environment/library_path.sh
+[55.927s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/share/image_transport/environment/library_path.dsv
+[55.930s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/share/ament_index/resource_index/package_run_dependencies/image_transport
+[55.932s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/share/ament_index/resource_index/parent_prefix_path/image_transport
+[55.934s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/share/image_transport/environment/ament_prefix_path.sh
+[55.936s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/share/image_transport/environment/ament_prefix_path.dsv
+[55.947s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/share/image_transport/environment/path.sh
+[55.948s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/share/image_transport/environment/path.dsv
+[55.950s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/share/image_transport/local_setup.bash
+[55.952s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/share/image_transport/local_setup.sh
+[55.954s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/share/image_transport/local_setup.zsh
+[55.956s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/share/image_transport/local_setup.dsv
+[55.958s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/share/image_transport/package.dsv
+[55.967s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/share/ament_index/resource_index/packages/image_transport
+[55.969s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/share/ament_index/resource_index/image_transport__pluginlib__plugin/image_transport
+[55.971s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/share/image_transport/cmake/ament_cmake_export_include_directories-extras.cmake
+[55.974s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/share/image_transport/cmake/ament_cmake_export_libraries-extras.cmake
+[55.983s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/share/image_transport/cmake/ament_cmake_export_dependencies-extras.cmake
+[55.985s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/share/image_transport/cmake/image_transportConfig.cmake
+[55.987s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/share/image_transport/cmake/image_transportConfig-version.cmake
+[55.989s] -- Installing: /home/ubuntu/nemo_ws/src/install/image_transport/share/image_transport/package.xml
+[56.022s] Invoked command in '/home/ubuntu/nemo_ws/src/build/image_transport' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/nemo_ws/src/build/image_transport

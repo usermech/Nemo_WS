@@ -1,0 +1,31 @@
+[0.246s] Invoking command in '/home/ubuntu/nemo_ws/src/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/nemo_ws/src/build/examples_rclcpp_minimal_timer -- -j4 -l4
+[1.033s] [35m[1mScanning dependencies of target timer_lambda[0m
+[1.298s] [ 25%] [32mBuilding CXX object CMakeFiles/timer_member_function.dir/member_function.cpp.o[0m
+[1.538s] [ 50%] [32mBuilding CXX object CMakeFiles/timer_lambda.dir/lambda.cpp.o[0m
+[24.049s] [ 75%] [32m[1mLinking CXX executable timer_lambda[0m
+[24.115s] [100%] [32m[1mLinking CXX executable timer_member_function[0m
+[25.937s] [100%] Built target timer_lambda
+[26.025s] [100%] Built target timer_member_function
+[26.193s] Invoked command in '/home/ubuntu/nemo_ws/src/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/nemo_ws/src/build/examples_rclcpp_minimal_timer -- -j4 -l4
+[27.137s] Invoking command in '/home/ubuntu/nemo_ws/src/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/nemo_ws/src/build/examples_rclcpp_minimal_timer
+[27.259s] -- Install configuration: ""
+[27.262s] -- Installing: /home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_lambda
+[27.280s] -- Set runtime path of "/home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_lambda" to ""
+[27.283s] -- Installing: /home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_member_function
+[27.288s] -- Set runtime path of "/home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_member_function" to ""
+[27.290s] -- Installing: /home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_timer
+[27.296s] -- Installing: /home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_timer
+[27.310s] -- Installing: /home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.sh
+[27.314s] -- Installing: /home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.dsv
+[27.318s] -- Installing: /home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.sh
+[27.321s] -- Installing: /home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.dsv
+[27.325s] -- Installing: /home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.bash
+[27.328s] -- Installing: /home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.sh
+[27.341s] -- Installing: /home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.zsh
+[27.345s] -- Installing: /home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.dsv
+[27.348s] -- Installing: /home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.dsv
+[27.352s] -- Installing: /home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/packages/examples_rclcpp_minimal_timer
+[27.355s] -- Installing: /home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig.cmake
+[27.369s] -- Installing: /home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig-version.cmake
+[27.373s] -- Installing: /home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.xml
+[27.399s] Invoked command in '/home/ubuntu/nemo_ws/src/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/nemo_ws/src/build/examples_rclcpp_minimal_timer

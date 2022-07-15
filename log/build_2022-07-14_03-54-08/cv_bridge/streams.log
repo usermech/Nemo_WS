@@ -1,0 +1,45 @@
+[0.184s] Invoking command in '/home/ubuntu/nemo_ws/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/nemo_ws/build/cv_bridge -- -j4 -l4
+[0.860s] [ 12%] Built target gtest
+[0.870s] [ 25%] Built target gtest_main
+[1.005s] [ 43%] Built target cv_bridge
+[1.422s] [ 81%] Built target cv_bridge-utest
+[1.449s] [100%] Built target cv_bridge_boost
+[1.550s] Invoked command in '/home/ubuntu/nemo_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/nemo_ws/build/cv_bridge -- -j4 -l4
+[2.002s] Invoking command in '/home/ubuntu/nemo_ws/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/nemo_ws/build/cv_bridge
+[2.061s] -- Install configuration: ""
+[2.066s] -- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/environment/pythonpath.sh
+[2.067s] -- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/environment/pythonpath.dsv
+[2.068s] -- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/lib/python3.8/site-packages/cv_bridge
+[2.069s] -- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/core.py
+[2.070s] -- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/__init__.py
+[2.283s] Listing '/home/ubuntu/nemo_ws/install/cv_bridge/lib/python3.8/site-packages/cv_bridge'...
+[2.288s] Listing '/home/ubuntu/nemo_ws/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/boost'...
+[2.309s] -- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/lib/libcv_bridge.so
+[2.310s] -- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge_export.h
+[2.321s] -- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/boost/cv_bridge_boost.so
+[2.328s] -- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/include/cv_bridge
+[2.329s] -- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/include/cv_bridge/cv_bridge
+[2.331s] -- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.h
+[2.332s] -- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/include/cv_bridge/cv_bridge/rgb_colors.h
+[2.335s] -- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/lib/libcv_bridge.so
+[2.340s] -- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/ament_index/resource_index/package_run_dependencies/cv_bridge
+[2.341s] -- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/ament_index/resource_index/parent_prefix_path/cv_bridge
+[2.341s] -- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.sh
+[2.342s] -- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.dsv
+[2.351s] -- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/environment/path.sh
+[2.352s] -- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/environment/path.dsv
+[2.354s] -- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/local_setup.bash
+[2.356s] -- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/local_setup.sh
+[2.358s] -- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/local_setup.zsh
+[2.360s] -- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/local_setup.dsv
+[2.362s] -- Installing: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/package.dsv
+[2.363s] -- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/ament_index/resource_index/packages/cv_bridge
+[2.366s] -- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport.cmake
+[2.368s] -- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport-noconfig.cmake
+[2.385s] -- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridge-extras.cmake
+[2.386s] -- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.388s] -- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_targets-extras.cmake
+[2.393s] -- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig.cmake
+[2.396s] -- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake
+[2.397s] -- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/package.xml
+[2.398s] Invoked command in '/home/ubuntu/nemo_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/nemo_ws/build/cv_bridge

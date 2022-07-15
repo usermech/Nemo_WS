@@ -1,0 +1,257 @@
+[0.143s] Invoking command in '/home/ubuntu/nemo_ws/build/theora_image_transport': AMENT_PREFIX_PATH=/home/ubuntu/nemo_ws/install/image_transport:/home/ubuntu/nemo_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/nemo_ws/install/image_transport:/home/ubuntu/nemo_ws/install/cv_bridge:/home/ubuntu/nemo_ws/install/examples_rclcpp_multithreaded_executor:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_client:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/nemo_ws/install/image_transport/lib:/home/ubuntu/nemo_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/nemo_ws/install/cv_bridge/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/nemo_ws/src/image_transport_plugins/theora_image_transport -DCMAKE_INSTALL_PREFIX=/home/ubuntu/nemo_ws/install/theora_image_transport
+[0.509s] -- The C compiler identification is GNU 9.4.0
+[0.881s] -- The CXX compiler identification is GNU 9.4.0
+[0.910s] -- Check for working C compiler: /usr/bin/cc
+[1.343s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.349s] -- Detecting C compiler ABI info
+[1.796s] -- Detecting C compiler ABI info - done
+[1.851s] -- Detecting C compile features
+[1.853s] -- Detecting C compile features - done
+[1.864s] -- Check for working CXX compiler: /usr/bin/c++
+[2.357s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.363s] -- Detecting CXX compiler ABI info
+[2.880s] -- Detecting CXX compiler ABI info - done
+[2.927s] -- Detecting CXX compile features
+[2.929s] -- Detecting CXX compile features - done
+[2.964s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.207s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.209s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.835s] -- Found image_transport: 2.3.0 (/home/ubuntu/nemo_ws/install/image_transport/share/image_transport/cmake)
+[5.371s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.465s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.186s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[6.469s] -- Found FastRTPS: /opt/ros/foxy/include  
+[7.160s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.542s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[7.552s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.556s] -- Looking for pthread.h
+[7.986s] -- Looking for pthread.h - found
+[7.990s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.434s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[8.435s] -- Looking for pthread_create in pthreads
+[8.778s] -- Looking for pthread_create in pthreads - not found
+[8.779s] -- Looking for pthread_create in pthread
+[9.228s] -- Looking for pthread_create in pthread - found
+[9.234s] -- Found Threads: TRUE  
+[10.910s] -- Found cv_bridge: 3.0.3 (/home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/cmake)
+[11.071s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[11.182s] -- Found OpenCV: /usr (found version "4.2.0") found components: imgproc 
+[11.200s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[11.206s] -- Checking for module 'ogg'
+[11.329s] --   Found ogg, version 1.3.4
+[11.626s] -- Checking for module 'theora'
+[11.731s] --   Found theora, version 1.1.1
+[12.035s] -- Checking for module 'theoraenc'
+[12.146s] --   Found theoraenc, version 1.1.1
+[12.514s] -- Checking for module 'theoradec'
+[12.762s] --   Found theoradec, version 1.1.1
+[14.048s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[16.760s] -- Found ament_cmake_cppcheck: 0.9.6 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)
+[16.846s] -- Found ament_cmake_cpplint: 0.9.6 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)
+[16.920s] -- Found ament_cmake_uncrustify: 0.9.6 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)
+[17.011s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[22.017s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[23.667s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[24.003s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[24.053s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[24.494s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[24.496s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[24.498s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[24.499s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[24.846s] -- Found PythonExtra: .so  
+[26.149s] -- Found ament_cmake_flake8: 0.9.6 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)
+[26.238s] -- Found ament_cmake_pep257: 0.9.6 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)
+[26.454s] -- Configuring done
+[27.825s] -- Generating done
+[27.875s] -- Build files have been written to: /home/ubuntu/nemo_ws/build/theora_image_transport
+[28.040s] Invoked command in '/home/ubuntu/nemo_ws/build/theora_image_transport' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/nemo_ws/install/image_transport:/home/ubuntu/nemo_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/nemo_ws/install/image_transport:/home/ubuntu/nemo_ws/install/cv_bridge:/home/ubuntu/nemo_ws/install/examples_rclcpp_multithreaded_executor:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_client:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/nemo_ws/install/image_transport/lib:/home/ubuntu/nemo_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/nemo_ws/install/cv_bridge/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/nemo_ws/src/image_transport_plugins/theora_image_transport -DCMAKE_INSTALL_PREFIX=/home/ubuntu/nemo_ws/install/theora_image_transport
+[28.043s] Invoking command in '/home/ubuntu/nemo_ws/build/theora_image_transport': AMENT_PREFIX_PATH=/home/ubuntu/nemo_ws/install/image_transport:/home/ubuntu/nemo_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/nemo_ws/install/image_transport:/home/ubuntu/nemo_ws/install/cv_bridge:/home/ubuntu/nemo_ws/install/examples_rclcpp_multithreaded_executor:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_client:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/nemo_ws/install/image_transport/lib:/home/ubuntu/nemo_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/nemo_ws/install/cv_bridge/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/nemo_ws/build/theora_image_transport -- -j4 -l4
+[28.660s] [35m[1mScanning dependencies of target theora_image_transport__cpp[0m
+[28.839s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[31.795s] [  2%] Built target theora_image_transport__cpp
+[31.926s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[35.846s] [35m[1mScanning dependencies of target theora_image_transport__rosidl_generator_c[0m
+[36.076s] [  8%] [32mBuilding C object CMakeFiles/theora_image_transport__rosidl_generator_c.dir/rosidl_generator_c/theora_image_transport/msg/detail/packet__functions.c.o[0m
+[36.679s] [ 10%] [32m[1mLinking C shared library libtheora_image_transport__rosidl_generator_c.so[0m
+[37.282s] [ 10%] Built target theora_image_transport__rosidl_generator_c
+[37.455s] [ 13%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[40.977s] [35m[1mScanning dependencies of target theora_image_transport__rosidl_typesupport_fastrtps_cpp[0m
+[41.269s] [ 16%] [32mBuilding CXX object CMakeFiles/theora_image_transport__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/theora_image_transport/msg/detail/dds_fastrtps/packet__type_support.cpp.o[0m
+[46.687s] [ 18%] [32m[1mLinking CXX shared library libtheora_image_transport__rosidl_typesupport_fastrtps_cpp.so[0m
+[47.434s] [ 18%] Built target theora_image_transport__rosidl_typesupport_fastrtps_cpp
+[47.509s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[49.306s] [35m[1mScanning dependencies of target theora_image_transport__rosidl_typesupport_introspection_c[0m
+[49.419s] [ 24%] [32mBuilding C object CMakeFiles/theora_image_transport__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/theora_image_transport/msg/detail/packet__type_support.c.o[0m
+[49.652s] [ 27%] [32m[1mLinking C shared library libtheora_image_transport__rosidl_typesupport_introspection_c.so[0m
+[49.871s] [ 27%] Built target theora_image_transport__rosidl_typesupport_introspection_c
+[49.948s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[51.519s] [35m[1mScanning dependencies of target theora_image_transport__rosidl_typesupport_c[0m
+[51.643s] [ 32%] [32mBuilding CXX object CMakeFiles/theora_image_transport__rosidl_typesupport_c.dir/rosidl_typesupport_c/theora_image_transport/msg/packet__type_support.cpp.o[0m
+[51.861s] [ 35%] [32m[1mLinking CXX shared library libtheora_image_transport__rosidl_typesupport_c.so[0m
+[52.105s] [ 35%] Built target theora_image_transport__rosidl_typesupport_c
+[52.185s] [ 37%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[54.413s] [35m[1mScanning dependencies of target theora_image_transport__rosidl_typesupport_fastrtps_c[0m
+[54.601s] [ 40%] [32mBuilding CXX object CMakeFiles/theora_image_transport__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/theora_image_transport/msg/detail/packet__type_support_c.cpp.o[0m
+[57.064s] [ 43%] [32m[1mLinking CXX shared library libtheora_image_transport__rosidl_typesupport_fastrtps_c.so[0m
+[57.583s] [ 43%] Built target theora_image_transport__rosidl_typesupport_fastrtps_c
+[57.651s] [ 45%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[59.370s] [35m[1mScanning dependencies of target theora_image_transport__rosidl_typesupport_cpp[0m
+[59.466s] [ 48%] [32mBuilding CXX object CMakeFiles/theora_image_transport__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/theora_image_transport/msg/packet__type_support.cpp.o[0m
+[61.248s] [ 51%] [32m[1mLinking CXX shared library libtheora_image_transport__rosidl_typesupport_cpp.so[0m
+[61.492s] [ 51%] Built target theora_image_transport__rosidl_typesupport_cpp
+[61.567s] [ 54%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[63.358s] [35m[1mScanning dependencies of target theora_image_transport__rosidl_typesupport_introspection_cpp[0m
+[63.461s] [ 56%] [32mBuilding CXX object CMakeFiles/theora_image_transport__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/theora_image_transport/msg/detail/packet__type_support.cpp.o[0m
+[65.496s] [ 59%] [32m[1mLinking CXX shared library libtheora_image_transport__rosidl_typesupport_introspection_cpp.so[0m
+[65.906s] [ 59%] Built target theora_image_transport__rosidl_typesupport_introspection_cpp
+[65.979s] [35m[1mScanning dependencies of target theora_image_transport[0m
+[66.052s] [ 59%] Built target theora_image_transport
+[66.120s] [35m[1mScanning dependencies of target theora_image_transport__py[0m
+[66.195s] [ 62%] [34m[1mGenerating Python code for ROS interfaces[0m
+[69.810s] [ 62%] Built target theora_image_transport__py
+[69.899s] [35m[1mScanning dependencies of target ogg_saver[0m
+[70.142s] [ 64%] [32mBuilding CXX object CMakeFiles/ogg_saver.dir/src/ogg_saver.cpp.o[0m
+[98.862s] [ 67%] [32m[1mLinking CXX executable ogg_saver[0m
+[100.402s] [ 67%] Built target ogg_saver
+[100.460s] [35m[1mScanning dependencies of target theora_image_transport__python[0m
+[100.557s] [ 70%] [32mBuilding C object CMakeFiles/theora_image_transport__python.dir/rosidl_generator_py/theora_image_transport/msg/_packet_s.c.o[0m
+[101.136s] [ 72%] [32m[1mLinking C shared library rosidl_generator_py/theora_image_transport/libtheora_image_transport__python.so[0m
+[101.456s] [ 72%] Built target theora_image_transport__python
+[101.514s] [35m[1mScanning dependencies of target theora_image_transport_component[0m
+[101.855s] [ 75%] [32mBuilding CXX object CMakeFiles/theora_image_transport_component.dir/src/theora_publisher.cpp.o[0m
+[113.673s] [ 78%] [32mBuilding CXX object CMakeFiles/theora_image_transport_component.dir/src/theora_subscriber.cpp.o[0m
+[131.427s] [ 81%] [32mBuilding CXX object CMakeFiles/theora_image_transport_component.dir/src/manifest.cpp.o[0m
+[138.722s] [ 83%] [32m[1mLinking CXX shared library libtheora_image_transport_component.so[0m
+[141.592s] [ 83%] Built target theora_image_transport_component
+[141.641s] [35m[1mScanning dependencies of target theora_image_transport__rosidl_typesupport_fastrtps_c__pyext[0m
+[141.643s] [35m[1mScanning dependencies of target theora_image_transport__rosidl_typesupport_introspection_c__pyext[0m
+[141.644s] [35m[1mScanning dependencies of target theora_image_transport__rosidl_typesupport_c__pyext[0m
+[141.731s] [ 86%] [32mBuilding C object CMakeFiles/theora_image_transport__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/theora_image_transport/_theora_image_transport_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[141.749s] [ 89%] [32mBuilding C object CMakeFiles/theora_image_transport__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/theora_image_transport/_theora_image_transport_s.ep.rosidl_typesupport_c.c.o[0m
+[141.783s] [ 91%] [32mBuilding C object CMakeFiles/theora_image_transport__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/theora_image_transport/_theora_image_transport_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[142.137s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/theora_image_transport/theora_image_transport_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[142.140s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/theora_image_transport/theora_image_transport_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[142.215s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/theora_image_transport/theora_image_transport_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[142.444s] [100%] Built target theora_image_transport__rosidl_typesupport_c__pyext
+[142.446s] [100%] Built target theora_image_transport__rosidl_typesupport_introspection_c__pyext
+[142.624s] [100%] Built target theora_image_transport__rosidl_typesupport_fastrtps_c__pyext
+[142.669s] Invoked command in '/home/ubuntu/nemo_ws/build/theora_image_transport' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/nemo_ws/install/image_transport:/home/ubuntu/nemo_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/nemo_ws/install/image_transport:/home/ubuntu/nemo_ws/install/cv_bridge:/home/ubuntu/nemo_ws/install/examples_rclcpp_multithreaded_executor:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_client:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/nemo_ws/install/image_transport/lib:/home/ubuntu/nemo_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/nemo_ws/install/cv_bridge/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/nemo_ws/build/theora_image_transport -- -j4 -l4
+[142.989s] Invoking command in '/home/ubuntu/nemo_ws/build/theora_image_transport': AMENT_PREFIX_PATH=/home/ubuntu/nemo_ws/install/image_transport:/home/ubuntu/nemo_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/nemo_ws/install/image_transport:/home/ubuntu/nemo_ws/install/cv_bridge:/home/ubuntu/nemo_ws/install/examples_rclcpp_multithreaded_executor:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_client:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/nemo_ws/install/image_transport/lib:/home/ubuntu/nemo_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/nemo_ws/install/cv_bridge/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/nemo_ws/build/theora_image_transport
+[143.026s] -- Install configuration: ""
+[143.026s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/ament_index/resource_index/rosidl_interfaces/theora_image_transport
+[143.028s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/include/theora_image_transport
+[143.028s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/include/theora_image_transport/msg
+[143.029s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/include/theora_image_transport/msg/rosidl_generator_c__visibility_control.h
+[143.029s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/include/theora_image_transport/msg/detail
+[143.030s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/include/theora_image_transport/msg/detail/packet__functions.c
+[143.031s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/include/theora_image_transport/msg/detail/packet__functions.h
+[143.032s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/include/theora_image_transport/msg/detail/packet__type_support.h
+[143.033s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/include/theora_image_transport/msg/detail/packet__struct.h
+[143.034s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/include/theora_image_transport/msg/packet.h
+[143.035s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/theora_image_transport/environment/library_path.sh
+[143.036s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/theora_image_transport/environment/library_path.dsv
+[143.037s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_generator_c.so
+[143.040s] -- Set runtime path of "/home/ubuntu/nemo_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_generator_c.so" to ""
+[143.040s] -- Up-to-date: /home/ubuntu/nemo_ws/install/theora_image_transport/include/theora_image_transport
+[143.040s] -- Up-to-date: /home/ubuntu/nemo_ws/install/theora_image_transport/include/theora_image_transport/msg
+[143.041s] -- Up-to-date: /home/ubuntu/nemo_ws/install/theora_image_transport/include/theora_image_transport/msg/detail
+[143.041s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/include/theora_image_transport/msg/detail/packet__rosidl_typesupport_fastrtps_c.h
+[143.042s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/include/theora_image_transport/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[143.043s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_fastrtps_c.so
+[143.046s] -- Set runtime path of "/home/ubuntu/nemo_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_fastrtps_c.so" to ""
+[143.046s] -- Up-to-date: /home/ubuntu/nemo_ws/install/theora_image_transport/include/theora_image_transport
+[143.046s] -- Up-to-date: /home/ubuntu/nemo_ws/install/theora_image_transport/include/theora_image_transport/msg
+[143.047s] -- Up-to-date: /home/ubuntu/nemo_ws/install/theora_image_transport/include/theora_image_transport/msg/detail
+[143.047s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/include/theora_image_transport/msg/detail/dds_fastrtps
+[143.047s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/include/theora_image_transport/msg/detail/packet__rosidl_typesupport_fastrtps_cpp.hpp
+[143.049s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/include/theora_image_transport/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[143.050s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_fastrtps_cpp.so
+[143.052s] -- Set runtime path of "/home/ubuntu/nemo_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_fastrtps_cpp.so" to ""
+[143.053s] -- Up-to-date: /home/ubuntu/nemo_ws/install/theora_image_transport/include/theora_image_transport
+[143.053s] -- Up-to-date: /home/ubuntu/nemo_ws/install/theora_image_transport/include/theora_image_transport/msg
+[143.054s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/include/theora_image_transport/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[143.055s] -- Up-to-date: /home/ubuntu/nemo_ws/install/theora_image_transport/include/theora_image_transport/msg/detail
+[143.055s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/include/theora_image_transport/msg/detail/packet__type_support.c
+[143.056s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/include/theora_image_transport/msg/detail/packet__rosidl_typesupport_introspection_c.h
+[143.057s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_introspection_c.so
+[143.059s] -- Set runtime path of "/home/ubuntu/nemo_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_introspection_c.so" to ""
+[143.060s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_c.so
+[143.062s] -- Set runtime path of "/home/ubuntu/nemo_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_c.so" to ""
+[143.062s] -- Up-to-date: /home/ubuntu/nemo_ws/install/theora_image_transport/include/theora_image_transport
+[143.063s] -- Up-to-date: /home/ubuntu/nemo_ws/install/theora_image_transport/include/theora_image_transport/msg
+[143.063s] -- Up-to-date: /home/ubuntu/nemo_ws/install/theora_image_transport/include/theora_image_transport/msg/detail
+[143.063s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/include/theora_image_transport/msg/detail/packet__builder.hpp
+[143.064s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/include/theora_image_transport/msg/detail/packet__struct.hpp
+[143.065s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/include/theora_image_transport/msg/detail/packet__traits.hpp
+[143.066s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/include/theora_image_transport/msg/packet.hpp
+[143.067s] -- Up-to-date: /home/ubuntu/nemo_ws/install/theora_image_transport/include/theora_image_transport
+[143.067s] -- Up-to-date: /home/ubuntu/nemo_ws/install/theora_image_transport/include/theora_image_transport/msg
+[143.068s] -- Up-to-date: /home/ubuntu/nemo_ws/install/theora_image_transport/include/theora_image_transport/msg/detail
+[143.068s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/include/theora_image_transport/msg/detail/packet__type_support.cpp
+[143.069s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/include/theora_image_transport/msg/detail/packet__rosidl_typesupport_introspection_cpp.hpp
+[143.070s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_introspection_cpp.so
+[143.073s] -- Set runtime path of "/home/ubuntu/nemo_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_introspection_cpp.so" to ""
+[143.073s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_cpp.so
+[143.075s] -- Set runtime path of "/home/ubuntu/nemo_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_cpp.so" to ""
+[143.076s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/theora_image_transport/environment/pythonpath.sh
+[143.077s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/theora_image_transport/environment/pythonpath.dsv
+[143.078s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/lib/python3.8/site-packages/theora_image_transport/__init__.py
+[143.222s] Compiling '/home/ubuntu/nemo_ws/install/theora_image_transport/lib/python3.8/site-packages/theora_image_transport/__init__.py'...
+[143.244s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/lib/python3.8/site-packages/theora_image_transport/msg
+[143.244s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/lib/python3.8/site-packages/theora_image_transport/msg/_packet.py
+[143.245s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/lib/python3.8/site-packages/theora_image_transport/msg/__init__.py
+[143.246s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/lib/python3.8/site-packages/theora_image_transport/msg/_packet_s.c
+[143.248s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/lib/python3.8/site-packages/theora_image_transport/theora_image_transport_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[143.251s] -- Set runtime path of "/home/ubuntu/nemo_ws/install/theora_image_transport/lib/python3.8/site-packages/theora_image_transport/theora_image_transport_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[143.252s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/lib/python3.8/site-packages/theora_image_transport/theora_image_transport_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[143.255s] -- Set runtime path of "/home/ubuntu/nemo_ws/install/theora_image_transport/lib/python3.8/site-packages/theora_image_transport/theora_image_transport_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[143.256s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/lib/python3.8/site-packages/theora_image_transport/theora_image_transport_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[143.258s] -- Set runtime path of "/home/ubuntu/nemo_ws/install/theora_image_transport/lib/python3.8/site-packages/theora_image_transport/theora_image_transport_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[143.259s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/lib/libtheora_image_transport__python.so
+[143.261s] -- Set runtime path of "/home/ubuntu/nemo_ws/install/theora_image_transport/lib/libtheora_image_transport__python.so" to ""
+[143.262s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/theora_image_transport/msg/Packet.idl
+[143.263s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/theora_image_transport/msg/Packet.msg
+[143.264s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/lib/theora_image_transport/libtheora_image_transport_component.so
+[143.287s] -- Set runtime path of "/home/ubuntu/nemo_ws/install/theora_image_transport/lib/theora_image_transport/libtheora_image_transport_component.so" to ""
+[143.287s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/bin/ogg_saver
+[143.299s] -- Set runtime path of "/home/ubuntu/nemo_ws/install/theora_image_transport/bin/ogg_saver" to ""
+[143.300s] -- Up-to-date: /home/ubuntu/nemo_ws/install/theora_image_transport/include
+[143.300s] -- Up-to-date: /home/ubuntu/nemo_ws/install/theora_image_transport/include/theora_image_transport
+[143.300s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/include/theora_image_transport/theora_publisher.h
+[143.301s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/include/theora_image_transport/theora_subscriber.h
+[143.302s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/theora_image_transport/theora_plugins.xml
+[143.303s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/ament_index/resource_index/package_run_dependencies/theora_image_transport
+[143.305s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/ament_index/resource_index/parent_prefix_path/theora_image_transport
+[143.306s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/theora_image_transport/environment/ament_prefix_path.sh
+[143.307s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/theora_image_transport/environment/ament_prefix_path.dsv
+[143.308s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/theora_image_transport/environment/path.sh
+[143.309s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/theora_image_transport/environment/path.dsv
+[143.310s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/theora_image_transport/local_setup.bash
+[143.311s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/theora_image_transport/local_setup.sh
+[143.312s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/theora_image_transport/local_setup.zsh
+[143.313s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/theora_image_transport/local_setup.dsv
+[143.314s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/theora_image_transport/package.dsv
+[143.315s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/ament_index/resource_index/packages/theora_image_transport
+[143.317s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/ament_index/resource_index/image_transport__pluginlib__plugin/theora_image_transport
+[143.318s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transport__rosidl_generator_cExport.cmake
+[143.320s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transport__rosidl_generator_cExport-noconfig.cmake
+[143.321s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transport__rosidl_typesupport_introspection_cExport.cmake
+[143.322s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transport__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[143.324s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transport__rosidl_typesupport_cExport.cmake
+[143.325s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transport__rosidl_typesupport_cExport-noconfig.cmake
+[143.326s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transport__rosidl_generator_cppExport.cmake
+[143.328s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transport__rosidl_typesupport_introspection_cppExport.cmake
+[143.329s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transport__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[143.331s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transport__rosidl_typesupport_cppExport.cmake
+[143.332s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transport__rosidl_typesupport_cppExport-noconfig.cmake
+[143.333s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/theora_image_transport/cmake/rosidl_cmake-extras.cmake
+[143.334s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/theora_image_transport/cmake/ament_cmake_export_dependencies-extras.cmake
+[143.336s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/theora_image_transport/cmake/ament_cmake_export_libraries-extras.cmake
+[143.337s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/theora_image_transport/cmake/ament_cmake_export_targets-extras.cmake
+[143.338s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/theora_image_transport/cmake/ament_cmake_export_include_directories-extras.cmake
+[143.339s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/theora_image_transport/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[143.340s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/theora_image_transport/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[143.341s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transportConfig.cmake
+[143.342s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transportConfig-version.cmake
+[143.343s] -- Installing: /home/ubuntu/nemo_ws/install/theora_image_transport/share/theora_image_transport/package.xml
+[143.358s] Invoked command in '/home/ubuntu/nemo_ws/build/theora_image_transport' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/nemo_ws/install/image_transport:/home/ubuntu/nemo_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/nemo_ws/install/image_transport:/home/ubuntu/nemo_ws/install/cv_bridge:/home/ubuntu/nemo_ws/install/examples_rclcpp_multithreaded_executor:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_client:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/nemo_ws/install/image_transport/lib:/home/ubuntu/nemo_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/nemo_ws/install/cv_bridge/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/nemo_ws/build/theora_image_transport

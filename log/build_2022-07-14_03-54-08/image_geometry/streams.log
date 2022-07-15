@@ -1,0 +1,94 @@
+[0.174s] Invoking command in '/home/ubuntu/nemo_ws/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/nemo_ws/src/vision_opencv/image_geometry -DCMAKE_INSTALL_PREFIX=/home/ubuntu/nemo_ws/install/image_geometry
+[1.431s] -- The C compiler identification is GNU 9.4.0
+[2.328s] -- The CXX compiler identification is GNU 9.4.0
+[2.371s] -- Check for working C compiler: /usr/bin/cc
+[2.733s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.741s] -- Detecting C compiler ABI info
+[3.129s] -- Detecting C compiler ABI info - done
+[3.170s] -- Detecting C compile features
+[3.173s] -- Detecting C compile features - done
+[3.187s] -- Check for working CXX compiler: /usr/bin/c++
+[3.722s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.725s] -- Detecting CXX compiler ABI info
+[4.149s] -- Detecting CXX compiler ABI info - done
+[4.188s] -- Detecting CXX compile features
+[4.189s] -- Detecting CXX compile features - done
+[4.234s] -- Found ament_cmake_python: 0.9.9 (/opt/ros/foxy/share/ament_cmake_python/cmake)
+[4.272s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[4.637s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.641s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.671s] -- Found OpenCV: /usr (found version "4.2.0") found components: calib3d core highgui imgproc 
+[6.710s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[7.156s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.284s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[8.374s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[8.687s] -- Found FastRTPS: /opt/ros/foxy/include  
+[9.534s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.514s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[10.533s] -- Looking for pthread.h
+[10.951s] -- Looking for pthread.h - found
+[10.952s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.307s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[11.308s] -- Check if compiler accepts -pthread
+[11.665s] -- Check if compiler accepts -pthread - yes
+[11.669s] -- Found Threads: TRUE  
+[12.044s] -- Configuring done
+[12.114s] -- Generating done
+[12.123s] -- Build files have been written to: /home/ubuntu/nemo_ws/build/image_geometry
+[13.207s] Invoked command in '/home/ubuntu/nemo_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/nemo_ws/src/vision_opencv/image_geometry -DCMAKE_INSTALL_PREFIX=/home/ubuntu/nemo_ws/install/image_geometry
+[13.217s] Invoking command in '/home/ubuntu/nemo_ws/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/nemo_ws/build/image_geometry -- -j4 -l4
+[13.480s] [35m[1mScanning dependencies of target image_geometry[0m
+[13.514s] [35m[1mScanning dependencies of target gtest_main[0m
+[13.522s] [35m[1mScanning dependencies of target gtest[0m
+[13.794s] [ 11%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[13.855s] [ 22%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[14.099s] [ 33%] [32mBuilding CXX object CMakeFiles/image_geometry.dir/src/pinhole_camera_model.cpp.o[0m
+[14.127s] [ 44%] [32mBuilding CXX object CMakeFiles/image_geometry.dir/src/stereo_camera_model.cpp.o[0m
+[21.488s] [ 55%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[22.033s] [ 55%] Built target gtest_main
+[26.540s] [ 66%] [32m[1mLinking CXX shared library libimage_geometry.so[0m
+[27.313s] [ 66%] Built target image_geometry
+[38.094s] [ 77%] [32m[1mLinking CXX static library libgtest.a[0m
+[38.399s] [ 77%] Built target gtest
+[38.456s] [35m[1mScanning dependencies of target image_geometry-utest[0m
+[38.615s] [ 88%] [32mBuilding CXX object CMakeFiles/image_geometry-utest.dir/test/utest.cpp.o[0m
+[48.110s] [100%] [32m[1mLinking CXX executable image_geometry-utest[0m
+[48.854s] [100%] Built target image_geometry-utest
+[48.902s] Invoked command in '/home/ubuntu/nemo_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/nemo_ws/build/image_geometry -- -j4 -l4
+[49.090s] Invoking command in '/home/ubuntu/nemo_ws/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/nemo_ws/build/image_geometry
+[49.131s] -- Install configuration: ""
+[49.131s] -- Installing: /home/ubuntu/nemo_ws/install/image_geometry/share/image_geometry/environment/pythonpath.sh
+[49.132s] -- Installing: /home/ubuntu/nemo_ws/install/image_geometry/share/image_geometry/environment/pythonpath.dsv
+[49.133s] -- Installing: /home/ubuntu/nemo_ws/install/image_geometry/lib/python3.8/site-packages/image_geometry
+[49.134s] -- Installing: /home/ubuntu/nemo_ws/install/image_geometry/lib/python3.8/site-packages/image_geometry/__init__.py
+[49.136s] -- Installing: /home/ubuntu/nemo_ws/install/image_geometry/lib/python3.8/site-packages/image_geometry/cameramodels.py
+[49.289s] Listing '/home/ubuntu/nemo_ws/install/image_geometry/lib/python3.8/site-packages/image_geometry'...
+[49.290s] Compiling '/home/ubuntu/nemo_ws/install/image_geometry/lib/python3.8/site-packages/image_geometry/__init__.py'...
+[49.291s] Compiling '/home/ubuntu/nemo_ws/install/image_geometry/lib/python3.8/site-packages/image_geometry/cameramodels.py'...
+[49.310s] -- Installing: /home/ubuntu/nemo_ws/install/image_geometry/include/image_geometry
+[49.311s] -- Installing: /home/ubuntu/nemo_ws/install/image_geometry/include/image_geometry/image_geometry
+[49.311s] -- Installing: /home/ubuntu/nemo_ws/install/image_geometry/include/image_geometry/image_geometry/pinhole_camera_model.h
+[49.312s] -- Installing: /home/ubuntu/nemo_ws/install/image_geometry/include/image_geometry/image_geometry/visibility_control.hpp
+[49.313s] -- Installing: /home/ubuntu/nemo_ws/install/image_geometry/include/image_geometry/image_geometry/stereo_camera_model.h
+[49.314s] -- Installing: /home/ubuntu/nemo_ws/install/image_geometry/lib/libimage_geometry.so
+[49.317s] -- Set runtime path of "/home/ubuntu/nemo_ws/install/image_geometry/lib/libimage_geometry.so" to ""
+[49.318s] -- Installing: /home/ubuntu/nemo_ws/install/image_geometry/share/ament_index/resource_index/package_run_dependencies/image_geometry
+[49.319s] -- Installing: /home/ubuntu/nemo_ws/install/image_geometry/share/ament_index/resource_index/parent_prefix_path/image_geometry
+[49.320s] -- Installing: /home/ubuntu/nemo_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.sh
+[49.321s] -- Installing: /home/ubuntu/nemo_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.dsv
+[49.322s] -- Installing: /home/ubuntu/nemo_ws/install/image_geometry/share/image_geometry/environment/path.sh
+[49.323s] -- Installing: /home/ubuntu/nemo_ws/install/image_geometry/share/image_geometry/environment/path.dsv
+[49.324s] -- Installing: /home/ubuntu/nemo_ws/install/image_geometry/share/image_geometry/local_setup.bash
+[49.325s] -- Installing: /home/ubuntu/nemo_ws/install/image_geometry/share/image_geometry/local_setup.sh
+[49.326s] -- Installing: /home/ubuntu/nemo_ws/install/image_geometry/share/image_geometry/local_setup.zsh
+[49.327s] -- Installing: /home/ubuntu/nemo_ws/install/image_geometry/share/image_geometry/local_setup.dsv
+[49.328s] -- Installing: /home/ubuntu/nemo_ws/install/image_geometry/share/image_geometry/package.dsv
+[49.329s] -- Installing: /home/ubuntu/nemo_ws/install/image_geometry/share/ament_index/resource_index/packages/image_geometry
+[49.330s] -- Installing: /home/ubuntu/nemo_ws/install/image_geometry/share/image_geometry/cmake/export_image_geometryExport.cmake
+[49.331s] -- Installing: /home/ubuntu/nemo_ws/install/image_geometry/share/image_geometry/cmake/export_image_geometryExport-noconfig.cmake
+[49.332s] -- Installing: /home/ubuntu/nemo_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_targets-extras.cmake
+[49.333s] -- Installing: /home/ubuntu/nemo_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_dependencies-extras.cmake
+[49.334s] -- Installing: /home/ubuntu/nemo_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig.cmake
+[49.335s] -- Installing: /home/ubuntu/nemo_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig-version.cmake
+[49.336s] -- Installing: /home/ubuntu/nemo_ws/install/image_geometry/share/image_geometry/package.xml
+[49.351s] Invoked command in '/home/ubuntu/nemo_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/nemo_ws/build/image_geometry

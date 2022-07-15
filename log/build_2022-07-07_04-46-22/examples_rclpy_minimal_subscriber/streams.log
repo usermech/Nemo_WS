@@ -1,0 +1,45 @@
+[4.276s] Invoking command in '/home/ubuntu/nemo_ws/src/examples/rclpy/topics/minimal_subscriber': PYTHONPATH=/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_subscriber build --build-base /home/ubuntu/nemo_ws/build/examples_rclpy_minimal_subscriber/build install --prefix /home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber --record /home/ubuntu/nemo_ws/build/examples_rclpy_minimal_subscriber/install.log --single-version-externally-managed
+[5.814s] running egg_info
+[5.817s] creating ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info
+[5.818s] writing ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/PKG-INFO
+[5.819s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/dependency_links.txt
+[5.821s] writing entry points to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/entry_points.txt
+[5.822s] writing requirements to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/requires.txt
+[5.823s] writing top-level names to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/top_level.txt
+[5.832s] writing manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[5.998s] reading manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[6.003s] writing manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[6.004s] running build
+[6.005s] running build_py
+[6.006s] creating /home/ubuntu/nemo_ws/build/examples_rclpy_minimal_subscriber/build
+[6.007s] creating /home/ubuntu/nemo_ws/build/examples_rclpy_minimal_subscriber/build/lib
+[6.008s] creating /home/ubuntu/nemo_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[6.009s] copying examples_rclpy_minimal_subscriber/subscriber_old_school.py -> /home/ubuntu/nemo_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[6.010s] copying examples_rclpy_minimal_subscriber/__init__.py -> /home/ubuntu/nemo_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[6.011s] copying examples_rclpy_minimal_subscriber/subscriber_lambda.py -> /home/ubuntu/nemo_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[6.012s] copying examples_rclpy_minimal_subscriber/subscriber_member_function.py -> /home/ubuntu/nemo_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[6.012s] running install
+[6.015s] running install_lib
+[6.020s] creating /home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples_rclpy_minimal_subscriber
+[6.021s] copying /home/ubuntu/nemo_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/subscriber_old_school.py -> /home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples_rclpy_minimal_subscriber
+[6.022s] copying /home/ubuntu/nemo_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/__init__.py -> /home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples_rclpy_minimal_subscriber
+[6.023s] copying /home/ubuntu/nemo_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/subscriber_lambda.py -> /home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples_rclpy_minimal_subscriber
+[6.024s] copying /home/ubuntu/nemo_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/subscriber_member_function.py -> /home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples_rclpy_minimal_subscriber
+[6.027s] byte-compiling /home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples_rclpy_minimal_subscriber/subscriber_old_school.py to subscriber_old_school.cpython-38.pyc
+[6.033s] byte-compiling /home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples_rclpy_minimal_subscriber/__init__.py to __init__.cpython-38.pyc
+[6.035s] byte-compiling /home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples_rclpy_minimal_subscriber/subscriber_lambda.py to subscriber_lambda.cpython-38.pyc
+[6.037s] byte-compiling /home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples_rclpy_minimal_subscriber/subscriber_member_function.py to subscriber_member_function.cpython-38.pyc
+[6.039s] running install_data
+[6.043s] creating /home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber/share/ament_index
+[6.043s] creating /home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index
+[6.045s] creating /home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[6.045s] copying resource/examples_rclpy_minimal_subscriber -> /home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[6.046s] copying package.xml -> /home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber/share/examples_rclpy_minimal_subscriber
+[6.047s] running install_egg_info
+[6.053s] Copying ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info to /home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples_rclpy_minimal_subscriber-0.9.4-py3.8.egg-info
+[6.062s] running install_scripts
+[6.149s] Installing subscriber_lambda script to /home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[6.150s] Installing subscriber_member_function script to /home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[6.152s] Installing subscriber_old_school script to /home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[6.154s] writing list of installed files to '/home/ubuntu/nemo_ws/build/examples_rclpy_minimal_subscriber/install.log'
+[6.286s] Invoked command in '/home/ubuntu/nemo_ws/src/examples/rclpy/topics/minimal_subscriber' returned '0': PYTHONPATH=/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_subscriber build --build-base /home/ubuntu/nemo_ws/build/examples_rclpy_minimal_subscriber/build install --prefix /home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber --record /home/ubuntu/nemo_ws/build/examples_rclpy_minimal_subscriber/install.log --single-version-externally-managed

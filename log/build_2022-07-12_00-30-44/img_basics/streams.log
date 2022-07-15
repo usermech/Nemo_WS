@@ -1,0 +1,24 @@
+[2.444s] Invoking command in '/home/ubuntu/nemo_ws/src/img_basics': PYTHONPATH=/home/ubuntu/nemo_ws/install/img_basics/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/img_basics build --build-base /home/ubuntu/nemo_ws/build/img_basics/build install --prefix /home/ubuntu/nemo_ws/install/img_basics --record /home/ubuntu/nemo_ws/build/img_basics/install.log --single-version-externally-managed
+[3.314s] running egg_info
+[3.316s] writing ../../build/img_basics/img_basics.egg-info/PKG-INFO
+[3.317s] writing dependency_links to ../../build/img_basics/img_basics.egg-info/dependency_links.txt
+[3.318s] writing entry points to ../../build/img_basics/img_basics.egg-info/entry_points.txt
+[3.319s] writing requirements to ../../build/img_basics/img_basics.egg-info/requires.txt
+[3.319s] writing top-level names to ../../build/img_basics/img_basics.egg-info/top_level.txt
+[3.444s] reading manifest file '../../build/img_basics/img_basics.egg-info/SOURCES.txt'
+[3.447s] writing manifest file '../../build/img_basics/img_basics.egg-info/SOURCES.txt'
+[3.448s] running build
+[3.448s] running build_py
+[3.449s] copying img_basics/cam_sub.py -> /home/ubuntu/nemo_ws/build/img_basics/build/lib/img_basics
+[3.450s] running install
+[3.453s] running install_lib
+[3.457s] copying /home/ubuntu/nemo_ws/build/img_basics/build/lib/img_basics/cam_sub.py -> /home/ubuntu/nemo_ws/install/img_basics/lib/python3.8/site-packages/img_basics
+[3.459s] byte-compiling /home/ubuntu/nemo_ws/install/img_basics/lib/python3.8/site-packages/img_basics/cam_sub.py to cam_sub.cpython-38.pyc
+[3.464s] running install_data
+[3.466s] running install_egg_info
+[3.472s] removing '/home/ubuntu/nemo_ws/install/img_basics/lib/python3.8/site-packages/img_basics-0.0.0-py3.8.egg-info' (and everything under it)
+[3.473s] Copying ../../build/img_basics/img_basics.egg-info to /home/ubuntu/nemo_ws/install/img_basics/lib/python3.8/site-packages/img_basics-0.0.0-py3.8.egg-info
+[3.477s] running install_scripts
+[3.538s] Installing img_subscriber script to /home/ubuntu/nemo_ws/install/img_basics/lib/img_basics
+[3.539s] writing list of installed files to '/home/ubuntu/nemo_ws/build/img_basics/install.log'
+[3.632s] Invoked command in '/home/ubuntu/nemo_ws/src/img_basics' returned '0': PYTHONPATH=/home/ubuntu/nemo_ws/install/img_basics/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/img_basics build --build-base /home/ubuntu/nemo_ws/build/img_basics/build install --prefix /home/ubuntu/nemo_ws/install/img_basics --record /home/ubuntu/nemo_ws/build/img_basics/install.log --single-version-externally-managed

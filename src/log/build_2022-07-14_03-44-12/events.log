@@ -1,0 +1,141 @@
+[0.000000] (-) TimerEvent: {}
+[0.000881] (-) JobUnselected: {'identifier': 'camera_calibration_parsers'}
+[0.001157] (-) JobUnselected: {'identifier': 'camera_info_manager'}
+[0.002122] (-) JobUnselected: {'identifier': 'compressed_depth_image_transport'}
+[0.002696] (-) JobUnselected: {'identifier': 'compressed_image_transport'}
+[0.003683] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.003863] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.003955] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.004076] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.004155] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.004229] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.004302] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.004373] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.004442] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.004512] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.004582] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.004693] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.006225] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.007614] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.007776] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.007903] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.008031] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.008147] (-) JobUnselected: {'identifier': 'image_common'}
+[0.008263] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.008375] (-) JobUnselected: {'identifier': 'image_transport'}
+[0.008487] (-) JobUnselected: {'identifier': 'image_transport_plugins'}
+[0.008600] (-) JobUnselected: {'identifier': 'img_basics'}
+[0.008713] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.008855] (-) JobUnselected: {'identifier': 'theora_image_transport'}
+[0.008968] (-) JobUnselected: {'identifier': 'v4l2_camera'}
+[0.009082] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.009206] (path_finder) JobQueued: {'identifier': 'path_finder', 'dependencies': OrderedDict()}
+[0.009334] (path_finder) JobStarted: {'identifier': 'path_finder'}
+[0.099157] (-) TimerEvent: {}
+[0.200046] (-) TimerEvent: {}
+[0.300660] (-) TimerEvent: {}
+[0.401249] (-) TimerEvent: {}
+[0.501845] (-) TimerEvent: {}
+[0.602420] (-) TimerEvent: {}
+[0.702972] (-) TimerEvent: {}
+[0.803595] (-) TimerEvent: {}
+[0.904379] (-) TimerEvent: {}
+[1.005414] (-) TimerEvent: {}
+[1.106041] (-) TimerEvent: {}
+[1.206750] (-) TimerEvent: {}
+[1.307316] (-) TimerEvent: {}
+[1.407921] (-) TimerEvent: {}
+[1.508527] (-) TimerEvent: {}
+[1.609257] (-) TimerEvent: {}
+[1.709847] (-) TimerEvent: {}
+[1.810422] (-) TimerEvent: {}
+[1.911023] (-) TimerEvent: {}
+[2.011614] (-) TimerEvent: {}
+[2.112236] (-) TimerEvent: {}
+[2.212830] (-) TimerEvent: {}
+[2.313465] (-) TimerEvent: {}
+[2.414009] (-) TimerEvent: {}
+[2.514600] (-) TimerEvent: {}
+[2.615328] (-) TimerEvent: {}
+[2.697879] (path_finder) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/path_finder', 'build', '--build-base', '/home/ubuntu/nemo_ws/src/build/path_finder/build', 'install', '--prefix', '/home/ubuntu/nemo_ws/src/install/path_finder', '--record', '/home/ubuntu/nemo_ws/src/build/path_finder/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/nemo_ws/src/path_finder', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.0.101 59908 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/nemo_ws/install/v4l2_camera/lib:/home/ubuntu/nemo_ws/install/theora_image_transport/lib:/home/ubuntu/nemo_ws/install/compressed_image_transport/lib:/home/ubuntu/nemo_ws/install/compressed_depth_image_transport/lib:/home/ubuntu/nemo_ws/install/image_transport/lib:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition/lib:/home/ubuntu/nemo_ws/install/cv_bridge/lib:/home/ubuntu/nemo_ws/install/camera_info_manager/lib:/home/ubuntu/nemo_ws/install/camera_calibration_parsers/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/nemo_ws/src/path_finder', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_colcon_cd_root': '/opt/ros/foxy/', 'COLCON_PREFIX_PATH': '/home/ubuntu/nemo_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.local/bin:/home/ubuntu/nemo_ws/install/theora_image_transport/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ubuntu/nemo_ws/install/v4l2_camera:/home/ubuntu/nemo_ws/install/image_transport_plugins:/home/ubuntu/nemo_ws/install/theora_image_transport:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/compressed_image_transport:/home/ubuntu/nemo_ws/install/compressed_depth_image_transport:/home/ubuntu/nemo_ws/install/image_transport:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/home/ubuntu/nemo_ws/install/examples_rclcpp_multithreaded_executor:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_client:/home/ubuntu/nemo_ws/install/cv_bridge:/home/ubuntu/nemo_ws/install/camera_info_manager:/home/ubuntu/nemo_ws/install/camera_calibration_parsers:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/nemo_ws/src/build/path_finder', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.101 59908 192.168.0.234 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/theora_image_transport/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/img_basics/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/cv_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/nemo_ws/install/v4l2_camera:/home/ubuntu/nemo_ws/install/image_transport_plugins:/home/ubuntu/nemo_ws/install/theora_image_transport:/home/ubuntu/nemo_ws/install/compressed_image_transport:/home/ubuntu/nemo_ws/install/compressed_depth_image_transport:/home/ubuntu/nemo_ws/install/image_transport:/home/ubuntu/nemo_ws/install/examples_rclcpp_multithreaded_executor:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_client:/home/ubuntu/nemo_ws/install/cv_bridge:/home/ubuntu/nemo_ws/install/camera_info_manager:/home/ubuntu/nemo_ws/install/camera_calibration_parsers'}, 'shell': False}
+[2.715641] (-) TimerEvent: {}
+[2.816573] (-) TimerEvent: {}
+[2.917219] (-) TimerEvent: {}
+[3.017835] (-) TimerEvent: {}
+[3.118404] (-) TimerEvent: {}
+[3.218976] (-) TimerEvent: {}
+[3.319555] (-) TimerEvent: {}
+[3.420122] (-) TimerEvent: {}
+[3.520771] (-) TimerEvent: {}
+[3.558016] (path_finder) StdoutLine: {'line': b'running egg_info\n'}
+[3.559920] (path_finder) StdoutLine: {'line': b'creating ../build/path_finder/path_finder.egg-info\n'}
+[3.560472] (path_finder) StdoutLine: {'line': b'writing ../build/path_finder/path_finder.egg-info/PKG-INFO\n'}
+[3.561518] (path_finder) StdoutLine: {'line': b'writing dependency_links to ../build/path_finder/path_finder.egg-info/dependency_links.txt\n'}
+[3.562069] (path_finder) StdoutLine: {'line': b'writing entry points to ../build/path_finder/path_finder.egg-info/entry_points.txt\n'}
+[3.562540] (path_finder) StdoutLine: {'line': b'writing requirements to ../build/path_finder/path_finder.egg-info/requires.txt\n'}
+[3.562983] (path_finder) StdoutLine: {'line': b'writing top-level names to ../build/path_finder/path_finder.egg-info/top_level.txt\n'}
+[3.575776] (path_finder) StdoutLine: {'line': b"writing manifest file '../build/path_finder/path_finder.egg-info/SOURCES.txt'\n"}
+[3.620879] (-) TimerEvent: {}
+[3.697481] (path_finder) StdoutLine: {'line': b"reading manifest file '../build/path_finder/path_finder.egg-info/SOURCES.txt'\n"}
+[3.700403] (path_finder) StdoutLine: {'line': b"writing manifest file '../build/path_finder/path_finder.egg-info/SOURCES.txt'\n"}
+[3.701032] (path_finder) StdoutLine: {'line': b'running build\n'}
+[3.701450] (path_finder) StdoutLine: {'line': b'running build_py\n'}
+[3.701903] (path_finder) StdoutLine: {'line': b'creating /home/ubuntu/nemo_ws/src/build/path_finder/build\n'}
+[3.702628] (path_finder) StdoutLine: {'line': b'creating /home/ubuntu/nemo_ws/src/build/path_finder/build/lib\n'}
+[3.702999] (path_finder) StdoutLine: {'line': b'creating /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder\n'}
+[3.703411] (path_finder) StdoutLine: {'line': b'copying path_finder/__init__.py -> /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder\n'}
+[3.703737] (path_finder) StdoutLine: {'line': b'copying path_finder/image_subscriber.py -> /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder\n'}
+[3.704159] (path_finder) StdoutLine: {'line': b'copying path_finder/path_subscriber.py -> /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder\n'}
+[3.704548] (path_finder) StdoutLine: {'line': b'copying path_finder/image_publisher.py -> /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder\n'}
+[3.705033] (path_finder) StdoutLine: {'line': b'copying path_finder/path_publisher.py -> /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder\n'}
+[3.710415] (path_finder) StdoutLine: {'line': b'creating /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder/submodules\n'}
+[3.710953] (path_finder) StdoutLine: {'line': b'copying path_finder/submodules/rrt.py -> /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder/submodules\n'}
+[3.711401] (path_finder) StdoutLine: {'line': b'copying path_finder/submodules/__init__.py -> /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder/submodules\n'}
+[3.711925] (path_finder) StdoutLine: {'line': b'copying path_finder/submodules/process.py -> /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder/submodules\n'}
+[3.712526] (path_finder) StdoutLine: {'line': b'copying path_finder/submodules/calib.py -> /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder/submodules\n'}
+[3.713155] (path_finder) StdoutLine: {'line': b'copying path_finder/submodules/mapping.py -> /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder/submodules\n'}
+[3.714602] (path_finder) StdoutLine: {'line': b'running install\n'}
+[3.717796] (path_finder) StdoutLine: {'line': b'running install_lib\n'}
+[3.721006] (-) TimerEvent: {}
+[3.721569] (path_finder) StdoutLine: {'line': b'creating /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder\n'}
+[3.722162] (path_finder) StdoutLine: {'line': b'copying /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder/__init__.py -> /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder\n'}
+[3.722606] (path_finder) StdoutLine: {'line': b'creating /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder/submodules\n'}
+[3.723042] (path_finder) StdoutLine: {'line': b'copying /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder/submodules/rrt.py -> /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder/submodules\n'}
+[3.723585] (path_finder) StdoutLine: {'line': b'copying /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder/submodules/__init__.py -> /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder/submodules\n'}
+[3.724304] (path_finder) StdoutLine: {'line': b'copying /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder/submodules/process.py -> /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder/submodules\n'}
+[3.724862] (path_finder) StdoutLine: {'line': b'copying /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder/submodules/calib.py -> /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder/submodules\n'}
+[3.725486] (path_finder) StdoutLine: {'line': b'copying /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder/submodules/mapping.py -> /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder/submodules\n'}
+[3.726138] (path_finder) StdoutLine: {'line': b'copying /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder/image_subscriber.py -> /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder\n'}
+[3.726717] (path_finder) StdoutLine: {'line': b'copying /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder/path_subscriber.py -> /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder\n'}
+[3.727295] (path_finder) StdoutLine: {'line': b'copying /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder/image_publisher.py -> /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder\n'}
+[3.727864] (path_finder) StdoutLine: {'line': b'copying /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder/path_publisher.py -> /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder\n'}
+[3.730500] (path_finder) StdoutLine: {'line': b'byte-compiling /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder/__init__.py to __init__.cpython-38.pyc\n'}
+[3.734933] (path_finder) StdoutLine: {'line': b'byte-compiling /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder/submodules/rrt.py to rrt.cpython-38.pyc\n'}
+[3.740568] (path_finder) StdoutLine: {'line': b'byte-compiling /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder/submodules/__init__.py to __init__.cpython-38.pyc\n'}
+[3.741586] (path_finder) StdoutLine: {'line': b'byte-compiling /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder/submodules/process.py to process.cpython-38.pyc\n'}
+[3.742895] (path_finder) StdoutLine: {'line': b'byte-compiling /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder/submodules/calib.py to calib.cpython-38.pyc\n'}
+[3.744303] (path_finder) StdoutLine: {'line': b'byte-compiling /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder/submodules/mapping.py to mapping.cpython-38.pyc\n'}
+[3.747538] (path_finder) StdoutLine: {'line': b'byte-compiling /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder/image_subscriber.py to image_subscriber.cpython-38.pyc\n'}
+[3.749173] (path_finder) StdoutLine: {'line': b'byte-compiling /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder/path_subscriber.py to path_subscriber.cpython-38.pyc\n'}
+[3.750623] (path_finder) StdoutLine: {'line': b'byte-compiling /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder/image_publisher.py to image_publisher.cpython-38.pyc\n'}
+[3.752225] (path_finder) StdoutLine: {'line': b'byte-compiling /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder/path_publisher.py to path_publisher.cpython-38.pyc\n'}
+[3.761532] (path_finder) StdoutLine: {'line': b'running install_data\n'}
+[3.763353] (path_finder) StdoutLine: {'line': b'creating /home/ubuntu/nemo_ws/src/install/path_finder/share/ament_index\n'}
+[3.763913] (path_finder) StdoutLine: {'line': b'creating /home/ubuntu/nemo_ws/src/install/path_finder/share/ament_index/resource_index\n'}
+[3.764356] (path_finder) StdoutLine: {'line': b'creating /home/ubuntu/nemo_ws/src/install/path_finder/share/ament_index/resource_index/packages\n'}
+[3.764776] (path_finder) StdoutLine: {'line': b'copying resource/path_finder -> /home/ubuntu/nemo_ws/src/install/path_finder/share/ament_index/resource_index/packages\n'}
+[3.765126] (path_finder) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/nemo_ws/src/install/path_finder/share/path_finder\n'}
+[3.765566] (path_finder) StdoutLine: {'line': b'copying 3.jpg -> /home/ubuntu/nemo_ws/src/install/path_finder/share/path_finder\n'}
+[3.780065] (path_finder) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.785869] (path_finder) StdoutLine: {'line': b'Copying ../build/path_finder/path_finder.egg-info to /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder-0.0.0-py3.8.egg-info\n'}
+[3.790100] (path_finder) StdoutLine: {'line': b'running install_scripts\n'}
+[3.821271] (-) TimerEvent: {}
+[3.852468] (path_finder) StdoutLine: {'line': b'Installing image_publisher script to /home/ubuntu/nemo_ws/src/install/path_finder/lib/path_finder\n'}
+[3.853190] (path_finder) StdoutLine: {'line': b'Installing image_subscriber script to /home/ubuntu/nemo_ws/src/install/path_finder/lib/path_finder\n'}
+[3.853722] (path_finder) StdoutLine: {'line': b'Installing path_publisher script to /home/ubuntu/nemo_ws/src/install/path_finder/lib/path_finder\n'}
+[3.854197] (path_finder) StdoutLine: {'line': b'Installing path_subscriber script to /home/ubuntu/nemo_ws/src/install/path_finder/lib/path_finder\n'}
+[3.856144] (path_finder) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/nemo_ws/src/build/path_finder/install.log'\n"}
+[3.921546] (-) TimerEvent: {}
+[3.948211] (path_finder) CommandEnded: {'returncode': 0}
+[4.019204] (path_finder) JobEnded: {'identifier': 'path_finder', 'rc': 0}
+[4.021447] (-) EventReactorShutdown: {}

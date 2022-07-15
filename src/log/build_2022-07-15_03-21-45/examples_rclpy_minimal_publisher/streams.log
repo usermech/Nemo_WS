@@ -1,0 +1,23 @@
+[6.547s] Invoking command in '/home/ubuntu/nemo_ws/src/examples/rclpy/topics/minimal_publisher': PYTHONPATH=/home/ubuntu/nemo_ws/src/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_minimal_publisher build --build-base /home/ubuntu/nemo_ws/src/build/examples_rclpy_minimal_publisher/build install --prefix /home/ubuntu/nemo_ws/src/install/examples_rclpy_minimal_publisher --record /home/ubuntu/nemo_ws/src/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed
+[8.166s] running egg_info
+[8.169s] writing ../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[8.171s] writing dependency_links to ../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[8.172s] writing entry points to ../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[8.173s] writing requirements to ../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/requires.txt
+[8.174s] writing top-level names to ../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[8.372s] reading manifest file '../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[8.380s] writing manifest file '../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[8.383s] running build
+[8.385s] running build_py
+[8.386s] running install
+[8.390s] running install_lib
+[8.403s] running install_data
+[8.403s] running install_egg_info
+[8.409s] removing '/home/ubuntu/nemo_ws/src/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher-0.9.4-py3.8.egg-info' (and everything under it)
+[8.411s] Copying ../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info to /home/ubuntu/nemo_ws/src/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher-0.9.4-py3.8.egg-info
+[8.418s] running install_scripts
+[8.526s] Installing publisher_local_function script to /home/ubuntu/nemo_ws/src/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[8.527s] Installing publisher_member_function script to /home/ubuntu/nemo_ws/src/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[8.528s] Installing publisher_old_school script to /home/ubuntu/nemo_ws/src/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[8.530s] writing list of installed files to '/home/ubuntu/nemo_ws/src/build/examples_rclpy_minimal_publisher/install.log'
+[8.715s] Invoked command in '/home/ubuntu/nemo_ws/src/examples/rclpy/topics/minimal_publisher' returned '0': PYTHONPATH=/home/ubuntu/nemo_ws/src/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_minimal_publisher build --build-base /home/ubuntu/nemo_ws/src/build/examples_rclpy_minimal_publisher/build install --prefix /home/ubuntu/nemo_ws/src/install/examples_rclpy_minimal_publisher --record /home/ubuntu/nemo_ws/src/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed

@@ -1,0 +1,49 @@
+[3.870s] Invoking command in '/home/ubuntu/nemo_ws/src/examples/rclpy/services/minimal_client': PYTHONPATH=/home/ubuntu/nemo_ws/src/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_minimal_client build --build-base /home/ubuntu/nemo_ws/src/build/examples_rclpy_minimal_client/build install --prefix /home/ubuntu/nemo_ws/src/install/examples_rclpy_minimal_client --record /home/ubuntu/nemo_ws/src/build/examples_rclpy_minimal_client/install.log --single-version-externally-managed
+[5.489s] running egg_info
+[5.492s] creating ../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info
+[5.493s] writing ../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/PKG-INFO
+[5.495s] writing dependency_links to ../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/dependency_links.txt
+[5.497s] writing entry points to ../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/entry_points.txt
+[5.498s] writing requirements to ../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/requires.txt
+[5.498s] writing top-level names to ../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/top_level.txt
+[5.508s] writing manifest file '../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[5.697s] reading manifest file '../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[5.720s] writing manifest file '../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[5.722s] running build
+[5.722s] running build_py
+[5.724s] creating /home/ubuntu/nemo_ws/src/build/examples_rclpy_minimal_client/build
+[5.725s] creating /home/ubuntu/nemo_ws/src/build/examples_rclpy_minimal_client/build/lib
+[5.726s] creating /home/ubuntu/nemo_ws/src/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[5.727s] copying examples_rclpy_minimal_client/client_async.py -> /home/ubuntu/nemo_ws/src/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[5.733s] copying examples_rclpy_minimal_client/client.py -> /home/ubuntu/nemo_ws/src/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[5.735s] copying examples_rclpy_minimal_client/__init__.py -> /home/ubuntu/nemo_ws/src/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[5.738s] copying examples_rclpy_minimal_client/client_async_member_function.py -> /home/ubuntu/nemo_ws/src/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[5.741s] copying examples_rclpy_minimal_client/client_async_callback.py -> /home/ubuntu/nemo_ws/src/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[5.745s] running install
+[5.750s] running install_lib
+[5.757s] creating /home/ubuntu/nemo_ws/src/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client
+[5.759s] copying /home/ubuntu/nemo_ws/src/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client_async.py -> /home/ubuntu/nemo_ws/src/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client
+[5.761s] copying /home/ubuntu/nemo_ws/src/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client.py -> /home/ubuntu/nemo_ws/src/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client
+[5.764s] copying /home/ubuntu/nemo_ws/src/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/__init__.py -> /home/ubuntu/nemo_ws/src/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client
+[5.767s] copying /home/ubuntu/nemo_ws/src/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client_async_member_function.py -> /home/ubuntu/nemo_ws/src/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client
+[5.770s] copying /home/ubuntu/nemo_ws/src/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client_async_callback.py -> /home/ubuntu/nemo_ws/src/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client
+[5.775s] byte-compiling /home/ubuntu/nemo_ws/src/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client/client_async.py to client_async.cpython-38.pyc
+[5.783s] byte-compiling /home/ubuntu/nemo_ws/src/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client/client.py to client.cpython-38.pyc
+[5.786s] byte-compiling /home/ubuntu/nemo_ws/src/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client/__init__.py to __init__.cpython-38.pyc
+[5.789s] byte-compiling /home/ubuntu/nemo_ws/src/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client/client_async_member_function.py to client_async_member_function.cpython-38.pyc
+[5.793s] byte-compiling /home/ubuntu/nemo_ws/src/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client/client_async_callback.py to client_async_callback.cpython-38.pyc
+[5.797s] running install_data
+[5.801s] creating /home/ubuntu/nemo_ws/src/install/examples_rclpy_minimal_client/share/ament_index
+[5.802s] creating /home/ubuntu/nemo_ws/src/install/examples_rclpy_minimal_client/share/ament_index/resource_index
+[5.804s] creating /home/ubuntu/nemo_ws/src/install/examples_rclpy_minimal_client/share/ament_index/resource_index/packages
+[5.806s] copying resource/examples_rclpy_minimal_client -> /home/ubuntu/nemo_ws/src/install/examples_rclpy_minimal_client/share/ament_index/resource_index/packages
+[5.809s] copying package.xml -> /home/ubuntu/nemo_ws/src/install/examples_rclpy_minimal_client/share/examples_rclpy_minimal_client
+[5.812s] running install_egg_info
+[5.826s] Copying ../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info to /home/ubuntu/nemo_ws/src/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client-0.9.4-py3.8.egg-info
+[5.837s] running install_scripts
+[5.939s] Installing client script to /home/ubuntu/nemo_ws/src/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[5.941s] Installing client_async script to /home/ubuntu/nemo_ws/src/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[5.943s] Installing client_async_callback script to /home/ubuntu/nemo_ws/src/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[5.945s] Installing client_async_member_function script to /home/ubuntu/nemo_ws/src/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[5.949s] writing list of installed files to '/home/ubuntu/nemo_ws/src/build/examples_rclpy_minimal_client/install.log'
+[6.092s] Invoked command in '/home/ubuntu/nemo_ws/src/examples/rclpy/services/minimal_client' returned '0': PYTHONPATH=/home/ubuntu/nemo_ws/src/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_minimal_client build --build-base /home/ubuntu/nemo_ws/src/build/examples_rclpy_minimal_client/build install --prefix /home/ubuntu/nemo_ws/src/install/examples_rclpy_minimal_client --record /home/ubuntu/nemo_ws/src/build/examples_rclpy_minimal_client/install.log --single-version-externally-managed

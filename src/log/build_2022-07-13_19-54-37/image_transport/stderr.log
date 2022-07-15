@@ -1,0 +1,3 @@
+make[2]: *** [CMakeFiles/image_transport_plugins.dir/build.make:63: CMakeFiles/image_transport_plugins.dir/src/manifest.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:227: CMakeFiles/image_transport_plugins.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

@@ -1,0 +1,98 @@
+[0.101s] Invoking command in '/home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/nemo_ws/src/examples/rclcpp/composition/minimal_composition -DCMAKE_INSTALL_PREFIX=/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition
+[1.349s] -- The C compiler identification is GNU 9.4.0
+[2.302s] -- The CXX compiler identification is GNU 9.4.0
+[2.341s] -- Check for working C compiler: /usr/bin/cc
+[2.776s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.784s] -- Detecting C compiler ABI info
+[3.191s] -- Detecting C compiler ABI info - done
+[3.267s] -- Detecting C compile features
+[3.499s] -- Detecting C compile features - done
+[4.165s] -- Check for working CXX compiler: /usr/bin/c++
+[4.714s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.715s] -- Detecting CXX compiler ABI info
+[5.167s] -- Detecting CXX compiler ABI info - done
+[5.208s] -- Detecting CXX compile features
+[5.210s] -- Detecting CXX compile features - done
+[5.230s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[5.422s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.423s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.799s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[7.125s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.173s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[7.740s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[7.987s] -- Found FastRTPS: /opt/ros/foxy/include  
+[8.601s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.933s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[8.944s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.951s] -- Looking for pthread.h
+[9.318s] -- Looking for pthread.h - found
+[9.320s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.719s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[9.721s] -- Looking for pthread_create in pthreads
+[10.031s] -- Looking for pthread_create in pthreads - not found
+[10.032s] -- Looking for pthread_create in pthread
+[10.431s] -- Looking for pthread_create in pthread - found
+[10.436s] -- Found Threads: TRUE  
+[11.314s] -- Found rclcpp_components: 2.4.1 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[11.647s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[12.208s] -- Added test 'copyright' to check source files copyright and LICENSE
+[12.221s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[12.223s] -- Configured cppcheck include dirs: /home/ubuntu/nemo_ws/src/examples/rclcpp/composition/minimal_composition/include
+[12.223s] -- Configured cppcheck exclude dirs and/or files: 
+[12.233s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[12.235s] -- Configured cpplint exclude dirs and/or files: 
+[12.241s] -- Added test 'lint_cmake' to check CMake code style
+[12.254s] -- Added test 'uncrustify' to check C / C++ code style
+[12.254s] -- Configured uncrustify additional arguments: 
+[12.257s] -- Added test 'xmllint' to check XML markup files
+[12.280s] -- Configuring done
+[12.380s] -- Generating done
+[12.389s] -- Build files have been written to: /home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_composition
+[12.430s] Invoked command in '/home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/nemo_ws/src/examples/rclcpp/composition/minimal_composition -DCMAKE_INSTALL_PREFIX=/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition
+[12.440s] Invoking command in '/home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_composition -- -j4 -l4
+[12.650s] [35m[1mScanning dependencies of target composition_nodes[0m
+[13.345s] [ 11%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/publisher_node.cpp.o[0m
+[13.361s] [ 22%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/subscriber_node.cpp.o[0m
+[63.988s] [ 33%] [32m[1mLinking CXX shared library libcomposition_nodes.so[0m
+[65.586s] [ 33%] Built target composition_nodes
+[65.637s] [35m[1mScanning dependencies of target composition_composed[0m
+[65.882s] [ 44%] [32mBuilding CXX object CMakeFiles/composition_composed.dir/src/composed.cpp.o[0m
+[75.806s] [ 55%] [32m[1mLinking CXX executable composition_composed[0m
+[76.960s] [ 55%] Built target composition_composed
+[77.032s] [35m[1mScanning dependencies of target composition_publisher[0m
+[77.320s] [ 66%] [32mBuilding CXX object CMakeFiles/composition_publisher.dir/src/standalone_publisher.cpp.o[0m
+[88.155s] [ 77%] [32m[1mLinking CXX executable composition_publisher[0m
+[89.132s] [ 77%] Built target composition_publisher
+[89.184s] [35m[1mScanning dependencies of target composition_subscriber[0m
+[89.437s] [ 88%] [32mBuilding CXX object CMakeFiles/composition_subscriber.dir/src/standalone_subscriber.cpp.o[0m
+[100.292s] [100%] [32m[1mLinking CXX executable composition_subscriber[0m
+[101.370s] [100%] Built target composition_subscriber
+[101.428s] Invoked command in '/home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_composition -- -j4 -l4
+[101.639s] Invoking command in '/home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_composition
+[101.690s] -- Install configuration: ""
+[101.693s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.sh
+[101.696s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.dsv
+[101.699s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so
+[101.725s] -- Set runtime path of "/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so" to ""
+[101.727s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher
+[101.732s] -- Set runtime path of "/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher" to ""
+[101.734s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber
+[101.739s] -- Set runtime path of "/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber" to ""
+[101.741s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed
+[101.746s] -- Set runtime path of "/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed" to ""
+[101.748s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_composition
+[101.752s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_composition
+[101.757s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.sh
+[101.760s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.dsv
+[101.763s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.sh
+[101.766s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.dsv
+[101.770s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.bash
+[101.773s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.sh
+[101.776s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.zsh
+[101.779s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.dsv
+[101.782s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.dsv
+[101.785s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/packages/examples_rclcpp_minimal_composition
+[101.788s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig.cmake
+[101.791s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig-version.cmake
+[101.795s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.xml
+[101.818s] Invoked command in '/home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_composition

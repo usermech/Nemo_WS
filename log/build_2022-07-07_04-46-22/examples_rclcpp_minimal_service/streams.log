@@ -1,0 +1,77 @@
+[0.101s] Invoking command in '/home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/nemo_ws/src/examples/rclcpp/services/minimal_service -DCMAKE_INSTALL_PREFIX=/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service
+[0.826s] -- The C compiler identification is GNU 9.4.0
+[1.380s] -- The CXX compiler identification is GNU 9.4.0
+[1.414s] -- Check for working C compiler: /usr/bin/cc
+[1.812s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.816s] -- Detecting C compiler ABI info
+[2.214s] -- Detecting C compiler ABI info - done
+[2.252s] -- Detecting C compile features
+[2.253s] -- Detecting C compile features - done
+[2.262s] -- Check for working CXX compiler: /usr/bin/c++
+[2.670s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.676s] -- Detecting CXX compiler ABI info
+[3.103s] -- Detecting CXX compiler ABI info - done
+[3.150s] -- Detecting CXX compile features
+[3.153s] -- Detecting CXX compile features - done
+[3.176s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.328s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.329s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.819s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[5.064s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.119s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.741s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[6.007s] -- Found FastRTPS: /opt/ros/foxy/include  
+[6.634s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.229s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[7.480s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[7.487s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.493s] -- Looking for pthread.h
+[7.855s] -- Looking for pthread.h - found
+[7.856s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.204s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[8.205s] -- Looking for pthread_create in pthreads
+[8.500s] -- Looking for pthread_create in pthreads - not found
+[8.504s] -- Looking for pthread_create in pthread
+[8.887s] -- Looking for pthread_create in pthread - found
+[8.892s] -- Found Threads: TRUE  
+[9.667s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[10.252s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.260s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.261s] -- Configured cppcheck include dirs: 
+[10.262s] -- Configured cppcheck exclude dirs and/or files: 
+[10.268s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[10.269s] -- Configured cpplint exclude dirs and/or files: 
+[10.273s] -- Added test 'lint_cmake' to check CMake code style
+[10.279s] -- Added test 'uncrustify' to check C / C++ code style
+[10.280s] -- Configured uncrustify additional arguments: 
+[10.283s] -- Added test 'xmllint' to check XML markup files
+[10.316s] -- Configuring done
+[10.367s] -- Generating done
+[10.378s] -- Build files have been written to: /home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_service
+[10.438s] Invoked command in '/home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/nemo_ws/src/examples/rclcpp/services/minimal_service -DCMAKE_INSTALL_PREFIX=/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service
+[10.443s] Invoking command in '/home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_service -- -j4 -l4
+[10.646s] [35m[1mScanning dependencies of target service_main[0m
+[10.905s] [ 50%] [32mBuilding CXX object CMakeFiles/service_main.dir/main.cpp.o[0m
+[23.093s] [100%] [32m[1mLinking CXX executable service_main[0m
+[23.912s] [100%] Built target service_main
+[23.970s] Invoked command in '/home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_service -- -j4 -l4
+[24.121s] Invoking command in '/home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_service
+[24.168s] -- Install configuration: ""
+[24.170s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service/lib/examples_rclcpp_minimal_service/service_main
+[24.176s] -- Set runtime path of "/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service/lib/examples_rclcpp_minimal_service/service_main" to ""
+[24.179s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_service
+[24.182s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_service
+[24.186s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.sh
+[24.189s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.dsv
+[24.192s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.sh
+[24.195s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.dsv
+[24.198s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.bash
+[24.200s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.sh
+[24.203s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.zsh
+[24.206s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.dsv
+[24.209s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.dsv
+[24.212s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/packages/examples_rclcpp_minimal_service
+[24.215s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig.cmake
+[24.218s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig-version.cmake
+[24.221s] -- Installing: /home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.xml
+[24.243s] Invoked command in '/home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/nemo_ws/build/examples_rclcpp_minimal_service

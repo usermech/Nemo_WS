@@ -1,0 +1,115 @@
+[0.119s] Invoking command in '/home/ubuntu/nemo_ws/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/nemo_ws/src/vision_opencv/cv_bridge -DCMAKE_INSTALL_PREFIX=/home/ubuntu/nemo_ws/install/cv_bridge
+[0.834s] -- The C compiler identification is GNU 9.4.0
+[1.636s] -- The CXX compiler identification is GNU 9.4.0
+[1.674s] -- Check for working C compiler: /usr/bin/cc
+[2.060s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.067s] -- Detecting C compiler ABI info
+[2.449s] -- Detecting C compiler ABI info - done
+[2.487s] -- Detecting C compile features
+[2.489s] -- Detecting C compile features - done
+[2.502s] -- Check for working CXX compiler: /usr/bin/c++
+[2.921s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.925s] -- Detecting CXX compiler ABI info
+[3.348s] -- Detecting CXX compiler ABI info - done
+[3.386s] -- Detecting CXX compile features
+[3.387s] -- Detecting CXX compile features - done
+[3.425s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[3.740s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.741s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.143s] -- Found Python3: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found version "3.8.10") found components: Development NumPy Interpreter 
+[8.295s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: python38 
+[8.326s] -- Found rcpputils: 1.3.2 (/opt/ros/foxy/share/rcpputils/cmake)
+[8.451s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[8.671s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.771s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[9.501s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[9.793s] -- Found FastRTPS: /opt/ros/foxy/include  
+[10.435s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.430s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[11.837s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[11.839s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[12.208s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[12.209s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[13.870s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[13.948s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[15.868s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[15.897s] -- Looking for pthread.h
+[17.047s] -- Looking for pthread.h - found
+[17.049s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[18.232s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[18.233s] -- Check if compiler accepts -pthread
+[19.454s] -- Check if compiler accepts -pthread - yes
+[19.474s] -- Found Threads: TRUE  
+[45.203s] -- Configuring done
+[45.324s] -- Generating done
+[45.338s] -- Build files have been written to: /home/ubuntu/nemo_ws/build/cv_bridge
+[45.378s] Invoked command in '/home/ubuntu/nemo_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/nemo_ws/src/vision_opencv/cv_bridge -DCMAKE_INSTALL_PREFIX=/home/ubuntu/nemo_ws/install/cv_bridge
+[45.382s] Invoking command in '/home/ubuntu/nemo_ws/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/nemo_ws/build/cv_bridge -- -j4 -l4
+[45.885s] [35m[1mScanning dependencies of target cv_bridge[0m
+[46.348s] [  6%] [32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/cv_bridge.cpp.o[0m
+[70.707s] [ 12%] [32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/rgb_colors.cpp.o[0m
+[84.001s] [ 18%] [32m[1mLinking CXX shared library libcv_bridge.so[0m
+[84.929s] [ 18%] Built target cv_bridge
+[85.022s] [35m[1mScanning dependencies of target gtest_main[0m
+[85.047s] [35m[1mScanning dependencies of target gtest[0m
+[85.168s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[85.223s] [ 31%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[91.060s] [ 37%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[91.502s] [ 37%] Built target gtest_main
+[91.681s] [35m[1mScanning dependencies of target cv_bridge_boost[0m
+[92.327s] [ 50%] [32mBuilding CXX object src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o[0m
+[92.338s] [ 43%] [32mBuilding CXX object src/CMakeFiles/cv_bridge_boost.dir/module_opencv3.cpp.o[0m
+[107.146s] [ 56%] [32m[1mLinking CXX static library libgtest.a[0m
+[107.476s] [ 56%] Built target gtest
+[112.642s] [ 62%] [32m[1mLinking CXX shared module boost/cv_bridge_boost.so[0m
+[113.210s] [ 62%] Built target cv_bridge_boost
+[113.262s] [35m[1mScanning dependencies of target cv_bridge-utest[0m
+[113.510s] [ 68%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.o[0m
+[113.516s] [ 75%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.o[0m
+[115.650s] [ 81%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/utest2.cpp.o[0m
+[129.539s] [ 87%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.o[0m
+[145.185s] [ 93%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/utest.cpp.o[0m
+[153.109s] [100%] [32m[1mLinking CXX executable cv_bridge-utest[0m
+[155.203s] [100%] Built target cv_bridge-utest
+[155.275s] Invoked command in '/home/ubuntu/nemo_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/nemo_ws/build/cv_bridge -- -j4 -l4
+[155.454s] Invoking command in '/home/ubuntu/nemo_ws/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/nemo_ws/build/cv_bridge
+[155.518s] -- Install configuration: ""
+[155.522s] -- Installing: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/environment/pythonpath.sh
+[155.526s] -- Installing: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/environment/pythonpath.dsv
+[155.529s] -- Installing: /home/ubuntu/nemo_ws/install/cv_bridge/lib/python3.8/site-packages/cv_bridge
+[155.532s] -- Installing: /home/ubuntu/nemo_ws/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/core.py
+[155.536s] -- Installing: /home/ubuntu/nemo_ws/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/__init__.py
+[155.853s] Listing '/home/ubuntu/nemo_ws/install/cv_bridge/lib/python3.8/site-packages/cv_bridge'...
+[155.855s] Compiling '/home/ubuntu/nemo_ws/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/__init__.py'...
+[155.855s] Compiling '/home/ubuntu/nemo_ws/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/core.py'...
+[155.894s] -- Installing: /home/ubuntu/nemo_ws/install/cv_bridge/lib/libcv_bridge.so
+[155.907s] -- Set runtime path of "/home/ubuntu/nemo_ws/install/cv_bridge/lib/libcv_bridge.so" to ""
+[155.910s] -- Installing: /home/ubuntu/nemo_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge_export.h
+[155.913s] -- Installing: /home/ubuntu/nemo_ws/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/boost/cv_bridge_boost.so
+[155.920s] -- Set runtime path of "/home/ubuntu/nemo_ws/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/boost/cv_bridge_boost.so" to ""
+[155.924s] -- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/include/cv_bridge
+[155.926s] -- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/include/cv_bridge/cv_bridge
+[155.928s] -- Installing: /home/ubuntu/nemo_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.h
+[155.930s] -- Installing: /home/ubuntu/nemo_ws/install/cv_bridge/include/cv_bridge/cv_bridge/rgb_colors.h
+[155.934s] -- Up-to-date: /home/ubuntu/nemo_ws/install/cv_bridge/lib/libcv_bridge.so
+[155.937s] -- Installing: /home/ubuntu/nemo_ws/install/cv_bridge/share/ament_index/resource_index/package_run_dependencies/cv_bridge
+[155.940s] -- Installing: /home/ubuntu/nemo_ws/install/cv_bridge/share/ament_index/resource_index/parent_prefix_path/cv_bridge
+[155.943s] -- Installing: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.sh
+[155.947s] -- Installing: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.dsv
+[155.952s] -- Installing: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/environment/path.sh
+[155.955s] -- Installing: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/environment/path.dsv
+[155.959s] -- Installing: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/local_setup.bash
+[155.962s] -- Installing: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/local_setup.sh
+[155.965s] -- Installing: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/local_setup.zsh
+[155.970s] -- Installing: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/local_setup.dsv
+[155.973s] -- Installing: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/package.dsv
+[155.977s] -- Installing: /home/ubuntu/nemo_ws/install/cv_bridge/share/ament_index/resource_index/packages/cv_bridge
+[155.980s] -- Installing: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport.cmake
+[155.983s] -- Installing: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport-noconfig.cmake
+[155.986s] -- Installing: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridge-extras.cmake
+[155.989s] -- Installing: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[155.992s] -- Installing: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_targets-extras.cmake
+[155.995s] -- Installing: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig.cmake
+[155.997s] -- Installing: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake
+[156.000s] -- Installing: /home/ubuntu/nemo_ws/install/cv_bridge/share/cv_bridge/package.xml
+[156.015s] Invoked command in '/home/ubuntu/nemo_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/nemo_ws/build/cv_bridge

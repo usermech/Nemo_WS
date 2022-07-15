@@ -1,0 +1,67 @@
+[2.691s] Invoking command in '/home/ubuntu/nemo_ws/src/path_finder': PYTHONPATH=/home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/path_finder build --build-base /home/ubuntu/nemo_ws/src/build/path_finder/build install --prefix /home/ubuntu/nemo_ws/src/install/path_finder --record /home/ubuntu/nemo_ws/src/build/path_finder/install.log --single-version-externally-managed
+[3.549s] running egg_info
+[3.551s] creating ../build/path_finder/path_finder.egg-info
+[3.551s] writing ../build/path_finder/path_finder.egg-info/PKG-INFO
+[3.552s] writing dependency_links to ../build/path_finder/path_finder.egg-info/dependency_links.txt
+[3.553s] writing entry points to ../build/path_finder/path_finder.egg-info/entry_points.txt
+[3.553s] writing requirements to ../build/path_finder/path_finder.egg-info/requires.txt
+[3.554s] writing top-level names to ../build/path_finder/path_finder.egg-info/top_level.txt
+[3.567s] writing manifest file '../build/path_finder/path_finder.egg-info/SOURCES.txt'
+[3.688s] reading manifest file '../build/path_finder/path_finder.egg-info/SOURCES.txt'
+[3.691s] writing manifest file '../build/path_finder/path_finder.egg-info/SOURCES.txt'
+[3.692s] running build
+[3.692s] running build_py
+[3.693s] creating /home/ubuntu/nemo_ws/src/build/path_finder/build
+[3.693s] creating /home/ubuntu/nemo_ws/src/build/path_finder/build/lib
+[3.694s] creating /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder
+[3.694s] copying path_finder/__init__.py -> /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder
+[3.695s] copying path_finder/image_subscriber.py -> /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder
+[3.695s] copying path_finder/path_subscriber.py -> /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder
+[3.695s] copying path_finder/image_publisher.py -> /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder
+[3.696s] copying path_finder/path_publisher.py -> /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder
+[3.701s] creating /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder/submodules
+[3.702s] copying path_finder/submodules/rrt.py -> /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder/submodules
+[3.702s] copying path_finder/submodules/__init__.py -> /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder/submodules
+[3.703s] copying path_finder/submodules/process.py -> /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder/submodules
+[3.703s] copying path_finder/submodules/calib.py -> /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder/submodules
+[3.704s] copying path_finder/submodules/mapping.py -> /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder/submodules
+[3.705s] running install
+[3.709s] running install_lib
+[3.713s] creating /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder
+[3.713s] copying /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder/__init__.py -> /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder
+[3.713s] creating /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder/submodules
+[3.714s] copying /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder/submodules/rrt.py -> /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder/submodules
+[3.714s] copying /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder/submodules/__init__.py -> /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder/submodules
+[3.715s] copying /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder/submodules/process.py -> /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder/submodules
+[3.716s] copying /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder/submodules/calib.py -> /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder/submodules
+[3.716s] copying /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder/submodules/mapping.py -> /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder/submodules
+[3.717s] copying /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder/image_subscriber.py -> /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder
+[3.718s] copying /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder/path_subscriber.py -> /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder
+[3.718s] copying /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder/image_publisher.py -> /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder
+[3.719s] copying /home/ubuntu/nemo_ws/src/build/path_finder/build/lib/path_finder/path_publisher.py -> /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder
+[3.721s] byte-compiling /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder/__init__.py to __init__.cpython-38.pyc
+[3.726s] byte-compiling /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder/submodules/rrt.py to rrt.cpython-38.pyc
+[3.732s] byte-compiling /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder/submodules/__init__.py to __init__.cpython-38.pyc
+[3.732s] byte-compiling /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder/submodules/process.py to process.cpython-38.pyc
+[3.734s] byte-compiling /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder/submodules/calib.py to calib.cpython-38.pyc
+[3.735s] byte-compiling /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder/submodules/mapping.py to mapping.cpython-38.pyc
+[3.738s] byte-compiling /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder/image_subscriber.py to image_subscriber.cpython-38.pyc
+[3.740s] byte-compiling /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder/path_subscriber.py to path_subscriber.cpython-38.pyc
+[3.742s] byte-compiling /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder/image_publisher.py to image_publisher.cpython-38.pyc
+[3.743s] byte-compiling /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder/path_publisher.py to path_publisher.cpython-38.pyc
+[3.752s] running install_data
+[3.754s] creating /home/ubuntu/nemo_ws/src/install/path_finder/share/ament_index
+[3.755s] creating /home/ubuntu/nemo_ws/src/install/path_finder/share/ament_index/resource_index
+[3.755s] creating /home/ubuntu/nemo_ws/src/install/path_finder/share/ament_index/resource_index/packages
+[3.756s] copying resource/path_finder -> /home/ubuntu/nemo_ws/src/install/path_finder/share/ament_index/resource_index/packages
+[3.756s] copying package.xml -> /home/ubuntu/nemo_ws/src/install/path_finder/share/path_finder
+[3.756s] copying 3.jpg -> /home/ubuntu/nemo_ws/src/install/path_finder/share/path_finder
+[3.771s] running install_egg_info
+[3.777s] Copying ../build/path_finder/path_finder.egg-info to /home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages/path_finder-0.0.0-py3.8.egg-info
+[3.781s] running install_scripts
+[3.843s] Installing image_publisher script to /home/ubuntu/nemo_ws/src/install/path_finder/lib/path_finder
+[3.844s] Installing image_subscriber script to /home/ubuntu/nemo_ws/src/install/path_finder/lib/path_finder
+[3.845s] Installing path_publisher script to /home/ubuntu/nemo_ws/src/install/path_finder/lib/path_finder
+[3.845s] Installing path_subscriber script to /home/ubuntu/nemo_ws/src/install/path_finder/lib/path_finder
+[3.847s] writing list of installed files to '/home/ubuntu/nemo_ws/src/build/path_finder/install.log'
+[3.940s] Invoked command in '/home/ubuntu/nemo_ws/src/path_finder' returned '0': PYTHONPATH=/home/ubuntu/nemo_ws/src/install/path_finder/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/path_finder build --build-base /home/ubuntu/nemo_ws/src/build/path_finder/build install --prefix /home/ubuntu/nemo_ws/src/install/path_finder --record /home/ubuntu/nemo_ws/src/build/path_finder/install.log --single-version-externally-managed

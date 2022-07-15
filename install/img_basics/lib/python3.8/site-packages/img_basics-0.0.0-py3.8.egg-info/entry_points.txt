@@ -1,0 +1,3 @@
+[console_scripts]
+img_subscriber = img_basics.cam_sub:main
+

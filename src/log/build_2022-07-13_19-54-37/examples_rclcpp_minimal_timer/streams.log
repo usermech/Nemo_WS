@@ -1,0 +1,57 @@
+[0.094s] Invoking command in '/home/ubuntu/nemo_ws/src/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/nemo_ws/src/examples/rclcpp/timers/minimal_timer -DCMAKE_INSTALL_PREFIX=/home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_timer
+[0.456s] -- The C compiler identification is GNU 9.4.0
+[0.780s] -- The CXX compiler identification is GNU 9.4.0
+[0.818s] -- Check for working C compiler: /usr/bin/cc
+[1.263s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.269s] -- Detecting C compiler ABI info
+[1.720s] -- Detecting C compiler ABI info - done
+[1.766s] -- Detecting C compile features
+[1.768s] -- Detecting C compile features - done
+[1.781s] -- Check for working CXX compiler: /usr/bin/c++
+[2.222s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.227s] -- Detecting CXX compiler ABI info
+[2.691s] -- Detecting CXX compiler ABI info - done
+[2.737s] -- Detecting CXX compile features
+[2.741s] -- Detecting CXX compile features - done
+[2.787s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.028s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.030s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.981s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[5.618s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.760s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.623s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[6.941s] -- Found FastRTPS: /opt/ros/foxy/include  
+[7.777s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.302s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[8.317s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.322s] -- Looking for pthread.h
+[8.810s] -- Looking for pthread.h - found
+[8.813s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.278s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[9.280s] -- Looking for pthread_create in pthreads
+[9.650s] -- Looking for pthread_create in pthreads - not found
+[9.652s] -- Looking for pthread_create in pthread
+[10.100s] -- Looking for pthread_create in pthread - found
+[10.104s] -- Found Threads: TRUE  
+[11.156s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[11.916s] -- Added test 'copyright' to check source files copyright and LICENSE
+[11.926s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.928s] -- Configured cppcheck include dirs: 
+[11.929s] -- Configured cppcheck exclude dirs and/or files: 
+[11.938s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[11.939s] -- Configured cpplint exclude dirs and/or files: 
+[11.946s] -- Added test 'lint_cmake' to check CMake code style
+[11.957s] -- Added test 'uncrustify' to check C / C++ code style
+[11.959s] -- Configured uncrustify additional arguments: 
+[11.965s] -- Added test 'xmllint' to check XML markup files
+[11.993s] -- Configuring done
+[12.046s] -- Generating done
+[12.060s] -- Build files have been written to: /home/ubuntu/nemo_ws/src/build/examples_rclcpp_minimal_timer
+[12.112s] Invoked command in '/home/ubuntu/nemo_ws/src/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/nemo_ws/src/examples/rclcpp/timers/minimal_timer -DCMAKE_INSTALL_PREFIX=/home/ubuntu/nemo_ws/src/install/examples_rclcpp_minimal_timer
+[12.116s] Invoking command in '/home/ubuntu/nemo_ws/src/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/nemo_ws/src/build/examples_rclcpp_minimal_timer -- -j4 -l4
+[12.420s] [35m[1mScanning dependencies of target timer_member_function[0m
+[12.666s] [ 25%] [32mBuilding CXX object CMakeFiles/timer_member_function.dir/member_function.cpp.o[0m
+[20.145s] make[2]: *** [CMakeFiles/timer_member_function.dir/build.make:63: CMakeFiles/timer_member_function.dir/member_function.cpp.o] Interrupt
+[20.145s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/timer_member_function.dir/all] Interrupt
+[20.160s] make: *** [Makefile:141: all] Interrupt
+[20.232s] Invoked command in '/home/ubuntu/nemo_ws/src/build/examples_rclcpp_minimal_timer' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/nemo_ws/src/build/examples_rclcpp_minimal_timer -- -j4 -l4

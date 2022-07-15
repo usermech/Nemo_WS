@@ -1,0 +1,80 @@
+[0.077s] Invoking command in '/home/ubuntu/nemo_ws/build/camera_info_manager': AMENT_PREFIX_PATH=/home/ubuntu/nemo_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/nemo_ws/install/camera_calibration_parsers:/home/ubuntu/nemo_ws/install/examples_rclcpp_multithreaded_executor:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_client:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/nemo_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ubuntu/nemo_ws/src/image_common/camera_info_manager -DCMAKE_INSTALL_PREFIX=/home/ubuntu/nemo_ws/install/camera_info_manager
+[0.433s] -- The C compiler identification is GNU 9.4.0
+[0.753s] -- The CXX compiler identification is GNU 9.4.0
+[0.784s] -- Check for working C compiler: /usr/bin/cc
+[1.146s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.151s] -- Detecting C compiler ABI info
+[1.516s] -- Detecting C compiler ABI info - done
+[1.558s] -- Detecting C compile features
+[1.560s] -- Detecting C compile features - done
+[1.572s] -- Check for working CXX compiler: /usr/bin/c++
+[1.986s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.990s] -- Detecting CXX compiler ABI info
+[2.388s] -- Detecting CXX compiler ABI info - done
+[2.432s] -- Detecting CXX compile features
+[2.435s] -- Detecting CXX compile features - done
+[2.467s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[2.772s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.773s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.489s] -- Found ament_index_cpp: 1.1.0 (/opt/ros/foxy/share/ament_index_cpp/cmake)
+[4.506s] -- Found camera_calibration_parsers: 2.3.0 (/home/ubuntu/nemo_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake)
+[5.048s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.151s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.888s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[6.186s] -- Found FastRTPS: /opt/ros/foxy/include  
+[6.949s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.393s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[7.405s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.410s] -- Looking for pthread.h
+[7.788s] -- Looking for pthread.h - found
+[7.789s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.166s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[8.168s] -- Looking for pthread_create in pthreads
+[8.476s] -- Looking for pthread_create in pthreads - not found
+[8.477s] -- Looking for pthread_create in pthread
+[8.853s] -- Looking for pthread_create in pthread - found
+[8.858s] -- Found Threads: TRUE  
+[10.369s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[10.535s] -- Found ament_cmake_cpplint: 0.9.6 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)
+[10.568s] -- Found ament_cmake_lint_cmake: 0.9.6 (/opt/ros/foxy/share/ament_cmake_lint_cmake/cmake)
+[10.600s] -- Found ament_cmake_uncrustify: 0.9.6 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)
+[11.022s] -- Configuring done
+[11.116s] -- Generating done
+[11.124s] -- Build files have been written to: /home/ubuntu/nemo_ws/build/camera_info_manager
+[11.169s] Invoked command in '/home/ubuntu/nemo_ws/build/camera_info_manager' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/nemo_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/nemo_ws/install/camera_calibration_parsers:/home/ubuntu/nemo_ws/install/examples_rclcpp_multithreaded_executor:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_client:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/nemo_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ubuntu/nemo_ws/src/image_common/camera_info_manager -DCMAKE_INSTALL_PREFIX=/home/ubuntu/nemo_ws/install/camera_info_manager
+[11.182s] Invoking command in '/home/ubuntu/nemo_ws/build/camera_info_manager': AMENT_PREFIX_PATH=/home/ubuntu/nemo_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/nemo_ws/install/camera_calibration_parsers:/home/ubuntu/nemo_ws/install/examples_rclcpp_multithreaded_executor:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_client:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/nemo_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ubuntu/nemo_ws/build/camera_info_manager -- -j4 -l4
+[11.400s] [35m[1mScanning dependencies of target camera_info_manager[0m
+[11.608s] [ 50%] [32mBuilding CXX object CMakeFiles/camera_info_manager.dir/src/camera_info_manager.cpp.o[0m
+[24.120s] [100%] [32m[1mLinking CXX shared library libcamera_info_manager.so[0m
+[25.740s] [100%] Built target camera_info_manager
+[25.876s] Invoked command in '/home/ubuntu/nemo_ws/build/camera_info_manager' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/nemo_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/nemo_ws/install/camera_calibration_parsers:/home/ubuntu/nemo_ws/install/examples_rclcpp_multithreaded_executor:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_client:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/nemo_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ubuntu/nemo_ws/build/camera_info_manager -- -j4 -l4
+[26.560s] Invoking command in '/home/ubuntu/nemo_ws/build/camera_info_manager': AMENT_PREFIX_PATH=/home/ubuntu/nemo_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/nemo_ws/install/camera_calibration_parsers:/home/ubuntu/nemo_ws/install/examples_rclcpp_multithreaded_executor:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_client:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/nemo_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ubuntu/nemo_ws/build/camera_info_manager
+[26.672s] -- Install configuration: ""
+[26.675s] -- Installing: /home/ubuntu/nemo_ws/install/camera_info_manager/lib/libcamera_info_manager.so
+[26.691s] -- Set runtime path of "/home/ubuntu/nemo_ws/install/camera_info_manager/lib/libcamera_info_manager.so" to ""
+[26.694s] -- Installing: /home/ubuntu/nemo_ws/install/camera_info_manager/include
+[26.696s] -- Installing: /home/ubuntu/nemo_ws/install/camera_info_manager/include/camera_info_manager
+[26.704s] -- Installing: /home/ubuntu/nemo_ws/install/camera_info_manager/include/camera_info_manager/camera_info_manager.h
+[26.709s] -- Installing: /home/ubuntu/nemo_ws/install/camera_info_manager/include/camera_info_manager/visibility_control.h
+[26.712s] -- Installing: /home/ubuntu/nemo_ws/install/camera_info_manager/include/camera_info_manager/camera_info_manager.hpp
+[26.716s] -- Installing: /home/ubuntu/nemo_ws/install/camera_info_manager/share/camera_info_manager/environment/library_path.sh
+[26.724s] -- Installing: /home/ubuntu/nemo_ws/install/camera_info_manager/share/camera_info_manager/environment/library_path.dsv
+[26.728s] -- Installing: /home/ubuntu/nemo_ws/install/camera_info_manager/share/ament_index/resource_index/package_run_dependencies/camera_info_manager
+[26.744s] -- Installing: /home/ubuntu/nemo_ws/install/camera_info_manager/share/ament_index/resource_index/parent_prefix_path/camera_info_manager
+[26.749s] -- Installing: /home/ubuntu/nemo_ws/install/camera_info_manager/share/camera_info_manager/environment/ament_prefix_path.sh
+[26.753s] -- Installing: /home/ubuntu/nemo_ws/install/camera_info_manager/share/camera_info_manager/environment/ament_prefix_path.dsv
+[26.761s] -- Installing: /home/ubuntu/nemo_ws/install/camera_info_manager/share/camera_info_manager/environment/path.sh
+[26.764s] -- Installing: /home/ubuntu/nemo_ws/install/camera_info_manager/share/camera_info_manager/environment/path.dsv
+[26.766s] -- Installing: /home/ubuntu/nemo_ws/install/camera_info_manager/share/camera_info_manager/local_setup.bash
+[26.781s] -- Installing: /home/ubuntu/nemo_ws/install/camera_info_manager/share/camera_info_manager/local_setup.sh
+[26.784s] -- Installing: /home/ubuntu/nemo_ws/install/camera_info_manager/share/camera_info_manager/local_setup.zsh
+[26.785s] -- Installing: /home/ubuntu/nemo_ws/install/camera_info_manager/share/camera_info_manager/local_setup.dsv
+[26.787s] -- Installing: /home/ubuntu/nemo_ws/install/camera_info_manager/share/camera_info_manager/package.dsv
+[26.788s] -- Installing: /home/ubuntu/nemo_ws/install/camera_info_manager/share/ament_index/resource_index/packages/camera_info_manager
+[26.790s] -- Installing: /home/ubuntu/nemo_ws/install/camera_info_manager/share/camera_info_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+[26.792s] -- Installing: /home/ubuntu/nemo_ws/install/camera_info_manager/share/camera_info_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[26.793s] -- Installing: /home/ubuntu/nemo_ws/install/camera_info_manager/share/camera_info_manager/cmake/ament_cmake_export_libraries-extras.cmake
+[26.795s] -- Installing: /home/ubuntu/nemo_ws/install/camera_info_manager/share/camera_info_manager/cmake/camera_info_managerConfig.cmake
+[26.800s] -- Installing: /home/ubuntu/nemo_ws/install/camera_info_manager/share/camera_info_manager/cmake/camera_info_managerConfig-version.cmake
+[26.802s] -- Installing: /home/ubuntu/nemo_ws/install/camera_info_manager/share/camera_info_manager/package.xml
+[26.825s] Invoked command in '/home/ubuntu/nemo_ws/build/camera_info_manager' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/nemo_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/nemo_ws/install/camera_calibration_parsers:/home/ubuntu/nemo_ws/install/examples_rclcpp_multithreaded_executor:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_client:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/nemo_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ubuntu/nemo_ws/build/camera_info_manager

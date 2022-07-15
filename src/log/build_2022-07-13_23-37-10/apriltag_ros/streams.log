@@ -1,0 +1,57 @@
+[0.078s] Invoking command in '/home/ubuntu/nemo_ws/src/build/apriltag_ros': AMENT_PREFIX_PATH=/home/ubuntu/nemo_ws/src/install/image_transport:/home/ubuntu/nemo_ws/src/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/nemo_ws/src/install/image_transport:/home/ubuntu/nemo_ws/src/install/cv_bridge:/home/ubuntu/nemo_ws/install/v4l2_camera:/home/ubuntu/nemo_ws/install/image_transport_plugins:/home/ubuntu/nemo_ws/install/theora_image_transport:/home/ubuntu/nemo_ws/install/compressed_image_transport:/home/ubuntu/nemo_ws/install/compressed_depth_image_transport:/home/ubuntu/nemo_ws/install/image_transport:/home/ubuntu/nemo_ws/install/examples_rclcpp_multithreaded_executor:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_client:/home/ubuntu/nemo_ws/install/cv_bridge:/home/ubuntu/nemo_ws/install/camera_info_manager:/home/ubuntu/nemo_ws/install/camera_calibration_parsers:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/nemo_ws/src/install/image_transport/lib:/home/ubuntu/nemo_ws/src/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/nemo_ws/src/install/cv_bridge/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/nemo_ws/src/apriltag_ros -DCMAKE_INSTALL_PREFIX=/home/ubuntu/nemo_ws/src/install/apriltag_ros
+[0.344s] -- The C compiler identification is GNU 9.4.0
+[0.586s] -- The CXX compiler identification is GNU 9.4.0
+[0.609s] -- Check for working C compiler: /usr/bin/cc
+[0.932s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.935s] -- Detecting C compiler ABI info
+[1.259s] -- Detecting C compiler ABI info - done
+[1.292s] -- Detecting C compile features
+[1.293s] -- Detecting C compile features - done
+[1.301s] -- Check for working CXX compiler: /usr/bin/c++
+[1.655s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.659s] -- Detecting CXX compiler ABI info
+[2.014s] -- Detecting CXX compiler ABI info - done
+[2.048s] -- Detecting CXX compile features
+[2.050s] -- Detecting CXX compile features - done
+[2.086s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.225s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.226s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.989s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.100s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.835s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.111s] -- Found FastRTPS: /opt/ros/foxy/include  
+[5.812s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.206s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.216s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.219s] -- Looking for pthread.h
+[6.560s] -- Looking for pthread.h - found
+[6.561s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.899s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.900s] -- Looking for pthread_create in pthreads
+[7.183s] -- Looking for pthread_create in pthreads - not found
+[7.183s] -- Looking for pthread_create in pthread
+[7.517s] -- Looking for pthread_create in pthread - found
+[7.521s] -- Found Threads: TRUE  
+[8.277s] -- Found rclcpp_components: 2.4.1 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[8.625s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[9.218s] CMake Error at CMakeLists.txt:10 (find_package):
+[9.219s]   By not providing "Findapriltag_msgs.cmake" in CMAKE_MODULE_PATH this
+[9.219s]   project has asked CMake to find a package configuration file provided by
+[9.219s]   "apriltag_msgs", but CMake did not find one.
+[9.220s] 
+[9.220s]   Could not find a package configuration file provided by "apriltag_msgs"
+[9.220s]   with any of the following names:
+[9.220s] 
+[9.221s]     apriltag_msgsConfig.cmake
+[9.221s]     apriltag_msgs-config.cmake
+[9.221s] 
+[9.221s]   Add the installation prefix of "apriltag_msgs" to CMAKE_PREFIX_PATH or set
+[9.222s]   "apriltag_msgs_DIR" to a directory containing one of the above files.  If
+[9.222s]   "apriltag_msgs" provides a separate development package or SDK, be sure it
+[9.222s]   has been installed.
+[9.222s] 
+[9.223s] 
+[9.234s] -- Configuring incomplete, errors occurred!
+[9.234s] See also "/home/ubuntu/nemo_ws/src/build/apriltag_ros/CMakeFiles/CMakeOutput.log".
+[9.235s] See also "/home/ubuntu/nemo_ws/src/build/apriltag_ros/CMakeFiles/CMakeError.log".
+[9.265s] Invoked command in '/home/ubuntu/nemo_ws/src/build/apriltag_ros' returned '1': AMENT_PREFIX_PATH=/home/ubuntu/nemo_ws/src/install/image_transport:/home/ubuntu/nemo_ws/src/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/nemo_ws/src/install/image_transport:/home/ubuntu/nemo_ws/src/install/cv_bridge:/home/ubuntu/nemo_ws/install/v4l2_camera:/home/ubuntu/nemo_ws/install/image_transport_plugins:/home/ubuntu/nemo_ws/install/theora_image_transport:/home/ubuntu/nemo_ws/install/compressed_image_transport:/home/ubuntu/nemo_ws/install/compressed_depth_image_transport:/home/ubuntu/nemo_ws/install/image_transport:/home/ubuntu/nemo_ws/install/examples_rclcpp_multithreaded_executor:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_client:/home/ubuntu/nemo_ws/install/cv_bridge:/home/ubuntu/nemo_ws/install/camera_info_manager:/home/ubuntu/nemo_ws/install/camera_calibration_parsers:/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/nemo_ws/src/install/image_transport/lib:/home/ubuntu/nemo_ws/src/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/nemo_ws/src/install/cv_bridge/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/nemo_ws/src/apriltag_ros -DCMAKE_INSTALL_PREFIX=/home/ubuntu/nemo_ws/src/install/apriltag_ros

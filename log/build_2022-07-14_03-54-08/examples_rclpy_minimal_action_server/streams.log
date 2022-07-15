@@ -1,0 +1,25 @@
+[8.699s] Invoking command in '/home/ubuntu/nemo_ws/src/examples/rclpy/actions/minimal_action_server': PYTHONPATH=/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/ubuntu/nemo_ws/build/examples_rclpy_minimal_action_server/build install --prefix /home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server --record /home/ubuntu/nemo_ws/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed
+[10.903s] running egg_info
+[10.910s] writing ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/PKG-INFO
+[10.927s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/dependency_links.txt
+[10.930s] writing entry points to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/entry_points.txt
+[10.934s] writing requirements to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/requires.txt
+[10.936s] writing top-level names to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/top_level.txt
+[11.316s] reading manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[11.322s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[11.335s] running build
+[11.336s] running build_py
+[11.341s] running install
+[11.345s] running install_lib
+[11.361s] running install_data
+[11.364s] running install_egg_info
+[11.387s] removing '/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server-0.9.4-py3.8.egg-info' (and everything under it)
+[11.389s] Copying ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info to /home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server-0.9.4-py3.8.egg-info
+[11.409s] running install_scripts
+[11.554s] Installing server script to /home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[11.567s] Installing server_defer script to /home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[11.569s] Installing server_not_composable script to /home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[11.570s] Installing server_queue_goals script to /home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[11.571s] Installing server_single_goal script to /home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[11.574s] writing list of installed files to '/home/ubuntu/nemo_ws/build/examples_rclpy_minimal_action_server/install.log'
+[11.957s] Invoked command in '/home/ubuntu/nemo_ws/src/examples/rclpy/actions/minimal_action_server' returned '0': PYTHONPATH=/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/ubuntu/nemo_ws/build/examples_rclpy_minimal_action_server/build install --prefix /home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server --record /home/ubuntu/nemo_ws/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed

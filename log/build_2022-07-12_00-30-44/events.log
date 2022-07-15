@@ -1,0 +1,81 @@
+[0.000000] (-) TimerEvent: {}
+[0.001001] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.001967] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.002719] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.003819] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.004129] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.004475] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.004565] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.004672] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.006148] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.007567] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.007737] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.007862] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.007982] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.008099] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.008215] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.008329] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.008454] (img_basics) JobQueued: {'identifier': 'img_basics', 'dependencies': OrderedDict()}
+[0.008584] (img_basics) JobStarted: {'identifier': 'img_basics'}
+[0.099171] (-) TimerEvent: {}
+[0.200028] (-) TimerEvent: {}
+[0.300691] (-) TimerEvent: {}
+[0.401269] (-) TimerEvent: {}
+[0.501863] (-) TimerEvent: {}
+[0.602446] (-) TimerEvent: {}
+[0.703055] (-) TimerEvent: {}
+[0.803632] (-) TimerEvent: {}
+[0.904392] (-) TimerEvent: {}
+[1.005443] (-) TimerEvent: {}
+[1.106290] (-) TimerEvent: {}
+[1.206965] (-) TimerEvent: {}
+[1.307631] (-) TimerEvent: {}
+[1.408208] (-) TimerEvent: {}
+[1.508805] (-) TimerEvent: {}
+[1.609375] (-) TimerEvent: {}
+[1.709978] (-) TimerEvent: {}
+[1.810588] (-) TimerEvent: {}
+[1.911201] (-) TimerEvent: {}
+[2.011824] (-) TimerEvent: {}
+[2.112460] (-) TimerEvent: {}
+[2.213084] (-) TimerEvent: {}
+[2.313794] (-) TimerEvent: {}
+[2.415038] (-) TimerEvent: {}
+[2.450020] (img_basics) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/img_basics', 'build', '--build-base', '/home/ubuntu/nemo_ws/build/img_basics/build', 'install', '--prefix', '/home/ubuntu/nemo_ws/install/img_basics', '--record', '/home/ubuntu/nemo_ws/build/img_basics/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/nemo_ws/src/img_basics', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.1.72 64291 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/nemo_ws/src/img_basics/img_basics', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_colcon_cd_root': '/opt/ros/foxy/', 'COLCON_PREFIX_PATH': '/home/ubuntu/nemo_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '7', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ubuntu/nemo_ws/install/img_basics:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/nemo_ws/install/examples_rclpy_executors:/home/ubuntu/nemo_ws/install/examples_rclcpp_multithreaded_executor:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_client:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/nemo_ws/build/img_basics', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.72 64291 192.168.1.234 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/nemo_ws/install/img_basics/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/img_basics/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/nemo_ws/install/examples_rclcpp_multithreaded_executor:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_timer:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_subscriber:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_service:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_publisher:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_composition:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_client:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_server:/home/ubuntu/nemo_ws/install/examples_rclcpp_minimal_action_client'}, 'shell': False}
+[2.515230] (-) TimerEvent: {}
+[2.616146] (-) TimerEvent: {}
+[2.717177] (-) TimerEvent: {}
+[2.817737] (-) TimerEvent: {}
+[2.918312] (-) TimerEvent: {}
+[3.018913] (-) TimerEvent: {}
+[3.119621] (-) TimerEvent: {}
+[3.220241] (-) TimerEvent: {}
+[3.321038] (-) TimerEvent: {}
+[3.322204] (img_basics) StdoutLine: {'line': b'running egg_info\n'}
+[3.324442] (img_basics) StdoutLine: {'line': b'writing ../../build/img_basics/img_basics.egg-info/PKG-INFO\n'}
+[3.325420] (img_basics) StdoutLine: {'line': b'writing dependency_links to ../../build/img_basics/img_basics.egg-info/dependency_links.txt\n'}
+[3.326249] (img_basics) StdoutLine: {'line': b'writing entry points to ../../build/img_basics/img_basics.egg-info/entry_points.txt\n'}
+[3.327011] (img_basics) StdoutLine: {'line': b'writing requirements to ../../build/img_basics/img_basics.egg-info/requires.txt\n'}
+[3.327584] (img_basics) StdoutLine: {'line': b'writing top-level names to ../../build/img_basics/img_basics.egg-info/top_level.txt\n'}
+[3.421190] (-) TimerEvent: {}
+[3.452309] (img_basics) StdoutLine: {'line': b"reading manifest file '../../build/img_basics/img_basics.egg-info/SOURCES.txt'\n"}
+[3.455610] (img_basics) StdoutLine: {'line': b"writing manifest file '../../build/img_basics/img_basics.egg-info/SOURCES.txt'\n"}
+[3.456190] (img_basics) StdoutLine: {'line': b'running build\n'}
+[3.456615] (img_basics) StdoutLine: {'line': b'running build_py\n'}
+[3.457163] (img_basics) StdoutLine: {'line': b'copying img_basics/cam_sub.py -> /home/ubuntu/nemo_ws/build/img_basics/build/lib/img_basics\n'}
+[3.458104] (img_basics) StdoutLine: {'line': b'running install\n'}
+[3.461189] (img_basics) StdoutLine: {'line': b'running install_lib\n'}
+[3.464841] (img_basics) StdoutLine: {'line': b'copying /home/ubuntu/nemo_ws/build/img_basics/build/lib/img_basics/cam_sub.py -> /home/ubuntu/nemo_ws/install/img_basics/lib/python3.8/site-packages/img_basics\n'}
+[3.467434] (img_basics) StdoutLine: {'line': b'byte-compiling /home/ubuntu/nemo_ws/install/img_basics/lib/python3.8/site-packages/img_basics/cam_sub.py to cam_sub.cpython-38.pyc\n'}
+[3.472512] (img_basics) StdoutLine: {'line': b'running install_data\n'}
+[3.474581] (img_basics) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.480235] (img_basics) StdoutLine: {'line': b"removing '/home/ubuntu/nemo_ws/install/img_basics/lib/python3.8/site-packages/img_basics-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[3.481545] (img_basics) StdoutLine: {'line': b'Copying ../../build/img_basics/img_basics.egg-info to /home/ubuntu/nemo_ws/install/img_basics/lib/python3.8/site-packages/img_basics-0.0.0-py3.8.egg-info\n'}
+[3.485635] (img_basics) StdoutLine: {'line': b'running install_scripts\n'}
+[3.521325] (-) TimerEvent: {}
+[3.546286] (img_basics) StdoutLine: {'line': b'Installing img_subscriber script to /home/ubuntu/nemo_ws/install/img_basics/lib/img_basics\n'}
+[3.547765] (img_basics) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/nemo_ws/build/img_basics/install.log'\n"}
+[3.621626] (-) TimerEvent: {}
+[3.639841] (img_basics) CommandEnded: {'returncode': 0}
+[3.699336] (img_basics) JobEnded: {'identifier': 'img_basics', 'rc': 0}
+[3.701833] (-) EventReactorShutdown: {}

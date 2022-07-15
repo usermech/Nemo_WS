@@ -1,0 +1,23 @@
+[5.183s] Invoking command in '/home/ubuntu/nemo_ws/src/vision_opencv/opencv_tests': AMENT_PREFIX_PATH=/home/ubuntu/nemo_ws/src/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/nemo_ws/src/install/cv_bridge:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ubuntu/nemo_ws/src/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/nemo_ws/src/install/opencv_tests/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/src/install/cv_bridge/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/opencv_tests build --build-base /home/ubuntu/nemo_ws/src/build/opencv_tests/build install --prefix /home/ubuntu/nemo_ws/src/install/opencv_tests --record /home/ubuntu/nemo_ws/src/build/opencv_tests/install.log --single-version-externally-managed
+[6.780s] running egg_info
+[6.782s] writing ../../build/opencv_tests/opencv_tests.egg-info/PKG-INFO
+[6.784s] writing dependency_links to ../../build/opencv_tests/opencv_tests.egg-info/dependency_links.txt
+[6.793s] writing entry points to ../../build/opencv_tests/opencv_tests.egg-info/entry_points.txt
+[6.798s] writing requirements to ../../build/opencv_tests/opencv_tests.egg-info/requires.txt
+[6.801s] writing top-level names to ../../build/opencv_tests/opencv_tests.egg-info/top_level.txt
+[6.947s] reading manifest file '../../build/opencv_tests/opencv_tests.egg-info/SOURCES.txt'
+[6.952s] writing manifest file '../../build/opencv_tests/opencv_tests.egg-info/SOURCES.txt'
+[6.952s] running build
+[6.953s] running build_py
+[6.954s] running install
+[6.959s] running install_lib
+[6.966s] running install_data
+[6.968s] running install_egg_info
+[6.976s] removing '/home/ubuntu/nemo_ws/src/install/opencv_tests/lib/python3.8/site-packages/opencv_tests-3.0.3-py3.8.egg-info' (and everything under it)
+[6.977s] Copying ../../build/opencv_tests/opencv_tests.egg-info to /home/ubuntu/nemo_ws/src/install/opencv_tests/lib/python3.8/site-packages/opencv_tests-3.0.3-py3.8.egg-info
+[6.983s] running install_scripts
+[7.067s] Installing broadcast script to /home/ubuntu/nemo_ws/src/install/opencv_tests/lib/opencv_tests
+[7.068s] Installing rosfacedetect script to /home/ubuntu/nemo_ws/src/install/opencv_tests/lib/opencv_tests
+[7.070s] Installing source script to /home/ubuntu/nemo_ws/src/install/opencv_tests/lib/opencv_tests
+[7.071s] writing list of installed files to '/home/ubuntu/nemo_ws/src/build/opencv_tests/install.log'
+[7.218s] Invoked command in '/home/ubuntu/nemo_ws/src/vision_opencv/opencv_tests' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/nemo_ws/src/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/nemo_ws/src/install/cv_bridge:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ubuntu/nemo_ws/src/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/nemo_ws/src/install/opencv_tests/lib/python3.8/site-packages:/home/ubuntu/nemo_ws/src/install/cv_bridge/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/opencv_tests build --build-base /home/ubuntu/nemo_ws/src/build/opencv_tests/build install --prefix /home/ubuntu/nemo_ws/src/install/opencv_tests --record /home/ubuntu/nemo_ws/src/build/opencv_tests/install.log --single-version-externally-managed
